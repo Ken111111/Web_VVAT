@@ -1,0 +1,419 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cài đặt chung cho body */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.header-top {
+    text-align: right;
+    padding: 0.5rem 0;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap; /* Đảm bảo tương thích với màn hình nhỏ */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.logo-img {
+    height: 80px;
+    margin-right: 15px;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #0056b3;
+    text-align: center;
+}
+
+/* Thông tin công ty */
+.company-info {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.company-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* Phần cờ ngôn ngữ */
+.language-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.flag {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.flag:hover {
+    opacity: 0.8;
+}
+
+/* Menu điều hướng */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #0056b3;
+}
+
+/* Dropdown menu */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    list-style: none;
+    padding: 0.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.dropdown-content li {
+    margin: 0.5rem 0;
+}
+
+.dropdown-content a {
+    color: #000;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #0056b3;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transform: translateY(10px);
+}
+
+/* Hero section */
+.hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align: center;
+    padding: 5rem 0;
+    transition: background-position 0.5s ease;
+}
+
+.hero:hover {
+    background-position: bottom;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.btn {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffcc00;
+    color: #000;
+}
+
+/* Products section */
+.products {
+    padding: 4rem 0;
+    background-color: #0056b3;
+    color: #000000;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.product-card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.product-card a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.product-card a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* About Section */
+.about {
+    padding: 4rem 0; 
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.about .section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.about p {
+    font-size: 1.2rem; 
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    text-align: justify; 
+}
+
+/* Danh sách giá trị cốt lõi */
+.about ul {
+    margin: 1.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.about ul li {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+    color: #0056b3;
+    list-style-type: disc;
+}
+
+/* Contact Section */
+.contact {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+.contact p {
+    font-size: 1.2rem; 
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+.footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about p, .about ul li {
+        font-size: 1.1rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Footer styles */
+.footer {
+    background-color: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Styles for the popup */
+ .popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black background with opacity */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 15% from the top and centered */
+    padding: 15px;
+    border: 1px solid #888;
+    width: 70%; /* Could be more or less, depending on screen size */
+    max-width: 1000px; /*Set a max-width for larger screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    position: relative; /* Position relative for the close button */
+}
+
+.popup img {
+    width: 30%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove inline spacing */ 
+}
+
+.popup-close {
+    position: absolute; /* Position absolute to control its placement */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popup-close:hover,
+.popup-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+.info-table th, .info-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.info-table th {
+    background-color: #f2f2f2;
+}
+
