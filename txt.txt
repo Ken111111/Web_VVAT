@@ -49,13 +49,10 @@
                     <p><strong>Chất Lượng:</strong> Mới 100%</p>
                     <p><strong>Bảo Hành:</strong> Chính hãng</p>
                     <p style="color: crimson; font-weight: bold;"> Giá: Liên hệ (0896 449 884)</p>
-                    <p><strong>Tài liệu sản phẩm:</strong> <a href="01 GD20 HUONG DAN CO BAN DAM BIEN (0.75 _ 37kW).pdf" target="_blank">Dowmload PDF</a></p>
                 </div>
             </div>
         </div>
     </section>
-
-
 
     <!-- Product Description Section -->
     <section id="product-description" class="product-description-detail">
