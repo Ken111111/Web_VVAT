@@ -69,14 +69,6 @@ body {
     color: #000000;
 }
 
-/* Phần cờ ngôn ngữ */
-.language-switcher {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-}
-
 .flag {
     width: 30px;
     height: auto;
