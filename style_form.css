@@ -114,7 +114,7 @@ body {
 .product-image {
     width: 100%;
     max-width: 400px; /* Giới hạn kích thước tối đa của hình ảnh */
-    margin-bottom: 30px;
+    margin-right: 50px;
     mix-blend-mode: multiply;
 }
 
