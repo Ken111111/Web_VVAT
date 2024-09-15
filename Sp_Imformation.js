@@ -277,10 +277,10 @@ const products = [
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
     },
     {
-        "id": "6ES7231-5PA30-0XB0",
-        "title": "6ES7231-5PA30-0XB0 – Module SB 1231RTD 1 AI SIMATIC S7-1200",
+        "id": "6ES7954-8LC02-0AA0",
+        "title": "6ES7954-8LC02-0AA0 – Thẻ nhớ cho S7-1×00 CPU/ Sinamics 4MB",
         "image": "Picture Siemens/6ES7954-8LC02-0AA0.jpg",
-        "sku": "6ES7231-5PA30-0XB0",
+        "sku": "6ES7954-8LC02-0AA0",
         "manufacturer": "Siemens",
         "quality": "Mới 100%",
         "warranty": "Chính hãng",
