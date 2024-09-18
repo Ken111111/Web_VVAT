@@ -13,6 +13,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         // "infor_1":"",
         // "infor_2":"",
+        "formPage": "Form_SP_INVT.html"
     },
 
     {
@@ -27,6 +28,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         // "infor_1":"",
         // "infor_2":"",
+        "formPage": "Form_SP_INVT.html"
     },
     // ----------------------------------------------------------PLC S7-1200-----------------------------------------------------------
     {
@@ -41,6 +43,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1214C, COMPACT CPU, DC/DC/DC, ONBOARD I/O: 14 DI 24V DC; 10 DO 24 V DC; 2 AI 0 – 10V DC, POWER SUPPLY: DC 20.4 – 28.8 V DC, PROGRAM/DATA MEMORY: 100 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7212-1AE40-0XB0",
@@ -54,6 +57,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1212C, COMPACT CPU, DC/DC/DC, ONBOARD I/O: 8 DI 24V DC; 6 DO 24 V DC; 2 AI 0 – 10V DC, POWER SUPPLY: DC 20.4 – 28.8 V DC, PROGRAM/DATA MEMORY: 75 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7211-1AE40-0XB0",
@@ -67,6 +71,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1211C, COMPACT CPU, DC/DC/DC, ONBOARD I/O: 6 DI 24V DC; 4 DO 24 V DC; 2 AI 0 – 10V DC, POWER SUPPLY: DC 20.4 – 28.8 V DC, PROGRAM/DATA MEMORY: 50 KB",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7211-1BE40-0XB0",
@@ -80,6 +85,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1211C, COMPACT CPU, AC/DC/RELAY, ONBOARD I/O: 6 DI 24V DC; 4 DO RELAY 2A; 2 AI 0 – 10V DC, POWER SUPPLY: AC 85 – 264 V AC AT 47 – 63 HZ, PROGRAM/DATA MEMORY: 50 KB",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7214-1BG40-0XB0",
@@ -93,6 +99,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1214C, COMPACT CPU, AC/DC/RLY, ONBOARD I/O: 14 DI 24V DC; 10 DO RELAY 2A; 2 AI 0 – 10V DC, POWER SUPPLY: AC 85 – 264 V AC AT 47 – 63 HZ, PROGRAM/DATA MEMORY: 100 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7212-1HE40-0XB0",
@@ -106,6 +113,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1212C, COMPACT CPU, DC/DC/RLY, ONBOARD I/O: 8 DI 24V DC; 6 DO RELAY 2A; 2 AI 0 – 10V DC, POWER SUPPLY: DC 20.4 – 28.8 V DC, PROGRAM/DATA MEMORY: 75 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7212-1BE40-0XB0",
@@ -119,6 +127,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1212C, COMPACT CPU, AC/DC/RLY, ONBOARD I/O: 8 DI 24V DC; 6 DO RELAY 2A; 2 AI 0 – 10V DC, POWER SUPPLY: AC 85 – 264 V AC AT 47 – 63 HZ, PROGRAM/DATA MEMORY: 75 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7211-1HE40-0XB0",
@@ -132,6 +141,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1211C, COMPACT CPU, DC/DC/RELAY, ONBOARD I/O: 6 DI 24V DC; 4 DO RELAY 2A; 2 AI 0 – 10V DC, POWER SUPPLY: DC 20.4 – 28.8 V DC, PROGRAM/DATA MEMORY: 50 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7214-1HG40-0XB0",
@@ -145,6 +155,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1214C, COMPACT CPU, DC/DC/RELAY, ONBOARD I/O: 14 DI 24V DC; 10 DO RELAY 2A; 2 AI 0 – 10V DC, POWER SUPPLY: DC 20.4 – 28.8 V DC, PROGRAM/DATA MEMORY: 100 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7215-1AG40-0XB0",
@@ -158,6 +169,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1215C, COMPACT CPU, DC/DC/DC, 2 PROFINET PORT, ONBOARD I/O: 14 DI 24V DC; 10 DO 24V DC 0.5A 2 AI 0-10V DC, 2 AO 0-20MA DC, POWER SUPPLY: DC 20.4 – 28.8 V DC, PROGRAM/DATA MEMORY: 125 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7215-1BG40-0XB0",
@@ -171,6 +183,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1215C, COMPACT CPU, AC/DC/RELAY, 2 PROFINET PORT, ONBOARD I/O: 14 DI 24V DC; 10 DO RELAY 2A, 2 AI 0-10V DC, 2 AO 0-20MA DC, POWER SUPPLY: AC 85 – 264 V AC AT 47 – 63 HZ, PROGRAM/DATA MEMORY: 125 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7215-1HG40-0XB0",
@@ -184,6 +197,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, CPU 1215C, COMPACT CPU, DC/DC/RELAY, 2 PROFINET PORT, ONBOARD I/O: 14 DI 24V DC; 10 DO RELAY 2A, 2 AI 0-10V DC, 2 AO 0-20MA DC, POWER SUPPLY: DC 20.4 – 28.8 V DC, PROGRAM/DATA MEMORY: 125 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemens.html"
     },
     {
         "id": "6ES7241-1CH30-1XB0",
@@ -197,6 +211,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, COMMUNICATION COMMUNICATION BOARD CB 1241, RS485, SCREW CONNECTOR SUPPORTS MESSAGE BASED FREEPORT.",
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemns_Module.html"
     },
     {
         "id": "6ES7222-1BD30-0XB0",
@@ -210,6 +225,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, DIGITAL OUTPUT SB 1222, 4DQ, 24VDC 200KHZ.",
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemns_Module.html"
     },
     {
         "id": "6ES7232-4HA30-0XB0",
@@ -223,6 +239,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, ANALOG OUTPUT SB 1232, 1 AO, +/- 10VDC (12 BIT RES.) OR 0 – 20 MA (11 BIT RES).",
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemns_Module.html"
     },
     {
         "id": "6ES7231-5PA30-0XB0",
@@ -236,6 +253,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, RTD INPUT, SB 1231 RTD, 1 AI RTD, 1 CHANNEL, PT 100 AND PT1000.",
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemns_Module.html"
     },
     {
         "id": "6ES7223-3BD30-0XB0",
@@ -249,6 +267,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, DIGITAL I/O SB 1223, 2DI/2DQ, 24VDC 200KHZ.",
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemns_Module.html"
     },
     {
         "id": "6ES7222-1AD30-0XB0",
@@ -262,6 +281,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1200, DIGITAL OUTPUT SB 1222, 4DQ, 5VDC 200KHZ.",
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemns_Module.html"
     },
     {
         "id": "6ES7954-8LC03-0AA0",
@@ -275,6 +295,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7, MEMORY CARD FOR S7-1X00 CPU/SINAMICS, 3,3 V FLASH, 4 MBYTE.",
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemns_Module.html"
     },
     {
         "id": "6ES7954-8LC02-0AA0",
@@ -288,6 +309,7 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7, MEMORY CARD FOR S7-1X00 CPU/SINAMICS, 3,3 V FLASH, 4 MBYTE.",
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemns_Module.html"
     },
     // Add more products here
 ];
@@ -316,7 +338,20 @@ function loadProductInfo() {
     } else {
         console.error('Product not found');
     }
+
 }
 
-// Call the function to load the product info when the page loads
+function searchProducts() {
+    const searchInput = document.getElementById('search-input').value.trim();
+    const product = products.find(p => p.id.toLowerCase() === searchInput.toLowerCase());
+
+    if (product) {
+        // Redirect to the product page with the selected product ID
+        window.location.href = `${product.formPage}?productId=${product.id}`;
+    } else {
+        alert('Sản phẩm không được tìm thấy');
+    }
+}
+
+// Gọi hàm để tải thông tin sản phẩm khi trang tải
 document.addEventListener("DOMContentLoaded", loadProductInfo);

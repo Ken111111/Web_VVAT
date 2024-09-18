@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siemens - VietVuongAtech</title>
     <link rel="stylesheet" href="style_1.css">
+    <script src="Sp_Imformation.js"></script>
 </head>
 <body>
     <!------------------------------------------------------------------- Header ------------------------------------------------------------------>
@@ -32,6 +33,11 @@
                     <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
                 </ul>
             </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." oninput="filterProducts()">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
         </div>
     </header>
 
@@ -213,32 +219,5 @@
         </div>
     </footer>
 
-    <!-- Script funtion -->
-    <script>
-        // Get the popup element
-        var popup = document.getElementById('popup1');
-        var popupContent = document.querySelector('.popup-content');
-
-        // Function to open the popup
-        function openPopup() {
-            popup.style.display = 'block';
-        }
-
-        // Function to close the popup
-        function closePopup() {
-            popup.style.display = 'none';
-        }
-
-        // When the user clicks on <span> (x), close the popup
-        document.querySelector('.popup-close').onclick = closePopup;
-
-        // When the user clicks anywhere outside of the popup-content, close the popup
-        window.onclick = function(event) {
-            if (event.target === popup) {
-                closePopup();
-            }
-        }
-
-    </script>
 </body>
 </html>

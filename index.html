@@ -11,6 +11,7 @@
             scroll-behavior: smooth;
         }
     </style>
+    <script src="Sp_Imformation.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -51,6 +52,11 @@
                     <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
                 </ul>
             </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." oninput="filterProducts()">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
         </div>
     </header>
 
