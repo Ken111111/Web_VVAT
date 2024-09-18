@@ -273,7 +273,7 @@ body {
 
 /* Contact Section */
 .contact {
-    padding: 4rem 0;
+    padding: 4rem 2rem; /* Thêm khoảng cách hai bên */
     background-color: #f9f9f9;
     color: #000000;
 }
@@ -291,6 +291,18 @@ body {
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: center; /* Căn giữa theo chiều dọc nếu cần */
     margin: 20px 0; /* Thêm khoảng cách phía trên và dưới */
+}
+
+.contact-info {
+    display: flex; /* Sử dụng Flexbox để sắp xếp nội dung */
+    flex-direction: column; /* Đặt hướng sắp xếp theo chiều dọc */
+    gap: 0.5rem; /* Thêm khoảng cách giữa các mục */
+}
+
+.contact-info p {
+    font-size: 1.2rem; 
+    line-height: 1.5; /* Điều chỉnh khoảng cách giữa các dòng */
+    margin: 0; /* Loại bỏ margin để sử dụng gap của Flexbox */
 }
 
 .contact-info a {
