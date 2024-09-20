@@ -312,7 +312,7 @@ const products = [
         "formPage": "Form_SP_Siemns_Module.html"
     },
 
-    // -----------------------------------------------------S7-1500-----------------------------------------------------------
+    // -----------------------------------------------------S7-1500------------------------------------------------------------
     {
         "id": "6ES7590-1AB60-0AA0",
         "title": "6ES7590-1AB60-0AA0 rail 160mm S7-1500",
@@ -379,8 +379,33 @@ const products = [
         "infor_1":"Bộ module đầu ra analog AQ 8 X U/I HS thuộc dòng SIMATIC S7-1500. Nó có độ phân giải 16 bit và độ chính xác 0,3%, với 8 kênh đầu ra được nhóm thành các nhóm 8 kênh. Tính năng chẩn đoán và giá trị thay thế cũng được tích hợp, có thể xử lý 8 kênh trong thời gian 0,125 ms. Sản phẩm này bao gồm cả các phụ kiện như bộ kẹp chắn, kẹp che chắn, và thành phần cấp nguồn.",
         "formPage": "Form_SP_Siemns_S7_1500.html"
     },
-
-
+    // ------------------------------------------------------HMI----------------------------------------------------------------
+    {
+        "id": "6AV2124-0MC01-0AX0",
+        "title": "6AV2124-0MC01-0AX0 – Màn hình HMI Comford TP1200 12″",
+        "image": "Picture Siemens/6AV2124-0MC01-0AX0.jpg",
+        "sku": "6AV2124-0MC01-0AX0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6AV21240MC010AX0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC HMI TP1200 Comfort, Bảng điều khiển tiện nghi, thao tác bằng cảm ứng, màn hình TFT màn hình rộng 12 inch, 16 triệu màu, giao diện PROFINET, giao diện MPI/PROFIBUS DP, bộ nhớ cấu hình 12 MB, Windows CE 6.0, có thể cấu hình từ WinCC Comfort V11." ,
+        "formPage": "Form_SP_Siemns_Module.html"
+    },
+    {
+        "id": "6AV2123-2GB03-0AX0",
+        "title": "6AV2123-2GB03-0AX0 – Màn hình HMI Basic KTP 700 7″",
+        "image": "Picture Siemens/6AV2123-2GB03-0AX0.jpg",
+        "sku": "6AV2123-2GB03-0AX0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6AV21240MC010AX0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC HMI, KTP700 Basic, Bảng điều khiển cơ bản, Thao tác phím/chạm, màn hình TFT 7 inch, 65536 màu, giao diện PROFINET, có thể cấu hình từ WinCC Basic V13/ STEP 7 Basic V13, chứa phần mềm nguồn mở, được cung cấp miễn phí, xem kèm theo đĩa CD." ,
+        "formPage": "Form_SP_Siemns_Module.html"
+    },
 
 
 
