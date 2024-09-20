@@ -311,6 +311,92 @@ const products = [
         // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
         "formPage": "Form_SP_Siemns_Module.html"
     },
+
+    // -----------------------------------------------------S7-1500-----------------------------------------------------------
+    {
+        "id": "6ES7590-1AB60-0AA0",
+        "title": "6ES7590-1AB60-0AA0 rail 160mm S7-1500",
+        "image": "Picture Siemens/6ES7590-1AB60-0AA0.jpg",
+        "sku": "6ES7590-1AB60-0AA0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES75901AB600AA0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC S7-1500, thanh ray gắn 160 mm (khoảng 6.3 inch); bao gồm ốc nối đất, ray DIN tích hợp để lắp đặt các phụ kiện như đầu nối, cầu chì tự động và rơ le.",
+        "formPage": "Form_SP_Siemns_S7_1500.html"
+    },
+    {
+        "id": "6ES7513-1AL02-0AB0",
+        "title": "6ES7513-1AL02-0AB0 Bộ Lập Trình CPU 1513-1 PN",
+        "image": "Picture Siemens/6ES7513-1AL02-0AB0.jpg",
+        "sku": "6ES7513-1AL02-0AB0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES75131AL020AB0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC S7-1500, CPU 1513-1 PN, là bộ xử lý trung tâm với bộ nhớ làm việc 300 KB cho chương trình và 1,5 MB cho dữ liệu, tích hợp giao diện PROFINET IRT với switch 2 cổng, hiệu suất bit 40 ns. Bộ nhớ SIMATIC là cần thiết..",
+        "infor_2":"SIMATIC S7-1500 là dòng PLC tiên tiến của Siemens, được sử dụng trong các hệ thống tự động hóa công nghiệp, nổi bật với khả năng xử lý nhanh, độ tin cậy cao và tính linh hoạt.<br>CPU 1513-1 PN thuộc dòng CPU hiệu suất cao, phù hợp cho các ứng dụng điều khiển yêu cầu độ chính xác và thời gian thực nhanh, như trong các hệ thống tự động hóa nhà máy hoặc dây chuyền sản xuất.<br>PROFINET IRT (Isochronous Real Time) là giao thức mạng tiên tiến, hỗ trợ truyền dữ liệu với độ trễ rất thấp, giúp tăng hiệu quả và khả năng điều khiển trong các ứng dụng công nghiệp đòi hỏi thời gian thực.",
+        "formPage": "Form_SP_Siemns_S7_1500.html"
+    },
+    {
+        "id": "6ES7531-7KF00-0AB0",
+        "title": "6ES7531-7KF00-0AB0 S7-1500 SM 531 8AI",
+        "image": "Picture Siemens/6ES7531-7KF00-0AB0.jpg",
+        "sku": "6ES7531-7KF00-0AB0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES75317KF000AB0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"AI 8 X U/I/RTD/TC ST thuộc dòng SIMATIC S7-1500, có độ phân giải 16 bit và độ chính xác 0,3%. Nó hỗ trợ 8 kênh đầu vào, với các nhóm 8 kênh, trong đó có 4 kênh đo RTD (Resistance Temperature Detector). Module này cũng có khả năng chẩn đoán và báo động quy trình, có điện áp chế độ chung xấp xỉ 10V. Kèm theo là các phụ kiện bao gồm bộ kẹp chắn và kẹp che chắn.",
+        "formPage": "Form_SP_Siemns_S7_1500.html"
+    },
+    {
+        "id": "6ES7532-5HF00-0AB0",
+        "title": "6ES7532-5HF00-0AB0 S7-1500 SM 532 8AO",
+        "image": "Picture Siemens/6ES7532-5HF00-0AB0.jpg",
+        "sku": "6ES7532-5HF00-0AB0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES75325HF000AB0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bộ module đầu ra analog AQ 8 X U/I HS thuộc dòng SIMATIC S7-1500. Nó có độ phân giải 16 bit và độ chính xác 0,3%, với 8 kênh đầu ra được nhóm thành các nhóm 8 kênh. Tính năng chẩn đoán và giá trị thay thế cũng được tích hợp, có thể xử lý 8 kênh trong thời gian 0,125 ms. Sản phẩm này bao gồm cả các phụ kiện như bộ kẹp chắn, kẹp che chắn, và thành phần cấp nguồn.",
+        "formPage": "Form_SP_Siemns_S7_1500.html"
+    },
+    {
+        "id": "6ES7511-1AK02-0AB0",
+        "title": "6ES7511-1AK02-0AB0 S7-1500 CPU 1511-1 PN",
+        "image": "Picture Siemens/6ES7532-5HF00-0AB0.jpg",
+        "sku": "6ES7511-1AK02-0AB0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES75111AK020AB0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bộ module đầu ra analog AQ 8 X U/I HS thuộc dòng SIMATIC S7-1500. Nó có độ phân giải 16 bit và độ chính xác 0,3%, với 8 kênh đầu ra được nhóm thành các nhóm 8 kênh. Tính năng chẩn đoán và giá trị thay thế cũng được tích hợp, có thể xử lý 8 kênh trong thời gian 0,125 ms. Sản phẩm này bao gồm cả các phụ kiện như bộ kẹp chắn, kẹp che chắn, và thành phần cấp nguồn.",
+        "formPage": "Form_SP_Siemns_S7_1500.html"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // Add more products here
 ];
 
@@ -322,6 +408,7 @@ function loadProductInfo() {
     const product = products.find(p => p.id === productId);
 
     if (product) {
+        document.title = `${product.sku} - VietVuongAtech`;
         document.querySelector(".section-title").textContent = product.title;
         document.querySelector(".product-image img").src = product.image;
         document.querySelector(".product-description p:nth-child(1)").textContent = `SKU: ${product.sku}`;
@@ -333,7 +420,8 @@ function loadProductInfo() {
         document.querySelector(".product-description p:nth-child(6)").textContent = `Giá: ${product.price}`;
         document.querySelector(".infor-1").innerHTML = product.infor_1 || 'Thông tin không có sẵn';
         document.querySelector(".infor-2").innerHTML = product.infor_2 || 'Thông tin không có sẵn';
-
+        document.querySelector(".infor-3").innerHTML = product.infor_3 
+        document.querySelector(".infor-4").innerHTML = product.infor_4 
         
     } else {
         console.error('Product not found');
