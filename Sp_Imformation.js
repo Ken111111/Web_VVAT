@@ -803,6 +803,139 @@ const products = [
         "infor_1":"Tiếp điểm: 2N/O <br> Số vị trí: 3 vị trí - tự giữ <br> Đường kính: 22mm" ,
         "formPage": "Form_SP_Schneider_AT.html"
     },
+    // ---------------------------------------------------Light---------------------------------------------------------------
+    {
+        "id": "XA2ED33",
+        "title": "Công tắc xoay 3 vị trí Schneider XA2ED33, 22mm (tự giữ)",
+        "image": "Picture Schneider/XA2EVM4LC.JPG",
+        "sku": "XA2ED33",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2EVM4LC.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Màu: Đỏ <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_Safety.html"
+    },
+    {
+        "id": "XA2EVM3LC",
+        "title": "Đèn báo Schneider XA2EVM3LC, 22mm 220V AC",
+        "image": "Picture Schneider/XA2EVM3LC.JPG",
+        "sku": "XA2EVM3LC",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2EVM3LC.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Màu: Xanh <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_Safety.html"
+    },
+    {
+        "id": "XA2EVM5LC",
+        "title": "Đèn báo Schneider XA2EVM5LC, 22mm 220V AC",
+        "image": "Picture Schneider/XA2EVM5LC.JPG",
+        "sku": "XA2EVM5LC",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2EVM5LC.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Màu: Vàng <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_Safety.html"
+    },
+    {
+        "id": "XA2EVB3LC",
+        "title": "Đèn báo Schneider XA2EVB3LC, 22mm 24V AC/DC",
+        "image": "Picture Schneider/XA2EVB3LC.JPG",
+        "sku": "XA2EVB3LC",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2EVB3LC.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Màu: Xanh <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_Safety.html"
+    },
+    {
+        "id": "XA2EVB4LC",
+        "title": "Đèn báo Schneider XA2EVB4LC, 22mm 24V AC/DC",
+        "image": "Picture Schneider/XA2EVM4LC.JPG",
+        "sku": "XA2EVB4LC",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2EVB4LC.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Màu: Đỏ <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_Safety.html"
+    },
+    {
+        "id": "XB7NA31",
+        "title": "Nút nhấn nhả Schneider XB7NA31, 22mm",
+        "image": "Picture Schneider/XB7NA31.JPG",
+        "sku": "XB7NA31",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Harmony-XB7_XB7NA31.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tiếp điểm: N/O <br> Màu: Xanh là cây <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_Safety.html"
+    },
+    {
+        "id": "XB7NA42",
+        "title": "Nút nhấn nhả Schneider XB7NA42, 22mm",
+        "image": "Picture Schneider/XB7NA42.JPG",
+        "sku": "XB7NA42",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Harmony-XB7_XB7NA42.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tiếp điểm: N/C <br> Màu: Xanh đỏ <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_Safety.html"
+    },
+    // ----------------------------------------------------Relay-------------------------------------------------------------
+    {
+        "id": "RXM4LB2BD",
+        "title": "Rơ le trung gian Schneider RXM4LB2BD 24Vdc 14 chân (có đèn)",
+        "image": "Picture Schneider/RXM4LB2BD.JPG",
+        "sku": "RXM4LB2BD",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Zelio-Relay_RXM4LB2BD.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tiếp điểm: 4 C/O<br>Điện áp định mức: 24Vdc<br>Rơ le trung gian REXO có đèn chỉ thị<br>Dòng chịu tải: 3A<br>Tần số đóng ngắt tối đa: 1200 lần/ giờ<br>Tuổi thọ cơ khí: 10 triệu lần<br>Đáp ứng theo tiêu chuẩn: IEC/ EN60068-2-6, IEC/ EN60529, IEC/ EN60068-2-27" ,
+        "formPage": "Form_SP_Schneider_AT.html"
+    },
+    {
+        "id": "RXM4LB2P7",
+        "title": "Rơ le trung gian Schneider RXM4LB2P7, 230Vac, 14 chân (có đèn)",
+        "image": "Picture Schneider/RXM4LB2BD.JPG",
+        "sku": "RXM4LB2P7",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Zelio-Relay_RXM4LB2P7.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tiếp điểm: 4 C/O<br>Điện áp định mức: 230Vac<br>Rơ le trung gian REXO có đèn chỉ thị<br>Dòng chịu tải: 3A<br>Tần số đóng ngắt tối đa: 1200 lần/ giờ<br>Tuổi thọ cơ khí: 10 triệu lần<br>Đáp ứng theo tiêu chuẩn: IEC/ EN60068-2-6, IEC/ EN60529, IEC/ EN60068-2-27" ,
+        "formPage": "Form_SP_Schneider_AT.html"
+    },
+    {
+        "id": "RXM2LB1P7",
+        "title": "Rơ le trung gian Schneider RXM2LB1P7, 230Vac, 8 chân",
+        "image": "Picture Schneider/RXM4LB2BD.JPG",
+        "sku": "RXM2LB1P7",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Zelio-Relay_RXM2LB1P7.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tiếp điểm: 2 C/O<br>Điện áp định mức: 230Vac<br>Rơ le trung gian REXO có đèn chỉ thị<br>Dòng chịu tải: 5gitA<br>Tần số đóng ngắt tối đa: 1200 lần/ giờ<br>Tuổi thọ cơ khí: 10 triệu lần<br>Đáp ứng theo tiêu chuẩn: IEC/ EN60068-2-6, IEC/ EN60529, IEC/ EN60068-2-27" ,
+        "formPage": "Form_SP_Schneider_AT.html"
+    },
+
 
 
 

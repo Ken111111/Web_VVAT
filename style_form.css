@@ -331,3 +331,25 @@ button:hover {
     color: #0056b3;
     text-decoration: underline;
 }
+
+/* Contact Section */
+.contact-info {
+    display: flex; /* Sử dụng Flexbox để sắp xếp nội dung */
+    flex-direction: column; /* Đặt hướng sắp xếp theo chiều dọc */
+    gap: 0.5rem; /* Thêm khoảng cách giữa các mục */
+}
+
+.contact-info p {
+    font-size: 1.2rem; 
+    line-height: 1.5; /* Điều chỉnh khoảng cách giữa các dòng */
+    margin: 0; /* Loại bỏ margin để sử dụng gap của Flexbox */
+}
+.contact-info a {
+    color: #000000; /* Giữ màu xanh của liên kết */
+    text-decoration: none; /* Loại bỏ gạch chân */
+}
+
+.contact-info a:hover{
+    text-decoration: underline ;
+    color: #0056b3;
+}
