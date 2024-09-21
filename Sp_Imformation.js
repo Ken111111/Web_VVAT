@@ -391,7 +391,7 @@ const products = [
         "manual": "SP Siemens/6AV21240MC010AX0_datasheet_en.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC HMI TP1200 Comfort, Bảng điều khiển tiện nghi, thao tác bằng cảm ứng, màn hình TFT màn hình rộng 12 inch, 16 triệu màu, giao diện PROFINET, giao diện MPI/PROFIBUS DP, bộ nhớ cấu hình 12 MB, Windows CE 6.0, có thể cấu hình từ WinCC Comfort V11." ,
-        "formPage": "Form_SP_Siemns_Module.html"
+        "formPage": "Form_SP_Siemns_HMI.html"
     },
     {
         "id": "6AV2123-2GB03-0AX0",
@@ -401,12 +401,38 @@ const products = [
         "manufacturer": "Siemens",
         "quality": "Mới 100%",
         "warranty": "Chính hãng",
-        "manual": "SP Siemens/6AV21240MC010AX0_datasheet_en.pdf",
+        "manual": "SP Siemens/6AV21232GB030AX0_datasheet_en.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC HMI, KTP700 Basic, Bảng điều khiển cơ bản, Thao tác phím/chạm, màn hình TFT 7 inch, 65536 màu, giao diện PROFINET, có thể cấu hình từ WinCC Basic V13/ STEP 7 Basic V13, chứa phần mềm nguồn mở, được cung cấp miễn phí, xem kèm theo đĩa CD." ,
-        "formPage": "Form_SP_Siemns_Module.html"
+        "formPage": "Form_SP_Siemns_HMI.html"
     },
-
+    {
+        "id": "6AV2124-0QC02-0AX1",
+        "title": "6AV2124-0QC02-0AX1 – Màn hình HMI Comford TP1500 15″",
+        "image": "Picture Siemens/6AV2124-0QC02-0AX1.jpg",
+        "sku": "6AV2124-0QC02-0AX1",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6AV21240QC020AX1_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC HMI, KTP700 Basic, Bảng điều khiển cơ bản, Thao tác phím/chạm, màn hình TFT 7 inch, 65536 màu, giao diện PROFINET, có thể cấu hình từ WinCC Basic V13/ STEP 7 Basic V13, chứa phần mềm nguồn mở, được cung cấp miễn phí, xem kèm theo đĩa CD." ,
+        "formPage": "Form_SP_Siemns_HMI.html"
+    },
+    // -----------------------------------------------------ET200--------------------------------------------------------------
+    {
+        "id": "6ES7137-6AA00-0BA0",
+        "title": "6ES7137-6AA00-0BA0 – Module truyền thông CM PTP ET 200SP",
+        "image": "Picture Siemens/6ES7137-6AA00-0BA0.jpg",
+        "sku": "6ES7137-6AA00-0BA0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES71376AA000BA0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC ET 200SP, mô-đun giao tiếp CM PTP cho kết nối nối tiếp RS422, RS485 và RS232, Freeport, 3964 (R), USS, MODBUS RTU Master, Slave, 115200 Kbit/s." ,
+        "formPage": "Form_SP_Siemns_ET200.html"
+    },
 
 
 
