@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schneider - VietVuongAtech</title>
+    <link rel="stylesheet" href="style_1.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-top">
+            <div class="contact-info">
+                <p>Hotline:  <a href="tel:0896449884">0896 449 884</a> | Email: <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="container header-bottom">
+            <div class="logo-container">
+                <img src="Picture/logo_cty.jpg" alt="Logo VietVuongAtech" class="logo-img">
+                <div class="company-info">
+                    <p class="company-name">CÔNG TY TNHH ĐIỆN VÀ TỰ ĐỘNG HÓA</p>
+                    <h1 class="logo">VietVuongAtech</h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html"><strong>Trang Chủ</strong> </a></li>
+                    <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
+                    <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
+                    <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
+                    <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
+                </ul>
+            </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." oninput="filterProducts()">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Detail -->
+    <section id="product-detail" class="product-detail">
+        <div class="container">
+            <h2 class="section-title">Schneider Electric</h2>
+            <nav></nav>
+                <ul class="SP">
+                    <li><a href="schneider.html" ><strong>Power Distribution</strong></a></li>
+                    <li><a href="schneider_AT.html" style="font-size: 1.4rem !important; color: red;" ><strong>Automation & Control</strong></a></li>
+                    <li><a href="siemens_S7_HMI.html" ><strong>Safety Products</strong> </a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_AT.html?productId=XA2EA31">
+                        <img src="Picture Schneider/XA2EA31.JPG" alt="XA2EA31">
+                        <h3>Button</h3>
+                        <p>Nút nhấn nhả Schneider XA2EA31, 22mm                        
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_AT.html?productId=XA2EA42">
+                        <img src="Picture Schneider/XA2EA42.JPG" alt="XA2EA42">
+                        <h3>Button</h3>
+                        <p>Nút nhấn nhả Schneider XA2EA42, 22mm                    
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_AT.html?productId=XA2ED21">
+                        <img src="Picture Schneider/XA2ED21.JPG" alt="XA2ED21">
+                        <h3>Button</h3>
+                        <p>Công tắc xoay 2 vị trí Schneider XA2ED21, 22mm (tự giữ)                  
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_AT.html?productId=XA2ED33">
+                        <img src="Picture Schneider/XA2ED33.JPG" alt="XA2ED33">
+                        <h3>Button</h3>
+                        <p>Công tắc xoay 3 vị trí Schneider XA2ED33, 22mm (tự giữ)               
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 VietVuongAtech. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showPopup() {
+            document.getElementById('popup').classList.add('active');
+        }
+
+        function closePopup() {
+            document.getElementById('popup').classList.remove('active');
+        }
+    </script>
+
+</body>
+</html>

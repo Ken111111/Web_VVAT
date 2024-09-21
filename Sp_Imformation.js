@@ -722,8 +722,87 @@ const products = [
         "infor_1":"Số cực: 3P<br>Dòng điện định mức: 100A<br>Dòng cắt ngắn mạch: 15kA<br>Điện áp định mức: 415V" ,
         "formPage": "Form_SP_Schneider_PD.html"
     },
-
-
+    {
+        "id": "EZ9L33620",
+        "title": "CB chống sét Schneider EZ9L33620 20kA 1P+N",
+        "image": "Picture Schneider/EZ9L33620.JPG",
+        "sku": "EZ9L33620",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9_EZ9L33620.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Hệ thống đường truyền tín hiệu là một trong những mục tiêu của sét và có đến 75% các đường truyền tín hiệu hỏng hóc do bị sét đánh. Do đó, để bảo vệ đường truyền liên lạc không bị đứt quãng, nên sử dụng thiết bị CB chống sét Schneider EZ9L33620 20kA 1P+N được dùng để cắt sét, dẫn năng lượng sét xuống đất và giảm biên độ sung sét, đồng thời làm giảm áp lực của sét đến nguồn điện và thiết bị điện sẽ đảm bảo an toàn cho cả hệ thống điện gia đình, hoặc chọn thiết bị chống sét cho từng thiết bị điện công nghiệp như: cửa cuốn, tivi, điện thoại, máy tính…" ,
+        "infor_2":"Loại: Chống Sét Lan Truyền Nguồn TT, TN-S <br> Dòng Sản Phẩm: Easy 9 <br> Kiểu: Type 2 <br> Công Nghệ Cắt Lọc Sét: MOV + GDT <br> Số Cực: 1P + N <br> Điện Áp: 230V AC <br> Dòng Cắt Sét In: 10 KA <br> Dòng Cắt Sét Imax: 20 KA <br> Kiểu Lắp Đặt: Gắn Thanh DIN Rail 35mm <br> Tiêu Chuẩn: IEC",
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "EZ9L33745",
+        "title": "CB chống sét Schneider EZ9L33745 45kA 3P+N",
+        "image": "Picture Schneider/EZ9L33745.JPG",
+        "sku": "EZ9L33745",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9_EZ9L33745.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Hệ thống đường truyền tín hiệu là một trong những mục tiêu của sét và có đến 75% các đường truyền tín hiệu hỏng hóc do bị sét đánh. Do đó, để bảo vệ đường truyền liên lạc không bị đứt quãng, nên sử dụng thiết bị CB chống sét Schneider EZ9L33745 45kA 3P+N được dùng để cắt sét, dẫn năng lượng sét xuống đất và giảm biên độ sung sét, đồng thời làm giảm áp lực của sét đến nguồn điện và thiết bị điện sẽ đảm bảo an toàn cho cả hệ thống điện gia đình, hoặc chọn thiết bị chống sét cho từng thiết bị điện công nghiệp như: cửa cuốn, tivi, điện thoại, máy tính…" ,
+        "infor_2":"Loại: Chống Sét Lan Truyền Nguồn TT, TN-S <br> Dòng Sản Phẩm: Easy 9 <br> Kiểu: Type 2 <br> Công Nghệ Cắt Lọc Sét: MOV + GDT <br> Số Cực: 3P + N <br> Điện Áp: 230V AC <br> Dòng Cắt Sét In: 20 KA <br> Dòng Cắt Sét Imax: 45 KA <br> Kiểu Lắp Đặt: Gắn Thanh DIN Rail 35mm <br> Tiêu Chuẩn: IEC",
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    // --------------------------------------------------Button-------------------------------------------------------------------
+    {
+        "id": "XA2EA31",
+        "title": "Nút nhấn nhả Schneider XA2EA31, 22mm",
+        "image": "Picture Schneider/XA2EA31.JPG",
+        "sku": "XA2EA31",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2EA31.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tiếp điểm: N/O <br> Màu: Xanh lá cây <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_AT.html"
+    },
+    {
+        "id": "XA2EA42",
+        "title": "Nút nhấn nhả Schneider XA2EA42, 22mm",
+        "image": "Picture Schneider/XA2EA42.JPG",
+        "sku": "XA2EA42",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2EA42.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tiếp điểm: N/C <br> Màu: Xanh đỏ <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_AT.html"
+    },
+    {
+        "id": "XA2ED21",
+        "title": "Công tắc xoay 2 vị trí Schneider XA2ED21, 22mm (tự giữ)",
+        "image": "Picture Schneider/XA2ED21.JPG",
+        "sku": "XA2ED21",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2ED21.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tiếp điểm: N/O <br> Số vị trí: 2 vị trí - tự giữ <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_AT.html"
+    },
+    {
+        "id": "XA2ED33",
+        "title": "Công tắc xoay 3 vị trí Schneider XA2ED33, 22mm (tự giữ)",
+        "image": "Picture Schneider/XA2ED33.JPG",
+        "sku": "XA2ED33",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2ED33.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tiếp điểm: 2N/O <br> Số vị trí: 3 vị trí - tự giữ <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_AT.html"
+    },
 
 
 
