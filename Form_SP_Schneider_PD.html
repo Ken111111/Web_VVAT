@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schneider - VietVuongAtech</title>
-    <link rel="stylesheet" href="style_1.css">
+    <link rel="stylesheet" href="style_form.css">
+    <script src="Sp_Imformation.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -28,6 +29,7 @@
                     <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
                     <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
                     <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
+                    <!-- <li><a href="index.html#catalogue"><strong>Catalogue</strong></a></li> -->
                     <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
                 </ul>
             </nav>
@@ -36,52 +38,48 @@
                 <input type="text" id="search-input" placeholder="Mã sản phẩm..." oninput="filterProducts()">
                 <button type="button" onclick="searchProducts()">Tìm kiếm</button>
             </div>
+            <nav></nav>
+                <ul class="SP">
+                    <li><a href="schneider.html" style="font-size: 1.4rem !important; color: red;"><strong>Power Distribution</strong></a></li>
+                    <li><a href="siemens_S7_1500.html" ><strong>Automation & Control</strong></a></li>
+                    <li><a href="siemens_S7_HMI.html" ><strong>Safety Products</strong> </a></li>
+                    <!-- <li><a href="siemens_S7_ET200.html" ><strong>ET-200</strong></a></li>
+                    <li><a href="siemens_S7_SITOP.html" ><strong>SITOP Power Supply and DC-UPS</strong></a></li>
+                    <li><a href="siemens_S7_Safety.html" ><strong>Safety Control Devices</strong></a></li> -->
+                </ul>
+            </nav>
         </div>
     </header>
 
     <!-- Product Detail -->
     <section id="product-detail" class="product-detail">
         <div class="container">
-            <h2 class="section-title">Schneider Electric</h2>
-            <nav></nav>
-                <ul class="SP">
-                    <li><a href="schneider.html" style="font-size: 1.4rem !important; color: red;"><strong>Power Distribution</strong></a></li>
-                    <!-- <li><a href="siemens_S7_1500.html"><strong>PLC S7-1500</strong></a></li>
-                    <li><a href="siemens_S7_HMI.html"><strong>Panels</strong> </a></li>
-                    <li><a href="siemens_S7_ET200.html"><strong>ET-200</strong></a></li>
-                    <li><a href="siemens_S7_SITOP.html"><strong>SITOP Power Supply and DC-UPS</strong></a></li>
-                    <li><a href="siemens_S7_Safety.html"><strong>Safety Control Devices</strong></a></li> -->
-                </ul>
-            </nav>
-        </div>
-    </section>
-
-    <!-- Products Section -->
-    <section id="products" class="products">
-        <div class="container">
-            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
-            <div class="product-grid">
-                <!-- Hàng thứ nhất -->
-                <div class="product-card">
-                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34240">
-                        <img src="Picture Schneider/EZ9F34240.jpg" alt="EZ9F34240">
-                        <h3>MCB</h3>
-                        <p>MCB Schneider EZ9F34240 40A 4.5kA 2P                             
-                        </p>
-                    </a>
+            <h2 class="section-title">Product Title</h2>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="Picture Siemens/S7-1200.png" alt="Product Image" style="width:100%;">
                 </div>
-                <div class="product-card">
-                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34220">
-                        <img src="Picture Schneider/EZ9F34240.jpg" alt="EZ9F34220">
-                        <h3>MCB</h3>
-                        <p>MCB Schneider EZ9F34220 20A 4.5kA 2P                         
-                        </p>
-                    </a>
+                <div class="product-description">
+                    <p><strong>SKU:</strong> SKU Value</p>
+                    <p><strong>Nhà Sản Xuất:</strong> Manufacturer Name</p>
+                    <p><strong>Chất Lượng:</strong> Quality Info</p>
+                    <p><strong>Bảo Hành:</strong> Warranty Info</p>
+                    <p><strong>Tài liệu sản phẩm:</strong> <a href="SP Siemens/Catalogue_PLC_Siemens_S7_1200.pdf" target="_blank">Download PDF</a></p>
+                    <p style="color: crimson; font-weight: bold;"> Giá: Price Info</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Product Description Section -->
+    <section id="product-description" class="product-description-detail">
+        <div class="container">
+            <h3 class="section-subtitle">Mô tả chi tiết sản phẩm:</h3>
+            <p class="infor-1">infor_1</p>
+            <h4 class="section-subtitle">Đặc tính kỹ thuật chính:</h4>
+            <p class="infor-2">infor_2</p>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -89,16 +87,5 @@
             <p>&copy; 2024 VietVuongAtech. All Rights Reserved.</p>
         </div>
     </footer>
-
-    <script>
-        function showPopup() {
-            document.getElementById('popup').classList.add('active');
-        }
-
-        function closePopup() {
-            document.getElementById('popup').classList.remove('active');
-        }
-    </script>
-
 </body>
 </html>

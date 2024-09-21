@@ -474,7 +474,33 @@ const products = [
         "infor_1":"SITOP PSU100S 24 V/2.5 A Đầu vào nguồn điện ổn định: 120/230 VAC Đầu ra: 24 VDC/2.5 A." ,
         "formPage": "Form_SP_Siemns_SITOP.html"
     },
-
+    // -----------------------------------------------------CB Scheider--------------------------------------------------------
+    {
+        "id": "EZ9F34240",
+        "title": "MCB Schneider EZ9F34240 40A 4.5kA 2P",
+        "image": "Picture Schneider/EZ9F34240.jpg",
+        "sku": "EZ9F34240",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34240.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 2P<br>Dòng điện định mức: 40A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 230V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "EZ9F34220",
+        "title": "MCB Schneider EZ9F34220 20A 4.5kA 2P",
+        "image": "Picture Schneider/EZ9F34240.jpg",
+        "sku": "EZ9F34220",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34220.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 2P<br>Dòng điện định mức: 20A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 230V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
 
 
 
