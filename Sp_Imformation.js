@@ -433,7 +433,47 @@ const products = [
         "infor_1":"SIMATIC ET 200SP, mô-đun giao tiếp CM PTP cho kết nối nối tiếp RS422, RS485 và RS232, Freeport, 3964 (R), USS, MODBUS RTU Master, Slave, 115200 Kbit/s." ,
         "formPage": "Form_SP_Siemns_ET200.html"
     },
-
+    // ---------------------------------------------Safety Control Devices------------------------------------------------------
+    {
+        "id": "3TK2825-1BB40",
+        "title": "Thiết bị an toàn Sirius (Sirius Safety) Siemens 3TK2825-1BB40",
+        "image": "Picture Siemens/3TK2825-1BB40.jpg",
+        "sku": "3TK2825-1BB40",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/3TK28251BB40_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Rơle an toàn SIRIUS với mạch kích hoạt rơle (EC) 24 VDC, chiều rộng tổng thể 45 mm Thiết bị đầu cuối trục vít EC tức thời: 3 NO EC bị trễ: 0 NO SC: 2 NC Tự động khởi động/khởi động được giám sát Thiết bị cơ bản SIL đạt được tối đa: 3, PL: E." ,
+        "formPage": "Form_SP_Siemns_Safety.html"
+    },
+    // -----------------------------------------------------SITOP---------------------------------------------------------------
+    {
+        "id": "6EP1331-5BA10",
+        "title": "6EP1331-5BA10 – Stabilized Power Supply SITOP PSU100C 24 V/1.3 A",
+        "image": "Picture Siemens/6EP1331-5BA10.jpg",
+        "sku": "6EP1331-5BA10",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6EP13315BA10_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SITOP PSU100C 24 V/1.3 A đầu vào nguồn điện ổn định: 120-230 VAC (110-300 V DC) đầu ra: 24 VDC/1.3 A." ,
+        "formPage": "Form_SP_Siemns_SITOP.html"
+    },
+    {
+        "id": "6EP1332-2BA20",
+        "title": "6EP1332-2BA20 – Stabilized Power Supply SITOP PSU100S 24 V/2.5 A",
+        "image": "Picture Siemens/6EP1332-2BA20.jpg",
+        "sku": "6EP1332-2BA20",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6EP13322BA20_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SITOP PSU100S 24 V/2.5 A Đầu vào nguồn điện ổn định: 120/230 VAC Đầu ra: 24 VDC/2.5 A." ,
+        "formPage": "Form_SP_Siemns_SITOP.html"
+    },
 
 
 
