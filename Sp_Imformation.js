@@ -1143,7 +1143,7 @@ const products = [
         "infor_1":"" ,
         "formPage": "Form_SP_Schneider_AT.html"
     },
-    // -----------------------------------------------------CB Chint-----------------------------------------------------------
+    // --------------------------------------------------------CB Chint-------------------------------------------------------------------
     {
         "id": "NXB-63 C32 3P",
         "title": "MCB Chint NXB-63 32A 6KA 3P ",
@@ -1208,6 +1208,86 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Ruột cầu chì Chint RT28-32 2A" ,
         "formPage": "Form_SP_Chint.html"
+    },
+    {
+        "id": "XJ3-G",
+        "title": "Rơ le bảo vệ pha Chint XJ3-G",
+        "image": "Picture_Chint/relay bảo vệ pha.jpg",
+        "sku": "XJ3-G",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/xj3-chint-series-catalogue.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Dòng rơ le bảo vệ lỗi pha và thứ tự pha Chint XJ3-G được sử dụng để bảo vệ cho các trường hợp quá áp, thấp áp và lỗi pha cũng như bảo vệ thứ tự pha cho mạch điện 3 pha điện áp AC. khi một trong các pha đầu vào bị gián đoạn hoặc khi một trong các pha bị lỗi, rơ le XJ3 sẽ ngay lập tức tác động thông qua việc ngắt cặp tín hiệu cấp nguồn điều khiển cho mạch điện và khi đó toàn bộ mạch điều khiển sẽ ngừng hoạt động, đảm bảo cho các thiết bị phần phụ tải không bị hư hỏng." ,
+        "infor_2":"Nguồn: 3 Pha (50Hz) 380VAC<br> Bảo vệ quá áp: 380460VAC, thời gian trễ: 1,54s (có thể điều chỉnh)<br> Bảo vệ thấp áp: 300380VAC, thời gian trễ: 29s (có thể điều chỉnh)<br> Độ chính xác với điện áp: ±5%<br> Lỗi pha: Điện áp nguồn cấp < 60%Ue và Bảo vệ thứ tự pha ≤ 2s<br> Công suất tiếp điểm: AC380V 3A<br> Công suất tiêu thụ: ≤ 1W<br> Độ bền điện: 10⁵ (không lớn hơn tải định mức)<br> Dải Nhiệt độ hoạt động: -5°C~+40°C",
+        "formPage": "Form_SP_Chint.html"
+    },
+    // --------------------------------------------------Contactor Chint---------------------------------------------------------------------
+    {
+        "id": "NXC-09",
+        "title": "Contactor Chint NXC-09 9A 4kW 1NO+1NC Coil 220V  ",
+        "image": "Picture_Chint/NXC-09.png",
+        "sku": "NXC-09",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/NXC_EN.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Công suất: 4kW<br> Tiếp điểm: 1NO+1NC<br> Kích thước: 75×45.5×88mm<br> Điện áp định mức: 9A<br> Số pha: 3P<br> Cuộn coil: 220V." ,
+        "formPage": "Form_SP_Chint_AT.html"
+    },
+    {
+        "id": "NXC-18",
+        "title": "Contactor Chint NXC-18 18A 7.5kW 1NO+1NC Coil 220V",
+        "image": "Picture_Chint/NXC-09.png",
+        "sku": "NXC-18",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/NXC_EN.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Công suất: 7.5kW<br> Tiếp điểm: 1NO+1NC<br> Kích thước: 75×45.5×88mm<br> Điện áp định mức: 18A<br> Số pha: 3P<br> Cuộn coil: 220V." ,
+        "formPage": "Form_SP_Chint_AT.html"
+    },
+    {
+        "id": "NXC-22",
+        "title": "Contactor Chint NXC-22 22A 11kW 1NO+1NC Coil 220V",
+        "image": "Picture_Chint/NXC-09.png",
+        "sku": "NXC-22",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/NXC_EN.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Công suất: 11kW<br> Tiếp điểm: 1NO+1NC<br> Kích thước: 75×45.5×88mm<br> Điện áp định mức: 22A<br> Số pha: 3P<br> Cuộn coil: 220V." ,
+        "formPage": "Form_SP_Chint_AT.html"
+    },
+    {
+        "id": "NXR-25-5.5-8",
+        "title": "Relay nhiệt Chint NXR-25 (5.5-8A)",
+        "image": "Picture_Chint/NXR-25-5.5-8.jpg",
+        "sku": "NXR-25-5.5-8",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/nxr-chint-series-catalogue.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tên: Relay nhiệt NXR-25-5.5-8 dãy Amper 5.5-8<br> Danh mục: Thiết bị đóng cắt<br> Nhà sản xuất: Chint<br> Phân loại: Rơ le nhiệt<br> Điện áp định mức: 220V-690V<br> Dòng điện định mức: 5.5-8A<br> Số pha: 3 pha<br> Tiêu chuẩn: IEC 60947-4/5-1<br> Lắp cùng Contactor NXC-06 đến NXC-38." ,
+        "formPage": "Form_SP_Chint_AT.html"
+    },
+    {
+        "id": "NXR-25-4-6",
+        "title": "Relay nhiệt Chint NXR-25 (4-6A)",
+        "image": "Picture_Chint/NXR-25-5.5-8.jpg",
+        "sku": "NXR-25-4-6",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/nxr-chint-series-catalogue.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tên: Relay nhiệt NXR-25-4-6 dãy Amper 4-6<br> Danh mục: Thiết bị đóng cắt<br> Nhà sản xuất: Chint<br> Phân loại: Rơ le nhiệt<br> Điện áp định mức: 220V-690V<br> Dòng điện định mức: 4-6A<br> Số pha: 3 pha<br> Tiêu chuẩn: IEC 60947-4/5-1<br> Lắp cùng Contactor NXC-06 đến NXC-38." ,
+        "formPage": "Form_SP_Chint_AT.html"
     },
 
 
