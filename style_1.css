@@ -332,7 +332,33 @@ body {
 @media (max-width: 768px) {
     .header-bottom {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center; /* Canh giữa logo và các mục */
+        text-align: center;
+    }
+
+    .logo-container {
+        margin-left: 0; /* Căn giữa logo */
+    }
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr); /* Hiển thị 2 sản phẩm mỗi dòng */
+    }
+
+    .about p, .about ul li {
+        font-size: 1rem; /* Giảm kích thước chữ */
+    }
+
+    .btn {
+        padding: 0.6rem 1rem; /* Giảm padding cho nút */
+        font-size: 1rem;
+    }
+
+    .container {
+        width: 95%; /* Tăng chiều rộng container cho tablet */
+    }
+
+    .contact-info p {
+        font-size: 1rem; /* Giảm kích thước chữ */
     }
 
     .nav-links {
@@ -343,28 +369,88 @@ body {
     .nav-links li {
         margin: 10px 0;
     }
-
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .about p, .about ul li {
-        font-size: 1.1rem; 
-    }
 }
 
 @media (max-width: 480px) {
     .product-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Hiển thị 1 sản phẩm mỗi dòng */
     }
 
     .hero h2 {
-        font-size: 2rem;
+        font-size: 1.8rem; /* Giảm kích thước tiêu đề */
     }
 
     .hero p {
-        font-size: 1.2rem;
+        font-size: 1.2rem; /* Giảm kích thước đoạn văn */
     }
+
+    .btn {
+        font-size: 0.9rem; /* Giảm kích thước chữ nút */
+        padding: 0.5rem 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem; /* Giảm kích thước logo */
+    }
+
+    .about ul li, .about p {
+        font-size: 0.9rem; /* Giảm kích thước chữ */
+    }
+
+    .section-title {
+        font-size: 1.5rem; /* Giảm kích thước tiêu đề */
+    }
+
+    .container {
+        width: 100%; /* Tối đa hóa chiều rộng trên điện thoại */
+        padding: 0 10px; /* Thêm khoảng cách hai bên */
+    }
+
+    .nav-links li {
+        margin: 8px 0;
+    }
+
+    .header-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info p {
+        font-size: 0.9rem; /* Giảm kích thước chữ cho thông tin liên hệ */
+    }
+
+    .info-table th, .info-table td {
+        font-size: 0.9rem; /* Giảm kích thước bảng */
+        padding: 6px; /* Giảm padding trong bảng */
+    }
+
+    .search-container {
+        display: flex;
+        flex-direction: column; /* Xếp các phần tử theo chiều dọc */
+        width: 100%; /* Chiếm hết chiều rộng khung chứa */
+        align-items: center; /* Căn giữa phần tử */
+        gap: 10px; /* Khoảng cách giữa input và button */
+    }
+    
+    #search-input {
+        width: 100%; /* Chiều rộng 100% cho ô nhập */
+        box-sizing: border-box; /* Đảm bảo padding không làm tràn khung */
+        padding: 10px; /* Tạo khoảng cách bên trong cho input */
+    }
+    
+    button {
+        width: 30%; /* Chiều rộng 100% cho nút bấm */
+        padding: 10px; /* Tạo khoảng cách bên trong cho nút */
+        font-size: 16px; /* Kích thước chữ nút */
+        background-color: #007bff; /* Màu xanh của nút */
+        color: white; /* Màu chữ */
+        border: none; /* Bỏ viền */
+        cursor: pointer; /* Đổi chuột thành dạng pointer khi hover */
+    }
+    
+    button:hover {
+        background-color: #0056b3; /* Đổi màu khi hover */
+}
 }
 
 /* Table styles */
@@ -439,4 +525,3 @@ button:hover {
     color: #0056b3;
     text-decoration: underline;
 }
-
