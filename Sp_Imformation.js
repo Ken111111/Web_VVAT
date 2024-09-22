@@ -857,6 +857,19 @@ const products = [
         "formPage": "Form_SP_Schneider_Safety.html"
     },
     {
+        "id": "XA2EVM6LC",
+        "title": "Đèn báo Schneider XA2EVM6LC, 22mm 220V AC",
+        "image": "Picture Schneider/XA2EVM6LC.JPG",
+        "sku": "XA2EVM6LC",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy-Harmony-XA2_XA2EVM6LC.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Màu: Xanh dương <br> Đường kính: 22mm" ,
+        "formPage": "Form_SP_Schneider_Safety.html"
+    },
+    {
         "id": "XA2EVB3LC",
         "title": "Đèn báo Schneider XA2EVB3LC, 22mm 24V AC/DC",
         "image": "Picture Schneider/XA2EVB3LC.JPG",
@@ -1114,7 +1127,20 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "SP_Schneider/Schneider Electric_TeSys-Deca-frame-2_GV2ME06.pdf",
         "price": "Liên hệ (0896 449 884)",
-        "infor_1":"Series: Schneider GV2ME <br>Dòng điện: 2.5 - 4A <br> Kích thước: 89x45x78.5mm(HxWxD) <br> Khối lượng	0.26kg" ,
+        "infor_1":"Series: Schneider GV2ME <br>Dòng điện: 1 - 1.6A <br> Kích thước: 89x45x78.5mm(HxWxD) <br> Khối lượng	0.26kg" ,
+        "formPage": "Form_SP_Schneider_AT.html"
+    },
+    {
+        "id": "GV2AF3",
+        "title": "Phụ kiện kết nối GV2AF3",
+        "image": "Picture Schneider/GV2AF3.JPG",
+        "sku": "GV2AF3",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_TeSys-Deca-frame-2_GV2AF3.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"" ,
         "formPage": "Form_SP_Schneider_AT.html"
     },
 
