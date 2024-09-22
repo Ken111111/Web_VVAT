@@ -12,7 +12,7 @@
     <header class="header">
         <div class="container header-top">
             <div class="contact-info">
-                <p>Hotline: 0896 449 884 | Email: vietvuongatech.vvat@gmail.com</p>
+                <p>Hotline:  <a href="tel:0896449884">0896 449 884</a> | Email: <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
             </div>
         </div>
         <div class="container header-bottom">
@@ -38,6 +38,7 @@
                 <input type="text" id="search-input" placeholder="Mã sản phẩm..." oninput="filterProducts()">
                 <button type="button" onclick="searchProducts()">Tìm kiếm</button>
             </div>
+            
         </div>
     </header>
 
@@ -46,6 +47,14 @@
         <div class="container">
             <h2 class="section-title">Chint</h2>
         </div>
+        <nav>
+            <ul class="SP">
+                <li><a href="chint.html" style="font-size: 1.4rem !important; color: red;"><strong>Power Distribution</strong></a></li>
+                <!-- <li><a href="schneider_AT.html"  ><strong>Automation & Control</strong></a></li>
+                <li><a href="schneider_Safety.html" ><strong>Safety Products</strong> </a></li> -->
+
+            </ul>
+        </nav>
     </section>
 
     <!-- Products Section -->
@@ -55,19 +64,54 @@
             <div class="product-grid">
                 <!-- Hàng thứ nhất -->
                 <div class="product-card">
-                    <a href="#" onclick="openPopup('popup1')">
-                        <img src="Picture_Chint/MCB Chint NXB-125 100A 10KA 2P.jpg" alt="NXB-125 100A 10KA 2P">
+                    <a href="Form_SP_Chint.html?productId=NXB-63 C32 3P">
+                        <img src="Picture_Chint/NXB-63 32A.jpg" alt="NXB-63 C32 3P">
                         <h3>MCB</h3>
-                        <p>MCB Chint NXB-125 100A 10KA 2P</p>
+                        <p>MCB Chint NXB-63 32A 6KA 3P                           
+                        </p>
                     </a>
                 </div>
                 <div class="product-card">
+                    <a href="Form_SP_Chint.html?productId=NXB-63 C6 3P">
+                        <img src="Picture_Chint/NXB-63 32A.jpg" alt="NXB-63 C6 3P">
+                        <h3>MCB</h3>
+                        <p>MCB Chint NXB-63 6A 6KA 3P                         
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Chint.html?productId=NXB-125 C100 2P">
+                        <img src="Picture_Chint/NXB-125 C100 2P.jpg" alt="NXB-125 C100 2P">
+                        <h3>MCB</h3>
+                        <p>MCB Chint NXB-125 100A 10KA 2P                   
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Chint.html?productId=RT28N-32X 1P">
+                        <img src="Picture_Chint/RT28N-32X 1P.jpg" alt="RT28N-32X 1P">
+                        <h3>Fuse</h3>
+                        <p>Vỏ cầu chì Chint RT28N-32X 1P 32A 500V                      
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Chint.html?productId=RT28-32 2A">
+                        <img src="Picture_Chint/RT28-32 2A.jpg" alt="RT28-32 2A">
+                        <h3>Fuse</h3>
+                        <p>Ruột cầu chì Chint RT28-32 2A                     
+                        </p>
+                    </a>
+                </div>
+                
+                <!-- <div class="product-card">
                     <a href="#" onclick="openPopup('popup2')">
                         <img src="Picture_Chint/relay bảo vệ pha.jpg" alt="XJ3-G">
                         <h3>Chint XJ3-G</h3>
-                        <p>Rơ le bảo vệ pha Chint XJ3-G</p>
+                        <p>Rơ le bảo vệ pha Chint XJ3-G
+                        </p>
                     </a>
-                </div>
+                </div> -->
                 <!-- thêm sản phẩm khác -->
             </div>
         </div>
@@ -81,14 +125,5 @@
         </div>
     </footer>
 
-    <script>
-        function openPopup(popupId) {
-            document.getElementById(popupId).style.display = "block";
-        }
-
-        function closePopup(popupId) {
-            document.getElementById(popupId).style.display = "none";
-        }
-    </script>
 </body>
 </html>

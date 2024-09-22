@@ -62,11 +62,53 @@
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-content">
+        <!-- Slide 1 -->
+        <div class="hero-slide active" style="background-image: url('Picture/Slide_1.png');"></div>
+        <!-- Slide 2 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_2.png');"></div>
+        <!-- Slide 3 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_3.png');"></div>
+        <!-- Slide 4 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_4.png');"></div>
+        <!-- Slide 5 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_5.png');"></div>
+        <!-- Slide 6 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_6.png');"></div>
+        <!-- Slide 7 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_7.png');"></div>
+        <!-- Slide 8 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_8.png');"></div>
+        <!-- Slide 9 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_9.png');"></div>
+        <!-- Slide 10 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_10.png');"></div>
+        <!-- Slide 11 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_11.png');"></div>
+        <!-- Slide 12 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_12.png');"></div>
+        <!-- Slide 13 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_13.png');"></div>
+        <!-- Slide 14 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_14.png');"></div>
+        <!-- Slide 15 -->
+        <!-- <div class="hero-slide hidden" style="background-image: url('Picture/Slide_15.png');"></div> -->
+
+        <!-- <div class="hero-content">
             <h2>Tủ Điện - Tự Động Hóa</h2>
             <p>Chuyên cung cấp thiết bị tự động hóa và bảo vệ hệ thống điện</p>
-            <a href="#products" class="btn">Khám Phá Sản Phẩm</a>
+            <a href="#products" class="btn">Khám Phá Sản Phẩm</a> -->
         </div>
+        <!-- Nút điều hướng trái -->
+        <button id="prevSlide" class="nav-arrow left-arrow" >◀</button>
+        <!-- Nút điều hướng phải -->
+        <button id="nextSlide" class="nav-arrow right-arrow">▶</button>
+
+        <div id="imageModal" class="modal">
+            <span class="close" id="closeModal">&times;</span>
+            <img class="modal-content" id="modalImage" />
+            <div id="caption"></div>
+        </div>
+        
     </section>
 
     <!-- Products Section -->
@@ -186,5 +228,73 @@
             <p>&copy; 2024 VietVuongAtech. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <script>
+        const slides = document.querySelectorAll('.hero-slide');
+        const leftArrow = document.querySelector('.left-arrow');
+        const rightArrow = document.querySelector('.right-arrow');
+        const modal = document.getElementById('imageModal');
+        const modalImage = document.getElementById('modalImage');
+        const captionText = document.getElementById('caption');
+        const closeModal = document.getElementById('closeModal');
+        
+        let currentIndex = 0;
+        let slideInterval;
+
+        // Hàm hiển thị slide hiện tại
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+                slide.classList.toggle('hidden', i !== index);
+            });
+        }
+
+        // Hàm chuyển slide tự động
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        // Thêm sự kiện cho nút điều hướng
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+            resetSlideInterval(); // Đặt lại khoảng thời gian tự động
+        });
+
+        rightArrow.addEventListener('click', () => {
+            nextSlide();
+            resetSlideInterval(); // Đặt lại khoảng thời gian tự động
+        });
+
+        // Hàm khởi động lại khoảng thời gian tự động
+        function resetSlideInterval() {
+            clearInterval(slideInterval);
+            slideInterval = setInterval(nextSlide, 3000);
+        }
+
+        // Khởi động tự động chuyển slide
+        slideInterval = setInterval(nextSlide, 3000);
+
+        // Xử lý sự kiện click cho từng slide
+        slides.forEach(slide => {
+            slide.addEventListener('click', () => {
+                modal.style.display = 'block';
+                modalImage.src = slide.style.backgroundImage.slice(5, -2); // Lấy URL từ background-image
+                captionText.innerHTML = 'Hình ảnh mô tả'; // Có thể thay đổi nội dung nếu cần
+            });
+        });
+
+        // Đóng modal khi nhấn vào nút đóng
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Đóng modal khi nhấn ra ngoài ảnh
+        modal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+    </script>
+
 </body>
 </html>

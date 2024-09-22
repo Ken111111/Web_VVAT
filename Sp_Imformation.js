@@ -1143,7 +1143,72 @@ const products = [
         "infor_1":"" ,
         "formPage": "Form_SP_Schneider_AT.html"
     },
-
+    // -----------------------------------------------------CB Chint-----------------------------------------------------------
+    {
+        "id": "NXB-63 C32 3P",
+        "title": "MCB Chint NXB-63 32A 6KA 3P ",
+        "image": "Picture_Chint/NXB-63 32A.jpg",
+        "sku": "NXB-63 C32 3P",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/Catalog-Aptomat-Chint-MCB-NXB-63.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tên: MCB NXB-63-3 pha-32A dòng cắt 6KA <br> Danh Mục: Thiết bị đóng cắt <br> Nhà SX: Chint <br> Phân loại: MCB <br> Điện áp định mức: 240/415V <br> Dòng điện định mức: 32A <br> Số pha: 3 pha <br> Dòng cắt ngắn mạch: 6KA <br> Tiêu chuẩn: IEC 60898-1" ,
+        "formPage": "Form_SP_Chint.html"
+    },
+    {
+        "id": "NXB-63 C6 3P",
+        "title": "MCB Chint NXB-63 6A 6KA 3P  ",
+        "image": "Picture_Chint/NXB-63 32A.jpg",
+        "sku": "NXB-63 C6 3P",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/Catalog-Aptomat-Chint-MCB-NXB-63.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tên: MCB NXB-63-3 pha-6A dòng cắt 6KA <br> Danh Mục: Thiết bị đóng cắt <br> Nhà SX: Chint <br> Phân loại: MCB <br> Điện áp định mức: 240/415V <br> Dòng điện định mức: 6A <br> Số pha: 3 pha <br> Dòng cắt ngắn mạch: 6KA <br> Tiêu chuẩn: IEC 60898-1" ,
+        "formPage": "Form_SP_Chint.html"
+    },
+    {
+        "id": "NXB-125 C100 2P",
+        "title": "MCB Chint NXB-125 100A 10KA 2P",
+        "image": "Picture_Chint/NXB-125 C100 2P.jpg",
+        "sku": "NXB-125 C100 2P",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/nxb-125-chint-series-catalogue.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tên: MCB NXB-125-2 pha-100A dòng cắt 10KA <br> Danh Mục: Thiết bị đóng cắt <br> Nhà SX: Chint <br> Phân loại: MCB <br> Điện áp định mức: 240/415V <br> Dòng điện định mức: 100A <br> Số pha: 2 pha <br> Dòng cắt ngắn mạch: 10KA <br> Tiêu chuẩn: IEC 60947-2" ,
+        "formPage": "Form_SP_Chint.html"
+    },
+    {
+        "id": "RT28N-32X 1P",
+        "title": "Vỏ cầu chì Chint RT28N-32X 1P 32A 500V",
+        "image": "Picture_Chint/RT28N-32X 1P.jpg",
+        "sku": "RT28N-32X 1P",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/CATALOG RT28N-32X.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"vỏ cầu chì Chint RT28N-32X 1P 32A 500V" ,
+        "formPage": "Form_SP_Chint.html"
+    },
+    {
+        "id": "RT28-32 2A",
+        "title": "Ruột cầu chì Chint RT28-32 2A",
+        "image": "Picture_Chint/RT28-32 2A.jpg",
+        "sku": "RT28-32 2A",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/rt28-chint-series-catalogue.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Ruột cầu chì Chint RT28-32 2A" ,
+        "formPage": "Form_SP_Chint.html"
+    },
 
 
 
@@ -1168,7 +1233,7 @@ function loadProductInfo() {
         document.querySelector(".product-description p:nth-child(3)").textContent = `Chất Lượng: ${product.quality}`;
         document.querySelector(".product-description p:nth-child(4)").textContent = `Bảo Hành: ${product.warranty}`;
         document.querySelector(".product-description a").href = product.manual;
-        document.querySelector(".product-description a").textContent = "Download PDF";
+        document.querySelector(".product-description a").textContent = "Download PDF" ;
         document.querySelector(".product-description p:nth-child(6)").textContent = `Giá: ${product.price}`;
         document.querySelector(".infor-1").innerHTML = product.infor_1 || 'Thông tin không có sẵn';
         document.querySelector(".infor-2").innerHTML = product.infor_2 || 'Thông tin không có sẵn';
