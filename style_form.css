@@ -256,6 +256,7 @@ body {
         flex-direction: column; /* Sắp xếp các sản phẩm theo chiều dọc */
         align-items: center;
         width: 100%;
+        flex-wrap: wrap;
     }
 
     .SP li {
@@ -373,6 +374,7 @@ button:hover {
     justify-content: left;
     list-style: none;
     padding: 5px;
+    flex-wrap: wrap;
 }
 
 .SP li {

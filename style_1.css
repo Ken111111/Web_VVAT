@@ -450,7 +450,13 @@ body {
     
     button:hover {
         background-color: #0056b3; /* Đổi màu khi hover */
-}
+    }
+    .SP {
+        flex-direction: column; /* Sắp xếp các sản phẩm theo chiều dọc */
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
 }
 
 /* Table styles */
