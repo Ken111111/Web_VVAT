@@ -457,7 +457,22 @@ body {
         width: 100%;
         flex-wrap: wrap;
     }
-    
+    .map-container {
+        position: relative;
+        width: 100%;  /* Chiều rộng 100% để phù hợp với màn hình */
+        height: 0; /* Chiều cao ban đầu là 0 */
+        padding-bottom: 56.25%; /* Tỷ lệ khung hình 16:9 */
+        overflow: hidden; /* Ẩn phần tràn ra ngoài */
+    }
+
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;  /* Chiều rộng 100% để phù hợp với khung chứa */
+        height: 100%; /* Chiều cao 100% để phù hợp với khung chứa */
+        border: 0;    /* Không hiển thị viền */
+    }
 }
 
 /* Table styles */
