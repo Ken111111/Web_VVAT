@@ -1358,17 +1358,6 @@ function checkEnter(event) {
     }
 }
 
-function filterProducts() {
-    const searchInput = document.getElementById('search-input').value.trim().toLowerCase();
-    // Giả sử bạn có một danh sách các sản phẩm
-    const filteredProducts = products.filter(product => 
-        product.id.toLowerCase().includes(searchInput)
-    );
-
-    // Bạn có thể hiển thị danh sách các sản phẩm đã lọc ở đây
-    console.log(filteredProducts); // Ví dụ: in danh sách ra console
-}
-
 function searchProducts() {
     const searchInput = document.getElementById('search-input').value.trim();
     const product = products.find(p => p.id.toLowerCase() === searchInput.toLowerCase());
