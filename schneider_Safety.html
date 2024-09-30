@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Schneider - VietVuongAtech</title>
     <link rel="stylesheet" href="style_1.css">
+    <script src="Sp_Imformation.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -33,7 +34,7 @@
             </nav>
             <!-- Search Form -->
             <div class="search-container">
-                <input type="text" id="search-input" placeholder="Mã sản phẩm..." oninput="filterProducts()">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
                 <button type="button" onclick="searchProducts()">Tìm kiếm</button>
             </div>
         </div>

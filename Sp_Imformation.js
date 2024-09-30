@@ -1289,6 +1289,20 @@ const products = [
         "infor_1":"Tên: Relay nhiệt NXR-25-4-6 dãy Amper 4-6<br> Danh mục: Thiết bị đóng cắt<br> Nhà sản xuất: Chint<br> Phân loại: Rơ le nhiệt<br> Điện áp định mức: 220V-690V<br> Dòng điện định mức: 4-6A<br> Số pha: 3 pha<br> Tiêu chuẩn: IEC 60947-4/5-1<br> Lắp cùng Contactor NXC-06 đến NXC-38." ,
         "formPage": "Form_SP_Chint_AT.html"
     },
+    // --------------------------------------------------Phụ Kiện----------------------------------------------------------------------
+    {
+        "id": "Ruột gà",
+        "title": "Ống ruột gà AD8,  AD11, AD13, AD15.8, AD21.2, AD28.5... (màu đen)",
+        "image": "Picture_Phukien/Ruột gà.jpg",
+        "sku": "",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"" ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
 
 
 
@@ -1309,11 +1323,21 @@ function loadProductInfo() {
         document.querySelector(".section-title").textContent = product.title;
         document.querySelector(".product-image img").src = product.image;
         document.querySelector(".product-description p:nth-child(1)").textContent = `SKU: ${product.sku}`;
-        document.querySelector(".product-description p:nth-child(2)").textContent = `Nhà Sản Xuất: ${product.manufacturer}`;
+        document.querySelector(".product-description p:nth-child(2)").textContent = `Nhà Sản Xuất: ${product.manufacturer || 'Thông tin không có sẵn'}`;
         document.querySelector(".product-description p:nth-child(3)").textContent = `Chất Lượng: ${product.quality}`;
         document.querySelector(".product-description p:nth-child(4)").textContent = `Bảo Hành: ${product.warranty}`;
         document.querySelector(".product-description a").href = product.manual;
-        document.querySelector(".product-description a").textContent = "Download PDF" ;
+        // Kiểm tra và gán giá trị cho liên kết PDF (Download)
+        const manualLink = document.querySelector(".product-description a");
+        manualLink.href = product.manual || "#";  // Nếu product.manual trống, href sẽ là "#"
+        manualLink.textContent = product.manual ? "Download PDF" : "Thông tin không có sẵn";
+        
+        // Nếu không có product.manual, vô hiệu hóa liên kết và đổi màu
+        if (!product.manual) {
+            manualLink.style.pointerEvents = 'none';  // Ngăn không cho nhấn
+            manualLink.style.color = 'gray';  // Màu xám để cho thấy liên kết không hoạt động
+        }
+
         document.querySelector(".product-description p:nth-child(6)").textContent = `Giá: ${product.price}`;
         document.querySelector(".infor-1").innerHTML = product.infor_1 || 'Thông tin không có sẵn';
         document.querySelector(".infor-2").innerHTML = product.infor_2 || 'Thông tin không có sẵn';
@@ -1326,6 +1350,25 @@ function loadProductInfo() {
 
 }
 
+function checkEnter(event) {
+    // Kiểm tra xem phím được nhấn có phải là Enter không
+    if (event.key === 'Enter') {
+        event.preventDefault(); // Ngăn chặn hành động mặc định
+        searchProducts(); // Gọi hàm tìm kiếm
+    }
+}
+
+function filterProducts() {
+    const searchInput = document.getElementById('search-input').value.trim().toLowerCase();
+    // Giả sử bạn có một danh sách các sản phẩm
+    const filteredProducts = products.filter(product => 
+        product.id.toLowerCase().includes(searchInput)
+    );
+
+    // Bạn có thể hiển thị danh sách các sản phẩm đã lọc ở đây
+    console.log(filteredProducts); // Ví dụ: in danh sách ra console
+}
+
 function searchProducts() {
     const searchInput = document.getElementById('search-input').value.trim();
     const product = products.find(p => p.id.toLowerCase() === searchInput.toLowerCase());
@@ -1336,6 +1379,7 @@ function searchProducts() {
     } else {
         alert('Sản phẩm không được tìm thấy');
     }
+
 }
 
 // Gọi hàm để tải thông tin sản phẩm khi trang tải
