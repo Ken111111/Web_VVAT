@@ -475,7 +475,7 @@ body {
     }
     .video-wrapper {
         width: 144%;
-        display: flex-start;
+        justify-content: flex-start;
     }
 }
 
