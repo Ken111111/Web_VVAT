@@ -1395,6 +1395,59 @@ const products = [
         "infor_1":"Công tắc hành trình WLD Omron<br>Tần số hoạt động: Cơ: 120 lần/Max, Điện: 30 lần/Max<br>Chống va đập: Độ bền: 1000m/s², Sự cố: 300m/s²<br>Loại có cần tác động dài<br>Góc tác động lớn, mở rộng 90 độ về cả hai phía<br>Dễ dàng sử dụng, thiết kế nhỏ gọn<br>Nhiệt độ môi trường: -10-80°C<br>Cấp bảo vệ: IEC IP67<br>Xuất xứ: Japan" ,
         "formPage": "Form_SP_Omron_AT.html"
     },
+    // --------------------------------------------------Phoneix----------------------------------------------------------------------
+    {
+        "id": "PT 2,5",
+        "title": "Cầu đấu dây Push in 2.5",
+        "image": "Picture_Phoenix/PT2.5.jpg",
+        "sku": "PT 2,5",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Điện áp: 800 V<br>Dòng điện danh định: 24 A<br>Phương thức kết nối: Kết nối ấn vào<br>Số lượng kết nối: 2<br>Số vị trí: 1<br>Mặt cắt ngang: 0,14 mm² – 4 mm²<br>AWG: 26 – 12<br>Chiều rộng: 5,2 mm<br>Chiều cao: 35,3 mm<br>Màu sắc: xám<br>Kiểu lắp đặt: NS 35/7,5, NS 35/15" ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "PT 10-TWIN",
+        "title": "Cầu đấu dây Push in 10 TWIN",
+        "image": "Picture_Phoenix/PT 10-TWIN.jpg",
+        "sku": "PT 10-TWIN",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Điện áp: 1000V<br>Dòng điện: 57A<br>Kiểu kết nối: Push-in<br>Dùng cho dây điện có tiết diện: 0.5 mm² – 16 mm²<br>AWG: 20 – 6<br>Số cổng kết nối: 3<br>Kích thước: width: 10.2 mm, height: 49.5 mm<br>Màu: xám<br>Gắn trên thanh Din rail loại: NS 35/7,5, NS 35/15" ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "FBS 5-10",
+        "title": "Thanh nối cầu FBS 5-10",
+        "image": "Picture_Phoenix/FBS 5-10.jpg",
+        "sku": "FBS 5-10",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Loại sản phẩm: Thanh nối cầu (jumper bar)<br>Số cực: 5<br>Dùng cho loại cầu đấu: Phù hợp với cầu đấu dòng PT, Push-in<br>Dòng định mức: Thường trong khoảng 32A-41A (tùy thuộc vào model cụ thể)<br>Vật liệu: Đồng và có lớp phủ chống ăn mòn<br>Chiều dài: 10 mm<br>Màu sắc: Màu đỏ<br>Ứng dụng: Dùng để nối các cầu đấu với nhau, giúp tiết kiệm thời gian đấu nối và đảm bảo độ chắc chắn trong kết nối." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "FBS 10-5",
+        "title": "Thanh nối cầu FBS 10-5",
+        "image": "Picture_Phoenix/FBS 10-5.jpg",
+        "sku": "FBS 10-5",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Loại sản phẩm: Thanh nối cầu (jumper bar)<br>Số cực: 10<br>Dùng cho loại cầu đấu: Phù hợp với cầu đấu dòng PT, Push-in<br>Dòng định mức: Thường trong khoảng 32A-41A (tùy thuộc vào model cụ thể)<br>Vật liệu: Đồng và có lớp phủ chống ăn mòn<br>Chiều dài: 5 mm<br>Màu sắc: Màu đỏ<br>Ứng dụng: Dùng để nối các cầu đấu với nhau, giúp tiết kiệm thời gian đấu nối và đảm bảo độ chắc chắn trong kết nối." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
     // --------------------------------------------------Phụ Kiện----------------------------------------------------------------------
     {
         "id": "Ruột gà",
