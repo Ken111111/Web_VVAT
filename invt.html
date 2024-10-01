@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INVT - VietVuongAtech</title>
     <link rel="stylesheet" href="style_1.css">
+    <script src="Sp_Imformation.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -32,6 +33,11 @@
                     <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
                 </ul>
             </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
         </div>
     </header>
 
@@ -40,6 +46,12 @@
         <div class="container">
             <h2 class="section-title">INVT</h2>  
         </div>
+        <nav></nav>
+            <ul class="SP">
+                <li><a href="invt.html" style="font-size: 1.4rem !important; color: red;"><strong>Inverter</strong></a></li>
+                <!-- <li><a href="Mitsubishi_PD.html"><strong>Power Distribution</strong></a></li> -->
+            </ul>
+        </nav>
     </section>
 
     <!-- Products Section -->
