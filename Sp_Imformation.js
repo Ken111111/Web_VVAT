@@ -1376,10 +1376,24 @@ const products = [
         "manufacturer": "Mitsubishi",
         "quality": "Mới 100%",
         "warranty": "Chính hãng",
-        "manual": "SP_Mitsubishi/Mitsubishi - MS-N - Catalog.pdf",
+        "manual": "SP_Mitsubishi/MCCB_Mitsubishi.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Dòng sản phẩm: MCCB CV<br>Số cực: 3P<br>Frame size: 250AF<br>Dòng định mức: 250A<br>Dòng cắt ngắn mạch: 25kA<br>Điện áp cách điện: 690V<br>Kích thước: <br>Chức năng: Bảo vệ quá tải và ngắn mạch, kiểm soát<br>Ứng dụng: Dùng trong mạng lưới điện dân dụng và công nghiệp<br>Tiêu chuẩn: IEC/EN 60947-2<br>Điện áp thử nghiệm xung (Uimp): 8kV" ,
         "formPage": "Form_SP_Mitsubishi_PD.html"
+    },
+    // --------------------------------------------------Omron------------------------------------------------------------------------
+    {
+        "id": "WLD",
+        "title": "Công tắc hành trình OMRON WLD",
+        "image": "Picture Omron/WLD.jpg",
+        "sku": "WLD",
+        "manufacturer": "Omron",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Omron/wl-series-omron-cong-tac-hanh-trinh-4988-catalog1.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Công tắc hành trình WLD Omron<br>Tần số hoạt động: Cơ: 120 lần/Max, Điện: 30 lần/Max<br>Chống va đập: Độ bền: 1000m/s², Sự cố: 300m/s²<br>Loại có cần tác động dài<br>Góc tác động lớn, mở rộng 90 độ về cả hai phía<br>Dễ dàng sử dụng, thiết kế nhỏ gọn<br>Nhiệt độ môi trường: -10-80°C<br>Cấp bảo vệ: IEC IP67<br>Xuất xứ: Japan" ,
+        "formPage": "Form_SP_Omron_AT.html"
     },
     // --------------------------------------------------Phụ Kiện----------------------------------------------------------------------
     {
