@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phoenix - VietVuongAtech</title>
     <link rel="stylesheet" href="style_1.css">
+    <script src="Sp_Imformation.js"></script>
 </head>
 <body>
     <!-- Header -->
     <header class="header">
         <div class="container header-top">
             <div class="contact-info">
-                <p>Hotline: 0896 449 884 | Email: vietvuongatech.vvat@gmail.com</p>
+                <p>Hotline:  <a href="tel:0896449884">0896 449 884</a> | Email: <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
             </div>
         </div>
         <div class="container header-bottom">
@@ -24,31 +25,62 @@
             </div>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="index.html">Trang Chủ</a></li>
-                    <li><a href="index.html#about">Giới Thiệu</a></li>
-                    <li><a href="index.html#products">Sản Phẩm</a></li>
-                    <li><a href="index.html#news">Tin Tức</a></li>
-                    <li><a href="index.html#catalogue">Catalogue</a></li>
-                    <li><a href="index.html#contact">Liên Hệ</a></li>
+                    <li><a href="index.html"><strong>Trang Chủ</strong> </a></li>
+                    <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
+                    <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
+                    <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
+                    <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
                 </ul>
             </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
         </div>
     </header>
 
-    <!-- Product Detail -->
-    <section id="product-detail" class="product-detail">
-        <div class="container">
-            <h2 class="section-title">Phoenix</h2>
-            <img src="Picture/phoenix.png" alt="Phoenix" class="product-image">
-            <p><strong>Phoenix Contact</strong> cung cấp các giải pháp kết nối, tự động hóa và thiết bị công nghiệp điện tử.</p>
-            <h3>Sản phẩm nổi bật:</h3>
-            <ul>
-                <li>Thiết bị kết nối: Giải pháp kết nối điện và dữ liệu cho hệ thống công nghiệp.</li>
-                <li>PLC (Programmable Logic Controller): Điều khiển và tự động hóa quy trình</li>
-                <li>Thiết bị bảo vệ: Bảo vệ hệ thống điện khỏi sự cố.</li>
-                <li>Cảm biến: Đo lường và giám sát các yếu tố môi trường và quy trình.</li>
+   <!---------------------------------------------------------------- Product Detail-------------------------------------------------------- -->
+   <section id="product-detail" class="product-detail">
+    <div class="container">
+        <h2 class="section-title">Phoenix</h2>
+        <!-- <nav>
+            <ul class="SP">
+                <li><a href="siemens.html" style="font-size: 1.4rem !important; color: red;"><strong>PLC S7-1200</strong></a></li>
+                <li><a href="siemens_S7_1500.html"><strong>PLC S7-1500</strong></a></li>
+                <li><a href="siemens_S7_HMI.html"><strong>Panels</strong> </a></li>
+                <li><a href="siemens_S7_ET200.html"><strong>ET-200</strong></a></li>
+                <li><a href="siemens_S7_SITOP.html"><strong>Power Supply & DC-UPS</strong></a></li>
+                <li><a href="siemens_S7_Safety.html"><strong>Safety Control Devices</strong></a></li>
             </ul>
-            <p>Website chính thức: <a href="https://www.siemens.com/global/en.html">www.siemens.com</a></p>
+        </nav> -->
+    </div>
+</section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <!-- <div class="product-card">
+                    <a href="Form_SP_PhuKien.html?productId=Ruột gà">
+                        <img src="Picture_Phukien/Ruột gà.jpg" alt="Ruột gà">
+                        <h3>Ống ruột gà</h3>
+                        <p>Ống ruột gà AD8,  AD11, AD13, AD15.8, AD21.2, AD28.5... (màu đen)</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_PhuKien.html?productId=6ES7214-1AG40-0XB0">
+                        <img src="Picture_Phukien/PG.jpg" alt="PG">
+                        <h3>PG</h3>
+                        <p>Ốc siết cáp nhựa PG 11, PG 13.5...</p>
+                    </a>
+                </div> -->
+                
+                
+                
+            </div>
         </div>
     </section>
 
@@ -58,5 +90,7 @@
             <p>&copy; 2024 VietVuongAtech. All Rights Reserved.</p>
         </div>
     </footer>
+
+    
 </body>
-</html>
+</html> 

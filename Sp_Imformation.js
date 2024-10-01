@@ -433,6 +433,58 @@ const products = [
         "infor_1":"SIMATIC ET 200SP, mô-đun giao tiếp CM PTP cho kết nối nối tiếp RS422, RS485 và RS232, Freeport, 3964 (R), USS, MODBUS RTU Master, Slave, 115200 Kbit/s." ,
         "formPage": "Form_SP_Siemns_ET200.html"
     },
+    {
+        "id": "6ES7193-6BP00-0BA0",
+        "title": "6ES7193-6BP00-0BA0 Chân đế ET 200SP",
+        "image": "Picture Siemens/6ES7193-6BP00-0BA0.jpg",
+        "sku": "6ES7137-6AA00-0BA0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES71936BP000BA0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC ET 200SP, Đế kết nối BU15-P16+A0+2B, loại BU A0, đầu nối dạng Push-in, không có đầu nối phụ, cầu nối về phía trái, kích thước WxH: 15mm x 117mm." ,
+        "formPage": "Form_SP_Siemns_ET200.html"
+    },
+    {
+        "id": "6ES7193-6BP00-0DA0",
+        "title": "66ES7193-6BP00-0DA0 Chân đế ET 200SP",
+        "image": "Picture Siemens/6ES7193-6BP00-0DA0.jpg",
+        "sku": "6ES7193-6BP00-0DA0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES71936BP000DA0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC ET 200SP, Đế kết nối BU15-P16+A0+2D, loại BU A0, đầu nối dạng Push-in, không có đầu nối phụ, nhóm tải mới, kích thước WxH: 15mm x 117mm." ,
+        "formPage": "Form_SP_Siemns_ET200.html"
+    },
+    {
+        "id": "6ES7135-6HD00-0BA1",
+        "title": "6ES7135-6HD00-0BA1 Module AQ 4XU/I Standard",
+        "image": "Picture Siemens/6ES7135-6HD00-0BA1.jpg",
+        "sku": "6ES7135-6HD00-0BA1",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES71356HD000BA1_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC ET 200SP, Mô-đun đầu ra analog, AQ 4XU/I loại chuẩn, phù hợp với loại đế A0, A1, mã màu CC00, chẩn đoán mô-đun, độ phân giải 16 bit, sai số +/- 0,3%." ,
+        "formPage": "Form_SP_Siemns_ET200.html"
+    },
+    {
+        "id": "6ES7134-6GF00-0AA1",
+        "title": "6ES7134-6GF00-0AA1 AI 8XI 2-/4-wire Basic",
+        "image": "Picture Siemens/6ES7134-6GF00-0AA1.jpg",
+        "sku": "6ES7134-6GF00-0AA1",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES71346GF000AA1_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC ET 200SP, Mô-đun đầu vào analog, AI 8XI 2-/4 dây loại cơ bản, phù hợp với loại đế A0, A1, mã màu CC01, chẩn đoán mô-đun, độ phân giải 16 bit." ,
+        "formPage": "Form_SP_Siemns_ET200.html"
+    },
     // ---------------------------------------------Safety Control Devices------------------------------------------------------
     {
         "id": "3TK2825-1BB40",
@@ -1288,6 +1340,46 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Tên: Relay nhiệt NXR-25-4-6 dãy Amper 4-6<br> Danh mục: Thiết bị đóng cắt<br> Nhà sản xuất: Chint<br> Phân loại: Rơ le nhiệt<br> Điện áp định mức: 220V-690V<br> Dòng điện định mức: 4-6A<br> Số pha: 3 pha<br> Tiêu chuẩn: IEC 60947-4/5-1<br> Lắp cùng Contactor NXC-06 đến NXC-38." ,
         "formPage": "Form_SP_Chint_AT.html"
+    },
+    // --------------------------------------------------Mitsubishi--------------------------------------------------------------------
+    {
+        "id": "S-N95",
+        "title": "Contactor Mitsubishi S-N95 105A 55kW AC200V 3P",
+        "image": "Picture_Mitsubishi/SN95.jpg",
+        "sku": "S-N95",
+        "manufacturer": "Mitsubishi",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Mitsubishi/Mitsubishi - MS-N - Catalog.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Golfacode: SHA01-175<br>Công suất(kW), AC3, 400V: 55<br>Dòng định mức(A), AC3, 380V-440V: 105<br>Tiếp điểm phụ(NO): 2<br>Tiếp điểm phụ(NC): 2" ,
+        "formPage": "Form_SP_Mitsubishi_AT.html"
+    },
+    {
+        "id": "S-N125",
+        "title": "Contactor Mitsubishi S-N125 120A 60kW AC200V 3P",
+        "image": "Picture_Mitsubishi/SN125.jpg",
+        "sku": "S-N125",
+        "manufacturer": "Mitsubishi",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Mitsubishi/Mitsubishi - MS-N - Catalog.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Golfacode: SHA00-362<br>Công suất(kW), AC3, 400V: 60<br>Dòng định mức(A), AC3, 380V-440V: 120<br>Tiếp điểm phụ(NO): 2<br>Tiếp điểm phụ(NC): 2" ,
+        "formPage": "Form_SP_Mitsubishi_AT.html"
+    },
+    {
+        "id": "NF250-CV",
+        "title": "MCCB Mitsubishi NF250-CV 3P 250A 25kA",
+        "image": "Picture_Mitsubishi/NF250-CV.jpg",
+        "sku": "NF250-CV",
+        "manufacturer": "Mitsubishi",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Mitsubishi/Mitsubishi - MS-N - Catalog.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Dòng sản phẩm: MCCB CV<br>Số cực: 3P<br>Frame size: 250AF<br>Dòng định mức: 250A<br>Dòng cắt ngắn mạch: 25kA<br>Điện áp cách điện: 690V<br>Kích thước: <br>Chức năng: Bảo vệ quá tải và ngắn mạch, kiểm soát<br>Ứng dụng: Dùng trong mạng lưới điện dân dụng và công nghiệp<br>Tiêu chuẩn: IEC/EN 60947-2<br>Điện áp thử nghiệm xung (Uimp): 8kV" ,
+        "formPage": "Form_SP_Mitsubishi_PD.html"
     },
     // --------------------------------------------------Phụ Kiện----------------------------------------------------------------------
     {
