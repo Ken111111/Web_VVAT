@@ -473,6 +473,10 @@ body {
         height: 100%; /* Chiều cao 100% để phù hợp với khung chứa */
         border: 0;    /* Không hiển thị viền */
     }
+    .video-wrapper {
+        /* box-shadow: 10px 14px 16px rgba(0, 0, 0, 0.1); */
+        width: auto
+    }
 }
 
 /* Table styles */
