@@ -287,7 +287,7 @@ body {
 .video-wrapper {
     /* box-shadow: 10px 14px 16px rgba(0, 0, 0, 0.1); */
     border-radius: 8px;
-    display: flex-start;
+    display: flex;
     justify-content: center; /* Căn giữa theo chiều ngang */
     align-items: center; /* Căn giữa theo chiều dọc nếu cần */
     margin: 20px 0; /* Thêm khoảng cách phía trên và dưới */
@@ -475,6 +475,7 @@ body {
     }
     .video-wrapper {
         width: 144%;
+        display: flex-start;
     }
 }
 
