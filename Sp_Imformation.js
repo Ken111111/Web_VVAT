@@ -1474,6 +1474,20 @@ const products = [
         "infor_1":"Loại sản phẩm: Thanh nối cầu (jumper bar)<br>Số cực: 10<br>Dùng cho loại cầu đấu: Phù hợp với cầu đấu dòng PT, Push-in<br>Dòng định mức: Thường trong khoảng 32A-41A (tùy thuộc vào model cụ thể)<br>Vật liệu: Đồng và có lớp phủ chống ăn mòn<br>Chiều dài: 5 mm<br>Màu sắc: Màu đỏ<br>Ứng dụng: Dùng để nối các cầu đấu với nhau, giúp tiết kiệm thời gian đấu nối và đảm bảo độ chắc chắn trong kết nối." ,
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
+    // ---------------------------------------------------weidmuller------------------------------------------------------------------
+    {
+        "id": "ACT20P-2CI-2CO-12-S",
+        "title": "BỘ CHUYỂN ĐỔI TÍN HIỆU ACT20P-2CI-2CO-12-S",
+        "image": "Picture weidmuller/ACT20P-2CI-2CO-12-S.jpg",
+        "sku": "ACT20P-2CI-2CO-12-S",
+        "manufacturer": "Weidmuller ",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Weidmuller/7760054117_ACT20P-2CI-2CO-12-S_vi.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bộ chuyển đổi/cách ly tín hiệu HART®<br>Đầu vào: 2 x 0(4) – 20 mA<br>Đầu ra: 2 x 4-20 mA<br>Nhiệt độ hoạt động: -20 °C…60 °C<br>Độ chính xác: <0,1% giá trị cuối<br>Dòng điện tiêu thụ: ≤60 mA (nguồn điện 24V, đầu ra 20mA)<br>Cách ly Galvanic: Bộ cách ly 3 chiều giữa đầu vào đầu ra nguồn cung cấp<br>Thanh ray: TS 35<br>Thời gian phản hồi bước: ≤ 0,5 ms<br>Hệ số nhiệt độ: 80 ppm/K<br>Loại kết nối: Kết nối vít<br>Điện áp cung cấp: 20…30 V DC." ,
+        "formPage": "Form_SP_Weidmuller _AT.html"
+    },
     // --------------------------------------------------Phụ Kiện----------------------------------------------------------------------
     {
         "id": "AD7",

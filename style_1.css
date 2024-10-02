@@ -22,9 +22,15 @@ body {
 .header {
     background-color: #ffffff;
     color: #000000;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-align: center;
+    position: none; /* Giữ header cố định khi cuộn */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Đảm bảo header luôn nằm trên các phần tử khác */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Thêm bóng đổ cho header */
 }
+
 
 .header-top {
     text-align: right;
@@ -195,7 +201,7 @@ body {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 1.5rem;
 }
 
@@ -203,7 +209,7 @@ body {
     background-color: #f9f9f9;
     padding: 1.5rem;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 25px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
@@ -331,6 +337,13 @@ body {
 
 /* Responsive */
 @media (max-width: 768px) {
+    .header {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 1rem 0;
+        text-align: center;
+        position: relative;
+    }
     .header-bottom {
         flex-direction: column;
         align-items: center; /* Canh giữa logo và các mục */
@@ -373,6 +386,13 @@ body {
 }
 
 @media (max-width: 480px) {
+    .header {
+        background-color: #ffffff;
+        color: #000000;
+        padding: 1rem 0;
+        text-align: center;
+        position: relative;
+    }
     .product-grid {
         grid-template-columns: 1fr; /* Hiển thị 1 sản phẩm mỗi dòng */
     }
