@@ -30,7 +30,7 @@ const products = [
         // "infor_2":"",
         "formPage": "Form_SP_INVT.html"
     },
-    // ----------------------------------------------------------PLC S7-1200-----------------------------------------------------------
+    // -------------------------------------------------------PLC S7-1200-----------------------------------------------------------
     {
         "id": "6ES7214-1AG40-0XB0",
         "title": "6ES7214-1AG40-0XB0 – Compact CPU 1214C DC/DC/DC S7-1200",
@@ -312,7 +312,7 @@ const products = [
         "formPage": "Form_SP_Siemns_Module.html"
     },
 
-    // -----------------------------------------------------S7-1500------------------------------------------------------------
+    // ---------------------------------------------------------S7-1500---------------------------------------------------------------
     {
         "id": "6ES7590-1AB60-0AA0",
         "title": "6ES7590-1AB60-0AA0 rail 160mm S7-1500",
@@ -369,17 +369,17 @@ const products = [
     {
         "id": "6ES7511-1AK02-0AB0",
         "title": "6ES7511-1AK02-0AB0 S7-1500 CPU 1511-1 PN",
-        "image": "Picture Siemens/6ES7532-5HF00-0AB0.jpg",
+        "image": "Picture Siemens/6ES7511-1AK02-0AB0.jpg",
         "sku": "6ES7511-1AK02-0AB0",
         "manufacturer": "Siemens",
         "quality": "Mới 100%",
         "warranty": "Chính hãng",
         "manual": "SP Siemens/6ES75111AK020AB0_datasheet_en.pdf",
         "price": "Liên hệ (0896 449 884)",
-        "infor_1":"Bộ module đầu ra analog AQ 8 X U/I HS thuộc dòng SIMATIC S7-1500. Nó có độ phân giải 16 bit và độ chính xác 0,3%, với 8 kênh đầu ra được nhóm thành các nhóm 8 kênh. Tính năng chẩn đoán và giá trị thay thế cũng được tích hợp, có thể xử lý 8 kênh trong thời gian 0,125 ms. Sản phẩm này bao gồm cả các phụ kiện như bộ kẹp chắn, kẹp che chắn, và thành phần cấp nguồn.",
+        "infor_1":"SIMATIC S7-1500, CPU 1511-1 PN vào danh sách sản phẩm của mình. Đây là thông tin về CPU với bộ nhớ làm việc 150 KB cho chương trình và 1 MB cho dữ liệu, giao diện PROFINET IRT với switch 2 cổng và thời gian xử lý bit là 60 ns. Để sử dụng, cần có thẻ nhớ SIMATIC.",
         "formPage": "Form_SP_Siemns_S7_1500.html"
     },
-    // ------------------------------------------------------HMI----------------------------------------------------------------
+    // ------------------------------------------------------HMI----------------------------------------------------------------------
     {
         "id": "6AV2124-0MC01-0AX0",
         "title": "6AV2124-0MC01-0AX0 – Màn hình HMI Comford TP1200 12″",
@@ -1262,6 +1262,19 @@ const products = [
         "formPage": "Form_SP_Chint.html"
     },
     {
+        "id": "RT28-32 16A",
+        "title": "Ruột cầu chì Chint RT28-32 16A",
+        "image": "Picture_Chint/RT28-32 16A.jpg",
+        "sku": "RT28-32 16A",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/rt28-chint-series-catalogue.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Picture_Chint/RT28-32 16A.jpg" ,
+        "formPage": "Form_SP_Chint.html"
+    },
+    {
         "id": "XJ3-G",
         "title": "Rơ le bảo vệ pha Chint XJ3-G",
         "image": "Picture_Chint/relay bảo vệ pha.jpg",
@@ -1395,6 +1408,19 @@ const products = [
         "infor_1":"Công tắc hành trình WLD Omron<br>Tần số hoạt động: Cơ: 120 lần/Max, Điện: 30 lần/Max<br>Chống va đập: Độ bền: 1000m/s², Sự cố: 300m/s²<br>Loại có cần tác động dài<br>Góc tác động lớn, mở rộng 90 độ về cả hai phía<br>Dễ dàng sử dụng, thiết kế nhỏ gọn<br>Nhiệt độ môi trường: -10-80°C<br>Cấp bảo vệ: IEC IP67<br>Xuất xứ: Japan" ,
         "formPage": "Form_SP_Omron_AT.html"
     },
+    {
+        "id": "S8VK-T12024",
+        "title": "Bộ nguồn Omron S8VK-T12024 5A 24V 120W",
+        "image": "Picture Omron/S8VK-T12024.jpg",
+        "sku": "S8VK-T12024",
+        "manufacturer": "Omron",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Omron/S8VK-T12024.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Nguồn cấp: 380…480VAC, 450…600VDC<br>Công suất đầu ra: 120W<br>Điện áp đầu ra: 24VDC<br>Dòng điện đầu ra: 5A<br>Kiểu lắp đặt: Lắp thanh ray DIN<br>Phụ kiện đi kèm: No<br>Loại: Switching power supplies<br>Loại chuyển đổi điện áp: AC/DC to DC<br>Hình dạng: Có vỏ<br>Số đầu ra: 1<br>Số pha đầu vào: 3<br>Tần số đầu vào: 50Hz, 60Hz<br>Hiệu suất: 89%<br>Chức năng bảo vệ: Overload protection, Overvoltage protection<br>Chức năng: Parallel operation, Series operation, Output indicator<br>Quạt làm mát tích hợp: Không<br>Kiểu đấu nối: Bắt vít<br>Nhiệt độ môi trường: -40…70°C<br>Độ ẩm môi trường: 0…95%<br>Khối lượng tương đối: 700g<br>Chiều rộng tổng thể: 40mm<br>Chiều cao tổng thể: 125mm<br>Chiều sâu tổng thể: 122.2mm<br>Cấp bảo vệ: IP20<br>Tiêu chuẩn: CE, CSA, EN, UL" ,
+        "formPage": "Form_SP_Omron_AT.html"
+    },
     // --------------------------------------------------Phoneix----------------------------------------------------------------------
     {
         "id": "PT 2,5",
@@ -1450,9 +1476,9 @@ const products = [
     },
     // --------------------------------------------------Phụ Kiện----------------------------------------------------------------------
     {
-        "id": "Ruột gà",
-        "title": "Ống ruột gà AD8,  AD11, AD13, AD15.8, AD21.2, AD28.5... (màu đen)",
-        "image": "Picture_Phukien/Ruột gà.jpg",
+        "id": "AD7",
+        "title": "Ống ruột gà AD7",
+        "image": "Picture_Phukien/Ruột gà AD7.jpg",
         "sku": "",
         "manufacturer": "",
         "quality": "Mới 100%",
@@ -1462,10 +1488,45 @@ const products = [
         "infor_1":"" ,
         "formPage": "Form_SP_PhuKien.html"
     },
-
-
-
-
+    {
+        "id": "AD11",
+        "title": "Ống ruột gà AD11",
+        "image": "Picture_Phukien/Ruột gà AD11.jpg",
+        "sku": "",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"" ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
+    {
+        "id": "AD13",
+        "title": "Ống ruột gà AD13",
+        "image": "Picture_Phukien/Ruột gà AD13.jpg",
+        "sku": "",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"" ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
+    {
+        "id": "AD15.8",
+        "title": "Ống ruột gà AD15.8",
+        "image": "Picture_Phukien/Ruột gà AD15.8.jpg",
+        "sku": "",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"" ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
 
     // Add more products here
 ];
