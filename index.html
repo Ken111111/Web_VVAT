@@ -12,6 +12,8 @@
         }
     </style>
     <script src="Sp_Imformation.js"></script>
+    <!-- Nút mũi tên cuộn về đầu trang -->
+
 </head>
 <body>
     <!-- Header -->
@@ -182,6 +184,13 @@
                         <p>Thiết bị tự động hóa </p>
                     </a>
                 </div>
+                <div class="product-card">
+                    <a href="">
+                        <img src="Picture/powmax.jpg" alt="Weidmuller ">
+                        <h3>PowMax </h3>
+                        <p>Thiết bị tự động hóa - Servo</p>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -213,6 +222,109 @@
         </div>
     </section>
 
+    
+    <!-- Logo Đối tác -->
+    <section id="news" class="news">
+        <h2>Đối Tác & Khách Hàng</h2>
+        <div class="partners">
+            <!-- Logo 1 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/ast.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/ast.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Logo 2 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/thaca truong hai.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/thaca truong hai.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Logo 3 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/vui coffee.jpg"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/vui coffee.jpg" class="partner-logo">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Logo 4 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/Scheider_1.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/Schneider.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo 5 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/HMV.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/HMV.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo 6 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/Ofi.jpg"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/Ofi.jpg"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo 7 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/AVP.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/AVP.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+            <!-- Logo 8 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/hawee.jpg"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/hawee.jpg"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
@@ -246,6 +358,8 @@
             <p>&copy; 2024 VietVuongAtech. All Rights Reserved.</p>
         </div>
     </footer>
+
+    <button id="scrollToTopBtn" class="scroll-to-top-btn">&#8679;</button>
 
     <script>
         const slides = document.querySelectorAll('.hero-slide');
@@ -312,7 +426,27 @@
         modal.addEventListener('click', () => {
             modal.style.display = 'none';
         });
+
+         // JavaScript để hiển thị nút khi cuộn và cuộn về đầu trang khi nhấn
+         const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        };
+
+        scrollToTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
     </script>
+    
 
 </body>
 </html>

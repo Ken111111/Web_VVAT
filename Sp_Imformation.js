@@ -11,8 +11,8 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "SP_INVT/GD20 Series VFD Manual_V1.9.pdf",
         "price": "Liên hệ (0896 449 884)",
-        // "infor_1":"",
-        // "infor_2":"",
+        "infor_1":"Biến tần INVT GD20 Series là dòng biến tần đa năng thế hệ mới với hiệu suất cao cho các ứng dụng chế tạo máy phổ thông.<br>Biến tần loại GD20 sử dụng công nghệ điều khiển vector vòng hở hiện đại với khả năng điều khiển vượt trội, lắp đặt được trên DIN RAIL với công suất nhỏ hoặc trên bảng tủ.<br>Đặc tính kỹ thuật chính:<br>Điều khiển: SVPWM, Sensorless Vector, điều khiển torque (lực căng).<br>Mô-men khởi động ở 0.5 Hz: 150%.<br>Điều khiển tốc độ chính xác đến ±0.2%, đáp ứng nhanh <20 ms.<br>Keypad cố định, keypad rời tùy chọn, có thể kéo xa 5m với biến tần công suất 4kW trở lên.<br>Truyền thông: Modbus RS485.<br>Tích hợp cuộn kháng DC (từ 18,5 ~ 110 kW).<br>Tích hợp sẵn bộ lọc IEC 61800-3 C3, tùy chọn bộ lọc IEC 61800-3 C2.<br>Chức năng ứng dụng: PLC giản đơn, đa cấp tốc độ đặt trước, điều khiển PID, cài đặt linh hoạt V/F, điều khiển thắng, chế độ tiết kiệm điện…",
+        "infor_2":"Model: GD20-0R7G-S2-BK <br> Series: GD20 <br> Công suất: 0.75 kW <br> Điện áp ngõ vào: 1 pha 220 V <br> Điện áp ngõ ra: 3 pha 220 V <br> Tần số ra: 0.1-400Hz <br> Momen khởi động: 150%, 0.5Hz, (SVC) <br> Khả năng chịu quá tải: 60s với 150% dòng định mức, 10s với 180% dòng định mức, 1s với 200% dòng định mức <br> Tích hợp sẵn: Keypad, Bộ điều khiển thắng (Breaking Unit), Cổng truyền thông RS-485, Bộ lọc EMC <br> Kiểu điều khiển: V/F (SVPWM) <br> Số cổng I/O: 13 <br> Nhiệt độ môi trường: -10 … 50 °C (ở 40 °C công suất sẽ giảm) <br> Tích hợp quạt làm mát: Có <br> Hệ thống bảo vệ nâng cao: 23 chức năng bảo vệ <br> Cấp bảo vệ: Bộ lọc EMC tích hợp IP 20 (C3) <br> Dòng điện ngõ vào: 9.3A <br> Dòng điện ngõ ra: 4.2A <br> Khối lượng: 0.9 kg",
         "formPage": "Form_SP_INVT.html"
     },
 
@@ -26,7 +26,21 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "SP_INVT/GD20 Series VFD Manual_V1.9.pdf",
         "price": "Liên hệ (0896 449 884)",
-        // "infor_1":"",
+        "infor_1":"Biến tần INVT GD20 Series là dòng biến tần đa năng thế hệ mới với hiệu suất cao cho các ứng dụng chế tạo máy phổ thông.<br>Biến tần loại GD20 sử dụng công nghệ điều khiển vector vòng hở hiện đại với khả năng điều khiển vượt trội, lắp đặt được trên DIN RAIL với công suất nhỏ hoặc trên bảng tủ.<br>Đặc tính kỹ thuật chính:<br>Điều khiển: SVPWM, Sensorless Vector, điều khiển torque (lực căng).<br>Mô-men khởi động ở 0.5 Hz: 150%.<br>Điều khiển tốc độ chính xác đến ±0.2%, đáp ứng nhanh <20 ms.<br>Keypad cố định, keypad rời tùy chọn, có thể kéo xa 5m với biến tần công suất 4kW trở lên.<br>Truyền thông: Modbus RS485.<br>Tích hợp cuộn kháng DC (từ 18,5 ~ 110 kW).<br>Tích hợp sẵn bộ lọc IEC 61800-3 C3, tùy chọn bộ lọc IEC 61800-3 C2.<br>Chức năng ứng dụng: PLC giản đơn, đa cấp tốc độ đặt trước, điều khiển PID, cài đặt linh hoạt V/F, điều khiển thắng, chế độ tiết kiệm điện…",
+        "infor_2":"Model: GD20-1R5G-S2 <br> Series: GD20 <br> Công suất: 1.5 kW <br> Điện áp ngõ vào: 1 pha 220 V <br> Điện áp ngõ ra: 3 pha 220 V <br> Tần số ra: 0.1-400Hz <br> Momen khởi động: 150%, 0.5Hz, (SVC) <br> Khả năng chịu quá tải: 60s với 150% dòng định mức, 10s với 180% dòng định mức, 1s với 200% dòng định mức <br> Tích hợp sẵn: Keypad, Bộ điều khiển thắng (Breaking Unit), Cổng truyền thông RS-485, Bộ lọc EMC <br> Kiểu điều khiển: V/F (SVPWM) <br> Số cổng I/O: 13 <br> Nhiệt độ môi trường: -10 … 50 °C (ở 40 °C công suất sẽ giảm) <br> Tích hợp quạt làm mát: Có <br> Hệ thống bảo vệ nâng cao: 23 chức năng bảo vệ <br> Cấp bảo vệ: Bộ lọc EMC tích hợp IP 20 (C3) <br> Dòng điện ngõ vào: 15.7A <br> Dòng điện ngõ ra: 7.5A <br> Khối lượng: 1.2 kg",
+        "formPage": "Form_SP_INVT.html"
+    },
+    {
+        "id": "GD200A-090G/110P-4",
+        "title": "Biến tần INVT GD200A-090G/110P-4 (90-110kW) 3 Pha 380V",
+        "image": "Picture_Invt/GD200A-090G_110P-4.jpg",
+        "sku": "GD200A-090G/110P-4",
+        "manufacturer": "INVT",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_INVT/Catalog-bien-tan-INVT-GD200A.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Ứng dụng trong máy nghiền, máy cán, kéo, cảo đùn, máy tráng màng, máy xeo giấy, máy tạo sợi, máy dệt, nhuộm, đóng gói, chế biến gỗ, băng tải, cần trục, nâng hạ, máy nén khí, bơm và quạt…<br>Chức năng chính của Biến tần INVT GD200A:<br>Chế độ điều khiển: Điều khiển V/F (SVPWM), Vector không cảm biến (SVC) và điều khiển Torque<br>Torque khởi động ở 0.5Hz: 150%<br>Điều khiển tốc độ chính xác đến ±0.2%, đáp ứng nhanh <20 ms<br>Truyền thông: Modbus, RS485<br>Công suất: 2 cấp (G/P)<br>Số cổng I/O: 18<br>Bộ lọc EMC: Tích hợp sẵn IEC 61800-3 C3 Filter<br>Điện trở thắng: Braking Unit cho biến tần với công suất từ 30 kW trở xuống<br>Kết cấu gọn, cứng cáp, có đường làm mát bằng gió riêng, chịu được môi trường bụi và ẩm<br>Màn hình biến tần/Keypad.",
         // "infor_2":"",
         "formPage": "Form_SP_INVT.html"
     },
@@ -1542,7 +1556,7 @@ const products = [
         "formPage": "Form_SP_PhuKien.html"
     },
 
-    // Add more products here
+    
 ];
 
 // Function to load product information based on product ID from URL
