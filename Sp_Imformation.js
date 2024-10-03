@@ -15,7 +15,6 @@ const products = [
         "infor_2":"Model: GD20-0R7G-S2-BK <br> Series: GD20 <br> Công suất: 0.75 kW <br> Điện áp ngõ vào: 1 pha 220 V <br> Điện áp ngõ ra: 3 pha 220 V <br> Tần số ra: 0.1-400Hz <br> Momen khởi động: 150%, 0.5Hz, (SVC) <br> Khả năng chịu quá tải: 60s với 150% dòng định mức, 10s với 180% dòng định mức, 1s với 200% dòng định mức <br> Tích hợp sẵn: Keypad, Bộ điều khiển thắng (Breaking Unit), Cổng truyền thông RS-485, Bộ lọc EMC <br> Kiểu điều khiển: V/F (SVPWM) <br> Số cổng I/O: 13 <br> Nhiệt độ môi trường: -10 … 50 °C (ở 40 °C công suất sẽ giảm) <br> Tích hợp quạt làm mát: Có <br> Hệ thống bảo vệ nâng cao: 23 chức năng bảo vệ <br> Cấp bảo vệ: Bộ lọc EMC tích hợp IP 20 (C3) <br> Dòng điện ngõ vào: 9.3A <br> Dòng điện ngõ ra: 4.2A <br> Khối lượng: 0.9 kg",
         "formPage": "Form_SP_INVT.html"
     },
-
     {
         "id": "GD20-1R5G-S2",
         "title": "Biến tần INVT GD20-1R5G-S2 1.5kW 1 Pha 220V",
@@ -43,6 +42,35 @@ const products = [
         "infor_1":"Ứng dụng trong máy nghiền, máy cán, kéo, cảo đùn, máy tráng màng, máy xeo giấy, máy tạo sợi, máy dệt, nhuộm, đóng gói, chế biến gỗ, băng tải, cần trục, nâng hạ, máy nén khí, bơm và quạt…<br>Chức năng chính của Biến tần INVT GD200A:<br>Chế độ điều khiển: Điều khiển V/F (SVPWM), Vector không cảm biến (SVC) và điều khiển Torque<br>Torque khởi động ở 0.5Hz: 150%<br>Điều khiển tốc độ chính xác đến ±0.2%, đáp ứng nhanh <20 ms<br>Truyền thông: Modbus, RS485<br>Công suất: 2 cấp (G/P)<br>Số cổng I/O: 18<br>Bộ lọc EMC: Tích hợp sẵn IEC 61800-3 C3 Filter<br>Điện trở thắng: Braking Unit cho biến tần với công suất từ 30 kW trở xuống<br>Kết cấu gọn, cứng cáp, có đường làm mát bằng gió riêng, chịu được môi trường bụi và ẩm<br>Màn hình biến tần/Keypad.",
         // "infor_2":"",
         "formPage": "Form_SP_INVT.html"
+    },
+    // --------------------------------------------------------Powmax------------------------------------------------------------------
+    {
+        "id": "POWSD-EQ-20ASB",
+        "title": "Bộ Servo Powmax Không Thắng Bích 80mm/730W/2000rpm",
+        "image": "Picture_Powmax/powsd-eq-20asb.png",
+        "sku": "POWSD-EQ-20ASB",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Điện áp cấp : 1PH 200-240V 50/60Hz<br> Dòng điện cấp: 4A <br> Điện áp ra: 3PH 0-200V 0-333HZ <br> Dòng điện ra: 3.5A <br> Kèm cáp nối",
+        "infor_2":"L1, L2: Terminal cho nguồn vào <br> U, V, M: Terminal cho động cơ Servo <br> B1(+), PG(-): Terminal cho Servo bus <br> B1(+), B2(+),B3(+): Terminal cho điện trở xả	<br> PE: Terminal cho nối đất",
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "GM-M4-10C-080-04025-17M-A2",
+        "title": "Động cơ Servo Powmax ",
+        "image": "Picture_Powmax/GM-M4-10C-080-04025-17M-A2.jpg",
+        "sku": "GM-M4-10C-080-04025-17M-A2",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Công suất định mức: 1kW <br> Momen xoắn: 4N.m  <br> Kháng nước chuẩn: IP65 <br> Điện áp làm việc: 220VAC <br> Dòng điện định mức: 4.4A  ",
+        // "infor_2":"L1, L2: Terminal cho nguồn vào <br> U, V, M: Terminal cho động cơ Servo <br> B1(+), PG(-): Terminal cho Servo bus <br> B1(+), B2(+),B3(+): Terminal cho điện trở xả	<br> PE: Terminal cho nối đất",
+        "formPage": "Form_SP_Powmax.html"
     },
     // -------------------------------------------------------PLC S7-1200-----------------------------------------------------------
     {

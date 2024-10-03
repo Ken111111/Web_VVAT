@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INVT - VietVuongAtech</title>
-    <link rel="stylesheet" href="style_1.css">
-    <script src="Sp_Imformation.js"></script>
+    <title>Powmax - VietVuongAtech</title>
+    <link rel="stylesheet" href="style_form.css">
+    <script src="Sp_Imformation.js" defer></script>
 </head>
 <body>
     <!-- Header -->
@@ -29,7 +29,6 @@
                     <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
                     <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
                     <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
-                    <!-- <li><a href="index.html#catalogue"><strong>Catalogue</strong></a></li> -->
                     <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
                 </ul>
             </nav>
@@ -38,52 +37,45 @@
                 <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
                 <button type="button" onclick="searchProducts()">Tìm kiếm</button>
             </div>
+            <nav></nav>
+            <ul class="SP">
+                <li><a href="Powmax.html" style="font-size: 1.4rem !important; color: red;"><strong>Servo</strong></a></li>
+            </ul>
+        </nav>
         </div>
     </header>
 
     <!-- Product Detail -->
     <section id="product-detail" class="product-detail">
         <div class="container">
-            <h2 class="section-title">INVT</h2>  
-        </div>
-        <nav></nav>
-            <ul class="SP">
-                <li><a href="invt.html" style="font-size: 1.4rem !important; color: red;"><strong>Inverter</strong></a></li>
-                <!-- <li><a href="Mitsubishi_PD.html"><strong>Power Distribution</strong></a></li> -->
-            </ul>
-        </nav>
-    </section>
-
-    <!-- Products Section -->
-    <section id="products" class="products">
-        <div class="container">
-            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
-            <div class="product-grid">
-                <!-- Hàng thứ nhất -->
-                <div class="product-card">
-                    <a href="Form_SP_INVT.html?productId=GD20-0R7G-S2-BK">
-                        <img src="Picture_Invt/GD20-0R7G-S2-BK.png" alt="GD20-0R7G-S2-BK">
-                        <h3>Inverter</h3>
-                        <p>Biến tần INVT GD20-0R7G-S2-BK 0.75kW 1 Pha 220V</p>
-                    </a>
+            <h2 class="section-title">Product Title</h2>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="Picture_Invt/GD20-0R7G-S2-BK.png" alt="Product Image" style="width:100%;">
                 </div>
-                <div class="product-card">
-                    <a href="Form_SP_INVT.html?productId=GD20-1R5G-S2">
-                        <img src="Picture_Invt/GD20-0R7G-S2-BK.png" alt="GD20-1R5G-S2">
-                        <h3>Inverter</h3>
-                        <p>Biến tần INVT GD20-1R5G-S2 1.5kW 1 Pha 220V</p>
-                    </a>
-                </div>
-                <div class="product-card">
-                    <a href="Form_SP_INVT.html?productId=GD200A-090G/110P-4">
-                        <img src="Picture_Invt/GD200A-090G_110P-4.jpg" alt="GD200A-090G/110P-4">
-                        <h3>Inverter</h3>
-                        <p>Biến tần INVT GD200A-090G/110P-4 (90-110kW) 3 Pha 380V</p>
-                    </a>
+                <div class="product-description">
+                    <p><strong>SKU:</strong> SKU Value</p>
+                    <p><strong>Nhà Sản Xuất:</strong> Manufacturer Name</p>
+                    <p><strong>Chất Lượng:</strong> Quality Info</p>
+                    <p><strong>Bảo Hành:</strong> Warranty Info</p>
+                    <p><strong>Tài liệu sản phẩm:</strong> <a href="" target="_blank">Download PDF</a></p>
+                    <p style="color: crimson; font-weight: bold;"> Giá: Price Info</p>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <!-- Product Description Section -->
+    <section id="product-description" class="product-description-detail">
+        <div class="container">
+            <h3 class="section-subtitle">Mô tả chi tiết sản phẩm:</h3>
+            <p class="infor-1">infor_1</p>
+            <h4 class="section-subtitle">Đặc tính kỹ thuật chính:</h4>
+            <p class="infor-2">infor_2</p>
+        </div>
+    </section>
+
 
     <!-- Footer -->
     <footer class="footer">
