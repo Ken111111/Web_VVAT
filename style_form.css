@@ -419,3 +419,29 @@ button:hover {
     text-decoration: underline ;
     color: #0056b3;
 }
+
+/* zalo */
+.zalo-btn {
+    position: fixed;
+    bottom: 70px; /* Đặt nút Zalo cách nút cuộn về đầu trang */
+    left: 15px; /* Thay 'right' bằng 'left' để đưa nút sang trái */
+    width: 40px;
+    height: 40px;
+    background-color: #0084ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.zalo-btn:hover {
+    background-color: #006bb3;
+}
+
+.zalo-icon {
+    width: 30px; /* Kích thước icon Zalo */
+    height: 30px;
+}
