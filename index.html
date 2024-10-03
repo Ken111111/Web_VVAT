@@ -95,8 +95,11 @@
         <!-- Slide 15 -->
         <div class="hero-slide hidden" style="background-image: url('Picture/Slide_15.jpg');"></div>
         <!-- Slide 16 -->
-        <!-- <div class="hero-slide hidden" style="background-image: url('Picture/Slide_16.mp4');"></div> -->
-
+        <!-- <div class="hero-slide hidden" data-type="video" style="background-image: none;">
+            <video autoplay loop muted>
+                <source src="Picture/Slide_16.mp4" type="video/mp4">
+            </video>
+        </div> -->
 
         <!-- <div class="hero-content">
             <h2>Tủ Điện - Tự Động Hóa</h2>
@@ -448,6 +451,8 @@
         modal.addEventListener('click', () => {
             modal.style.display = 'none';
         });
+
+
 
          // JavaScript để hiển thị nút khi cuộn và cuộn về đầu trang khi nhấn
          const scrollToTopBtn = document.getElementById('scrollToTopBtn');
