@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INVT - VietVuongAtech</title>
-    <link rel="stylesheet" href="style_1.css">
-    <script src="Sp_Imformation.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8"> <!-- Đặt đầu tiên -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Đặt sau charset -->
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>INVT - VietVuongAtech</title> <!-- Có thể đặt gần đầu -->
+        <link rel="stylesheet" href="style_1.css"> <!-- Đặt trước script -->
+        <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
+        <script src="addQueryString.js" defer></script> <!-- Đặt sau cùng với defer -->
+    </head>
+    
 <body>
     <!-- Header -->
     <header class="header">
@@ -25,12 +30,11 @@
             </div>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="index.html"><strong>Trang Chủ</strong> </a></li>
-                    <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
-                    <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
-                    <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
-                    <!-- <li><a href="index.html#catalogue"><strong>Catalogue</strong></a></li> -->
-                    <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
+                    <li><a href="index.html?v=1.0"><strong>Trang Chủ</strong></a></li> <!-- Thêm query string cho HTML -->
+                    <li><a href="index.html?v=1.0#about"><strong>Giới Thiệu</strong></a></li>
+                    <li><a href="index.html?v=1.0#products"><strong>Sản Phẩm</strong></a></li>
+                    <li><a href="index.html?v=1.0#news"><strong>Tin Tức</strong></a></li>
+                    <li><a href="index.html?v=1.0#contact"><strong>Liên Hệ</strong></a></li>
                 </ul>
             </nav>
             <!-- Search Form -->
@@ -48,8 +52,7 @@
         </div>
         <nav></nav>
             <ul class="SP">
-                <li><a href="invt.html" style="font-size: 1.4rem !important; color: red;"><strong>Inverter</strong></a></li>
-                <!-- <li><a href="Mitsubishi_PD.html"><strong>Power Distribution</strong></a></li> -->
+                <li><a href="invt.html?v=1.0" style="font-size: 1.4rem !important; color: red;"><strong>Inverter</strong></a></li>
             </ul>
         </nav>
     </section>
@@ -92,19 +95,22 @@
         </div>
     </footer>
 
-    <!-- <a href="https://zalo.me/0896449884" target="_blank" class="zalo-btn">
+    <!-- Zalo button -->
+    <a href="https://zalo.me/0896449884" target="_blank" class="zalo-btn">
         <img src="Picture/zalo.png" alt="Zalo" class="zalo-icon">
-    </a> -->
-   <!-- <script>
-        window.onscroll = function() {
-        let zaloButton = document.querySelector('.zalo-btn');
-        if (document.documentElement.scrollTop > 100) {
-            zaloButton.style.display = 'flex'; // Hiển thị khi cuộn xuống hơn 100px
-        } else {
-            zaloButton.style.display = 'none'; // Ẩn khi trở về đầu trang
-        }
-    };
-   </script> -->
-   
+    </a>
+
+    <!-- Script to automatically reload the page when a new version is detected -->
+    <script>
+        window.addEventListener('load', () => {
+            const currentVersion = '1.0'; // Cập nhật phiên bản này mỗi khi thay đổi
+            const savedVersion = localStorage.getItem('version');
+
+            if (savedVersion !== currentVersion) {
+                localStorage.setItem('version', currentVersion);
+                location.reload(true); // Tải lại trang khi có phiên bản mới
+            }
+        });
+    </script>
 </body>
 </html>
