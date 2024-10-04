@@ -6,10 +6,11 @@
     <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" /> -->
-    <title>Siemens - VietVuongAtech</title>
-    <link rel="stylesheet" href="style_form.css">
+    <title>Khí Nén - VietVuongAtech</title>
+    <link rel="stylesheet" href="style_1.css">
     <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
-    <!-- <script src="addQueryString.js" defer></script>  --> <!-- Đặt sau cùng với defer --></head>
+    <!-- <script src="addQueryString.js" defer></script>  --> <!-- Đặt sau cùng với defer -->
+</head>
 <body>
     <!-- Header -->
     <header class="header">
@@ -31,7 +32,7 @@
                     <li><a href="index.html"><strong>Trang Chủ</strong> </a></li>
                     <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
                     <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
-                    <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
+                    <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>                   
                     <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
                 </ul>
             </nav>
@@ -40,48 +41,45 @@
                 <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
                 <button type="button" onclick="searchProducts()">Tìm kiếm</button>
             </div>
-            <nav>
-                <ul class="SP">
-                    <li><a href="siemens.html"><strong>PLC S7-1200</strong></a></li>
-                    <li><a href="siemens_S7_1500.html" ><strong>PLC S7-1500</strong></a></li>
-                    <li><a href="siemens_S7_HMI.html" ><strong>Panels</strong> </a></li>
-                    <li><a href="siemens_S7_ET200.html" style="font-size: 1.4rem !important; color: red;"><strong>ET-200</strong></a></li>
-                    <li><a href="siemens_S7_SITOP.html"><strong>Power Supply & DC-UPS</strong></a></li>
-                    <li><a href="siemens_S7_Safety.html"><strong>Safety Control Devices</strong></a></li>
-                </ul>
-            </nav>
+            
         </div>
     </header>
 
     <!-- Product Detail -->
     <section id="product-detail" class="product-detail">
         <div class="container">
-            <h2 class="section-title">Product Title</h2>
-            <div class="product-info">
-                <div class="product-image">
-                    <img src="Picture Siemens/S7-1200.png" alt="Product Image" style="width:100%;">
-                </div>
-                <div class="product-description">
-                    <p><strong>SKU:</strong> SKU Value</p>
-                    <p><strong>Nhà Sản Xuất:</strong> Manufacturer Name</p>
-                    <p><strong>Chất Lượng:</strong> Quality Info</p>
-                    <p><strong>Bảo Hành:</strong> Warranty Info</p>
-                    <p><strong>Tài liệu sản phẩm:</strong> <a href="SP Siemens/Catalogue_PLC_Siemens_S7_1200.pdf" target="_blank">Download PDF</a></p>
-                    <p style="color: crimson; font-weight: bold;"> Giá: Price Info</p>
-                </div>
+            <h2 class="section-title">Khí Nén</h2>
+        </div>
+        <nav>
+            <ul class="SP">
+                <li><a href="Khi_nen.html" style="font-size: 1.4rem !important; color: red;"><strong>Khí Nén</strong></a></li>
+                <!-- <li><a href="chint_AT.html"  ><strong>Automation & Control</strong></a></li>
+                <li><a href="chint_Safety.html" ><strong>Safety Products</strong> </a></li> -->
+
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <div class="product-card">
+                    <a href="Form_SP_Chint.html?productId=NXB-63 C32 3P">
+                        <img src="Picture_Chint/NXB-63 32A.jpg" alt="NXB-63 C32 3P">
+                        <h3>MCB</h3>
+                        <p>MCB Chint NXB-63 32A 6KA 3P                           
+                        </p>
+                    </a>
+                
+                
+                <!-- thêm sản phẩm khác -->
             </div>
         </div>
     </section>
 
-    <!-- Product Description Section -->
-    <section id="product-description" class="product-description-detail">
-        <div class="container">
-            <h3 class="section-subtitle">Mô tả chi tiết sản phẩm:</h3>
-            <p class="infor-1">infor_1</p>
-            <h4 class="section-subtitle">Đặc tính kỹ thuật chính:</h4>
-            <p class="infor-2">infor_2</p>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="footer">
