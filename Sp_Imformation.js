@@ -1497,7 +1497,7 @@ const products = [
         "manufacturer": "Omron",
         "quality": "Mới 100%",
         "warranty": "Chính hãng",
-        "manual": "SP_Omron/ESSENTIAL-PS-1AC-24DC-240W-EE.pdf",
+        "manual": "SP_Omron/ESSENTIAL-PS-1AC-24DC-480W-EE.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Bộ nguồn ESSENTIAL đầu vào 1 pha AC.<br>Đầu vào: 1 pha AC<br>Đầu ra: 24VDC/20A<br>Công suất: 480W<br>Mã hàng: ESSENTIAL-PS/1AC/24DC/480W/EE – 2910588<br>Gắn được trên thanh DIN rail" ,
         "formPage": "Form_SP_Omron_PD.html"
@@ -1553,6 +1553,32 @@ const products = [
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Loại sản phẩm: Thanh nối cầu (jumper bar)<br>Số cực: 10<br>Dùng cho loại cầu đấu: Phù hợp với cầu đấu dòng PT, Push-in<br>Dòng định mức: Thường trong khoảng 32A-41A (tùy thuộc vào model cụ thể)<br>Vật liệu: Đồng và có lớp phủ chống ăn mòn<br>Chiều dài: 5 mm<br>Màu sắc: Màu đỏ<br>Ứng dụng: Dùng để nối các cầu đấu với nhau, giúp tiết kiệm thời gian đấu nối và đảm bảo độ chắc chắn trong kết nối." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "UT 2,5",
+        "title": "Cầu đấu dây 2,5mm2",
+        "image": "Picture_Phoenix/UT 2,5.jpg",
+        "sku": "UT 2,5",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Cầu đấu dây cho dây 2,5 mm²<br>Dây: 0.14 mm² - 4 mm²<br>Dòng: 24A<br>Rộng: 5.2mm<br>Màu: Xám<br>Gắn trên thanh Din rail." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "UT 4",
+        "title": "Cầu đấu dây 4mm2",
+        "image": "Picture_Phoenix/UT 2,5.jpg",
+        "sku": "UT 4",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Cầu đấu dây cho dây 4 mm²<br>Dây: 0.14 mm² - 6 mm²<br>Dòng: 32A<br>Rộng: 6.2mm<br>Màu: Xám<br>Gắn trên thanh Din rail." ,
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     // ---------------------------------------------------weidmuller------------------------------------------------------------------
