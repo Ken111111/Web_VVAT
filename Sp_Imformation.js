@@ -1534,7 +1534,7 @@ const products = [
     {
         "id": "AD7",
         "title": "Ống ruột gà AD7",
-        "image": "Picture_Phukien/Ruột gà AD7.jpg",
+        "image": "Picture_Phukien/AD7.jpg",
         "sku": "",
         "manufacturer": "",
         "quality": "Mới 100%",
@@ -1547,7 +1547,7 @@ const products = [
     {
         "id": "AD11",
         "title": "Ống ruột gà AD11",
-        "image": "Picture_Phukien/Ruột gà AD11.jpg",
+        "image": "Picture_Phukien/AD11.jpg",
         "sku": "",
         "manufacturer": "",
         "quality": "Mới 100%",
@@ -1560,7 +1560,7 @@ const products = [
     {
         "id": "AD13",
         "title": "Ống ruột gà AD13",
-        "image": "Picture_Phukien/Ruột gà AD13.jpg",
+        "image": "Picture_Phukien/AD13.jpg",
         "sku": "",
         "manufacturer": "",
         "quality": "Mới 100%",
@@ -1573,7 +1573,7 @@ const products = [
     {
         "id": "AD15.8",
         "title": "Ống ruột gà AD15.8",
-        "image": "Picture_Phukien/Ruột gà AD15.8.jpg",
+        "image": "Picture_Phukien/AD15.8.jpg",
         "sku": "",
         "manufacturer": "",
         "quality": "Mới 100%",
@@ -1646,6 +1646,7 @@ function searchProducts() {
     }
 
 }
+
 
 // Gọi hàm để tải thông tin sản phẩm khi trang tải
 document.addEventListener("DOMContentLoaded", loadProductInfo);

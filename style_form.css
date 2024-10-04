@@ -425,8 +425,8 @@ button:hover {
     position: fixed;
     bottom: 70px; /* Đặt nút Zalo cách nút cuộn về đầu trang */
     left: 15px; /* Thay 'right' bằng 'left' để đưa nút sang trái */
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     background-color: #0084ff;
     border-radius: 50%;
     display: flex;
@@ -442,6 +442,6 @@ button:hover {
 }
 
 .zalo-icon {
-    width: 34px; /* Kích thước icon Zalo */
-    height: 34px;
+    width: 24px; /* Kích thước icon Zalo */
+    height: 24px;
 }
