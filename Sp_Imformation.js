@@ -1461,7 +1461,46 @@ const products = [
         "manual": "SP_Omron/S8VK-T12024.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Nguồn cấp: 380…480VAC, 450…600VDC<br>Công suất đầu ra: 120W<br>Điện áp đầu ra: 24VDC<br>Dòng điện đầu ra: 5A<br>Kiểu lắp đặt: Lắp thanh ray DIN<br>Phụ kiện đi kèm: No<br>Loại: Switching power supplies<br>Loại chuyển đổi điện áp: AC/DC to DC<br>Hình dạng: Có vỏ<br>Số đầu ra: 1<br>Số pha đầu vào: 3<br>Tần số đầu vào: 50Hz, 60Hz<br>Hiệu suất: 89%<br>Chức năng bảo vệ: Overload protection, Overvoltage protection<br>Chức năng: Parallel operation, Series operation, Output indicator<br>Quạt làm mát tích hợp: Không<br>Kiểu đấu nối: Bắt vít<br>Nhiệt độ môi trường: -40…70°C<br>Độ ẩm môi trường: 0…95%<br>Khối lượng tương đối: 700g<br>Chiều rộng tổng thể: 40mm<br>Chiều cao tổng thể: 125mm<br>Chiều sâu tổng thể: 122.2mm<br>Cấp bảo vệ: IP20<br>Tiêu chuẩn: CE, CSA, EN, UL" ,
-        "formPage": "Form_SP_Omron_AT.html"
+        "formPage": "Form_SP_Omron_PD.html"
+    },
+    {
+        "id": "ESSENTIAL-PS/1AC/24DC/120W/EE",
+        "title": "Bộ nguồn ESSENTIAL-PS/1AC/24DC/120W/EE",
+        "image": "Picture Omron/ESSENTIAL-PS-1AC-24DC-120W-EE.jpg",
+        "sku": "ESSENTIAL-PS/1AC/24DC/120W/EE",
+        "manufacturer": "Omron",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Omron/ESSENTIAL-PS-1AC-24DC-120W-EE.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bộ nguồn ESSENTIAL đầu vào: 1 pha AC<br>Đầu ra: 24VDC/5A<br>Công suất: 120W<br>Mã hàng: ESSENTIAL-PS/1AC/24DC/120W/EE – 2910586<br>Gắn được trên thanh DIN rail" ,
+        "formPage": "Form_SP_Omron_PD.html"
+    },
+    {
+        "id": "ESSENTIAL-PS/1AC/24DC/240W/EE",
+        "title": "Bộ nguồn ESSENTIAL-PS/1AC/24DC/240W/EE",
+        "image": "Picture Omron/ESSENTIAL-PS-1AC-24DC-240W-EE.jpg",
+        "sku": "ESSENTIAL-PS/1AC/24DC/240W/EE",
+        "manufacturer": "Omron",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Omron/ESSENTIAL-PS-1AC-24DC-240W-EE.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bộ nguồn ESSENTIAL đầu vào 1 pha AC.<br>Đầu vào: 1 pha AC<br>Đầu ra: 24VDC/10A<br>Công suất: 240W<br>Mã hàng: ESSENTIAL-PS/1AC/24DC/240W/EE – 2910587<br>Gắn được trên thanh DIN rail" ,
+        "formPage": "Form_SP_Omron_PD.html"
+    },
+    {
+        "id": "ESSENTIAL-PS/1AC/24DC/480W/EE",
+        "title": "Bộ nguồn ESSENTIAL-PS/1AC/24DC/480W/EE",
+        "image": "Picture Omron/ESSENTIAL-PS-1AC-24DC-480W-EE.jpg",
+        "sku": "ESSENTIAL-PS/1AC/24DC/480W/EE",
+        "manufacturer": "Omron",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Omron/ESSENTIAL-PS-1AC-24DC-240W-EE.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bộ nguồn ESSENTIAL đầu vào 1 pha AC.<br>Đầu vào: 1 pha AC<br>Đầu ra: 24VDC/20A<br>Công suất: 480W<br>Mã hàng: ESSENTIAL-PS/1AC/24DC/480W/EE – 2910588<br>Gắn được trên thanh DIN rail" ,
+        "formPage": "Form_SP_Omron_PD.html"
     },
     // --------------------------------------------------Phoneix----------------------------------------------------------------------
     {
