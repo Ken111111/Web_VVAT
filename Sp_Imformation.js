@@ -1596,6 +1596,7 @@ const products = [
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Cầu đấu dây cho dây 2,5 mm²<br>Dây: 0.14 mm² - 4 mm²<br>Dòng: 24A<br>Rộng: 5.2mm<br>Màu: Xám<br>Gắn trên thanh Din rail." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Loại cầu đấu: Cầu loại bắt dây kiểu vặn vít có 2 đầu đấu nối, 1 tầng kết nối dây<br> Tiết diện dây: Dành cho dây từ 0,14 mm² - 4 mm²<br> Tiết diện dây dấu nối: 2,5 mm²<br> Áp danh định: 1000V<br> Dòng danh định: 24A<br> Dòng chịu lớn nhất: 32A với dây đấu 4mm²<br> Kích thước: Rộng 5,2mm<br> Màu sắc: Màu xám nhạt<br> Vật liệu chế tạo: Bằng nhựa màu xám, bền, dẻo và cháy chậm theo tiêu chuẩn UL94 V0<br> Các chứng chỉ công nhận: CSA / UL / KEMA-KEUR / cUL / LR / PRS / KR / NK / LR / EAC IECEE CB Scheme / IECEx / ATEX / UL / EAC Ex / GL / cULus<br> Xuất xứ: Đức",
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
@@ -1609,11 +1610,12 @@ const products = [
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Cầu đấu dây cho dây 4 mm²<br>Dây: 0.14 mm² - 6 mm²<br>Dòng: 32A<br>Rộng: 6.2mm<br>Màu: Xám<br>Gắn trên thanh Din rail." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Loại cầu đấu: Cầu loại bắt dây kiểu vặn vít có 2 đầu đấu nối, 1 tầng kết nối dây<br> Tiết diện dây: Dành cho dây từ 0,14 mm² - 6 mm²<br> Tiết diện dây đấu nối: 4 mm²<br> Áp danh định: 1000V<br> Dòng danh định: 32A<br> Dòng chịu lớn nhất: 41A với dây đấu 6mm²<br> Kích thước: Rộng 6,2mm<br> Màu sắc: Màu xám nhạt<br> Vật liệu chế tạo: Bằng nhựa màu xám, bền, dẻo và cháy chậm theo tiêu chuẩn UL94 V0<br> Các chứng chỉ công nhận: CSA / UL / KEMA-KEUR / cUL / LR / PRS / KR / NK / LR / EAC IECEE CB Scheme / IECEx / ATEX / UL / EAC Ex / GL / cULus<br> Xuất xứ: Đức",
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
         "id": "UT 6",
-        "title": "Cầu đấu dây 4mm2",
+        "title": "Cầu đấu dây 6mm2",
         "image": "Picture_Phoenix/UT 2,5.jpg",
         "sku": "UT 6",
         "manufacturer": "Phonenix",
@@ -1622,6 +1624,7 @@ const products = [
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Cầu đấu dây cho dây 6 mm²<br>Dây: 0.2 mm² - 10 mm²<br>Dòng: 41A<br>Rộng: 8.2mm<br>Màu: Xám<br>Gắn trên thanh Din rail." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Loại cầu đấu: Cầu loại bắt dây kiểu vặn vít có 2 đầu đấu nối, 1 tầng kết nối dây<br> Tiết diện dây: Dành cho dây từ 0.2 mm² - 10 mm²<br> Tiết diện dây đấu nối: 6 mm²<br> Áp danh định: 1000V<br> Dòng danh định: 41A<br> Dòng chịu lớn nhất: 57A với dây đấu 10mm²<br> Kích thước: Rộng 8,2mm<br> Màu sắc: Màu xám nhạt<br> Vật liệu chế tạo: Bằng nhựa màu xám, bền, dẻo và cháy chậm theo tiêu chuẩn UL94 V0<br> Các chứng chỉ công nhận: CSA / UL / KEMA-KEUR / cUL / LR / PRS / KR / NK / LR / EAC IECEE CB Scheme / IECEx / ATEX / UL / EAC Ex / GL / cULus<br> Xuất xứ: Đức",
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
@@ -1634,12 +1637,13 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
-        "infor_1":"Cầu đấu dây tiếp địa UT 2,5-PE, loại vặn vít cho dây 0.14 mm² - 4 mm², màu vàng xanh, rộng 5.2mm, gắn trực tiếp lên thanh DIN rail NS32; NS35/7,5; NS35/15, phù hợp sử dụng trong môi trường cháy nổ zone 1, zone 2.<br>Dây: 0.14 mm² - 4 mm²<br>Màu: Vàng xanh<br>Rộng: 5.2mm<br>Gắn trên thanh DIN rail NS32; NS35/7,5; NS35/15<br>Ứng dụng: Môi trường cháy nổ zone 1, zone 2." ,
+        "infor_1":"Cầu đấu dây tiếp địa UT 2,5-PE<br>Màu: Vàng xanh<br>Rộng: 5.2mm<br>Gắn trên thanh DIN rail NS32; NS35/7,5; NS35/15<br>Ứng dụng: Môi trường cháy nổ zone 1, zone 2." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Loại cầu đấu: Cầu đấu tiếp địa loại bắt dây kiểu vặn vít có 2 đầu đấu nối, 1 tầng kết nối dây<br> Tiết diện dây: Dành cho dây từ 0.14 mm² - 4 mm²<br> Tiết diện dây đấu nối: 2.5 mm²<br> Màu sắc: Màu vàng xanh<br> Vật liệu chế tạo: Bằng nhựa vàng xanh, bền, dẻo và cháy chậm theo tiêu chuẩn UL94 V0<br> Các chứng chỉ công nhận: CSA / UL / KEMA-KEUR / cUL / LR / PRS / KR / NK / LR / EAC IECEE CB Scheme / IECEx / ATEX / UL / EAC Ex / GL / cULus<br> Xuất xứ: Đức",
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
         "id": "UT 4-PE",
-        "title": "Cầu đấu dây tiếp địa UT 2,5-PE",
+        "title": "Cầu đấu dây tiếp địa UT 4-PE",
         "image": "Picture_Phoenix/UT 2,5-PE.jpg",
         "sku": "UT 4-PE",
         "manufacturer": "Phonenix",
@@ -1647,12 +1651,13 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
-        "infor_1":"Cầu đấu dây tiếp địa UT 4-PE, loại vặn vít cho dây 0.14 mm² - 6 mm², màu vàng xanh, rộng 6.2mm, gắn trực tiếp lên thanh DIN rail NS32; NS35/7,5; NS35/15, phù hợp sử dụng trong môi trường cháy nổ zone 1, zone 2.<br>Dây: 0.14 mm² - 6 mm²<br>Màu: Vàng xanh<br>Rộng: 6.2mm<br>Gắn trên thanh DIN rail NS32; NS35/7,5; NS35/15<br>Ứng dụng: Môi trường cháy nổ zone 1, zone 2." ,
+        "infor_1":"Cầu đấu dây tiếp địa UT 4-PE<br>Dây: 0.14 mm² - 6 mm²<br>Màu: Vàng xanh<br>Rộng: 6.2mm<br>Gắn trên thanh DIN rail NS32; NS35/7,5; NS35/15<br>Ứng dụng: Môi trường cháy nổ zone 1, zone 2." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Loại cầu đấu: Cầu đấu tiếp địa loại bắt dây kiểu vặn vít có 2 đầu đấu nối, 1 tầng kết nối dây<br> Tiết diện dây: Dành cho dây từ 0.14 mm² - 6 mm²<br> Tiết diện dây đấu nối: 4 mm²<br> Màu sắc: Màu vàng xanh<br> Vật liệu chế tạo: Bằng nhựa vàng xanh, bền, dẻo và cháy chậm theo tiêu chuẩn UL94 V0<br> Các chứng chỉ công nhận: CSA / UL / KEMA-KEUR / cUL / LR / PRS / KR / NK / LR / EAC IECEE CB Scheme / IECEx / ATEX / UL / EAC Ex / GL / cULus<br> Xuất xứ: Đức",
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
         "id": "UT 6-PE",
-        "title": "Cầu đấu dây tiếp địa UT 2,5-PE",
+        "title": "Cầu đấu dây tiếp địa UT 6-PE",
         "image": "Picture_Phoenix/UT 2,5-PE.jpg",
         "sku": "UT 6-PE",
         "manufacturer": "Phonenix",
@@ -1660,7 +1665,8 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
-        "infor_1":"Cầu đấu dây tiếp địa UT 6-PE, loại vặn vít cho dây 0.2 mm² - 10 mm², màu vàng xanh, rộng 8.2mm, gắn trực tiếp lên thanh DIN rail NS32; NS35/7,5; NS35/15, phù hợp sử dụng trong môi trường cháy nổ zone 1, zone 2.<br>Dây: 0.2 mm² - 10 mm²<br>Màu: Vàng xanh<br>Rộng: 8.2mm<br>Gắn trên thanh DIN rail NS32; NS35/7,5; NS35/15<br>Ứng dụng: Môi trường cháy nổ zone 1, zone 2." ,
+        "infor_1":"Cầu đấu dây tiếp địa UT 6-PE, <br>Màu: Vàng xanh<br>Rộng: 8.2mm<br>Gắn trên thanh DIN rail NS32; NS35/7,5; NS35/15<br>Ứng dụng: Môi trường cháy nổ zone 1, zone 2." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Loại cầu đấu: Cầu đấu tiếp địa loại bắt dây kiểu vặn vít có 2 đầu đấu nối, 1 tầng kết nối dây<br> Tiết diện dây: Dành cho dây từ 0.2 mm² - 10 mm²<br> Tiết diện dây đấu nối: 6 mm²<br> Màu sắc: Màu vàng xanh<br> Vật liệu chế tạo: Bằng nhựa vàng xanh, bền, dẻo và cháy chậm theo tiêu chuẩn UL94 V0<br> Các chứng chỉ công nhận: CSA / UL / KEMA-KEUR / cUL / LR / PRS / KR / NK / LR / EAC IECEE CB Scheme / IECEx / ATEX / UL / EAC Ex / GL / cULus<br> Xuất xứ: Đức",
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
@@ -1687,6 +1693,7 @@ const products = [
         "manual": "SP_Phoenix/UTTB 2,5.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Sản phẩm: Cầu đấu dây 2 tầng<br>Loại: Vặn vít<br>Dây: 2.5mm²<br>Rộng: 5.2mm<br>Màu: Xám<br>Gắn trên thanh DIN rail: NS32; NS35/7,5; NS35/15." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Loại cầu đấu: Loại vặn vít có 2 đầu đấu nối, 2 tầng kết nối dây<br> Tiết diện dây: Dành cho dây từ 0.14 mm² - 4 mm²<br> Tiết diện dây dấu nối: 2,5 mm²<br> Áp danh định: 500V<br> Dòng danh định: 24A<br> Dòng chịu lớn nhất: 28A với dây đấu 4mm²<br> Kích thước: Rộng 5,2mm<br> Màu sắc: Màu xám nhạt<br> Vật liệu chế tạo: Bằng nhựa màu xám, bền, dẻo và cháy chậm theo tiêu chuẩn UL94 V0<br> Các chứng chỉ công nhận: CSA / UL / KEMA-KEUR / cUL / LR / PRS / KR / NK / LR / EAC IECEE CB Scheme / IECEx / ATEX / UL / EAC Ex / GL / cULus<br> Xuất xứ: Đức", 
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
@@ -1700,6 +1707,7 @@ const products = [
         "manual": "SP_Phoenix/UT 4-HESI 5X20.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Sản phẩm: Cầu đấu dây có cầu chì<br>Tiết diện dây: 0.14 mm² - 6 mm²<br>Dòng: 6.3A<br>Chiều rộng: 6.2mm<br>Màu: Đen<br>Cầu chì: Size 5x20<br>Gắn trên thanh DIN rail." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Loại cầu đấu: Loại vặn vít có 2 đầu đấu nối<br> Tiết diện dây: Dành cho dây từ 0,14 mm² - 6 mm²<br> Tiết diện dây dấu nối: 4 mm²<br> Loại cầu chì: Size 5x20 (glass, ceramic)<br> Áp danh định: 500V<br> Dòng danh định: 6.3A<br> Dòng chịu lớn nhất: 32A với dây đấu 4mm²<br> Kích thước: Rộng 6,2mm<br> Màu sắc: Màu đen<br> Vật liệu chế tạo: Bằng nhựa màu đen, bền, dẻo và cháy chậm theo tiêu chuẩn UL94 V0<br> Các chứng chỉ công nhận: CSA / UL / KEMA-KEUR / cUL / LR / PRS / KR / NK / LR / EAC IECEE CB Scheme / IECEx / ATEX / UL / EAC Ex / GL / cULus<br> Xuất xứ: Đức", 
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
@@ -1714,6 +1722,104 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Sản phẩm: Chặn cuối hàng kẹp<br>Chất liệu: Nhựa<br>Lắp trên DIN rail: NS 35 / 7,5 hoặc NS 35 / 15<br>Chức năng: Giữ chắc khối cầu đấu hoặc thiết bị<br>Điểm gắn nhãn: 4 điểm gắn nhãn để đánh dấu dễ dàng." ,
         "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "FL SWITCH 1005N",
+        "title": "Switch 5 cổng FL SWITCH 1005N",
+        "image": "Picture_Phoenix/FL SWITCH 1005N.jpg",
+        "sku": "FL SWITCH 1005N",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Phoenix/FL SWITCH 1005N.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Fl Switch 1005N – 1085039 <br> Switch không quản lý, 5 cổng 10/100 <br> Thiết kế mỏng <br> Hỗ trợ QoS, Profinet, Ethernet IP <br> Nguồn 24AC/DC <br> Gắn trên DIN rail <br> Linh hoạt lắp đặt theo chiều đứng hoặc ngang <br> Lý tưởng cho tủ điện hạn chế không gian chiều sâu." ,
+        "infor_2":"Tự phát hiện và điều chỉnh tốc độ<br> Có LED hiển thị trạng thái hoạt động từng cổng<br> Hỗ trợ QoS<br> PROFINET Class A sử dụng trong mạng có yêu cầu cao về thời gian thực<br> Tiết kiệm năng lượng đạt chứng chỉ IEEE 802.3az<br> Hỗ trợ lọc tập tin PROFINET PTCP giúp tăng tính ổn định truyền thông PROFINET<br> Chuyên biệt cho tự động hóa với việc ưu tiên tập tin truyền thông theo các chuẩn tự động hóa thông dụng",
+        "formPage": "Form_SP_Phoenix_switch.html"
+    },
+    {
+        "id": "FL SWITCH 1008N",
+        "title": "Switch 8 cổng FL SWITCH 1008N",
+        "image": "Picture_Phoenix/FL SWITCH 1005N.jpg",
+        "sku": "FL SWITCH 1008N",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Phoenix/FL SWITCH 1008N.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Fl Switch 1008N – 1085256 <br> Switch không quản lý, 8 cổng 10/100 <br> Thiết kế mỏng <br> Hỗ trợ QoS, Profinet, Ethernet IP <br> Nguồn 24AC/DC <br> Gắn trên DIN rail <br> Linh hoạt lắp đặt theo chiều đứng hoặc ngang <br> Lý tưởng cho tủ điện hạn chế không gian chiều sâu." ,
+        "infor_2":"Tự phát hiện và điều chỉnh tốc độ<br> Có LED hiển thị trạng thái hoạt động từng cổng<br> Hỗ trợ QoS<br> PROFINET Class A sử dụng trong mạng có yêu cầu cao về thời gian thực<br> Tiết kiệm năng lượng đạt chứng chỉ IEEE 802.3az<br> Hỗ trợ lọc tập tin PROFINET PTCP giúp tăng tính ổn định truyền thông PROFINET<br> Chuyên biệt cho tự động hóa với việc ưu tiên tập tin truyền thông theo các chuẩn tự động hóa thông dụng",
+        "formPage": "Form_SP_Phoenix_switch.html"
+    },
+    {
+        "id": "FL SWITCH SFNB 5TX",
+        "title": "Bộ chuyển đổi mạng 5 cổng FL SWITCH SFNB 5TX ",
+        "image": "Picture_Phoenix/FL SWITCH SFNB 5TX.jpg",
+        "sku": "FL SWITCH SFNB 5TX",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Fl Switch 1008N – 1085256 <br> Switch không quản lý, 8 cổng 10/100 <br> Thiết kế mỏng <br> Hỗ trợ QoS, Profinet, Ethernet IP <br> Nguồn 24AC/DC <br> Gắn trên DIN rail <br> Linh hoạt lắp đặt theo chiều đứng hoặc ngang <br> Lý tưởng cho tủ điện hạn chế không gian chiều sâu." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Số cổng: 5 cổng RJ45<br> Tốc độ: 10/100 Mbps<br> Tính năng cơ bản: Tự phát hiện tốc độ truyền trên các cổng và giữa các switch khác trong mạng (Autocrossing & Auto detecting & negotiating) theo tiêu chuẩn IEEE 802.3<br> Điện áp cấp: 12-48 VDC<br> Nhiệt độ hoạt động: -10 °C ... 60 °C<br> Cấp bảo vệ (vỏ): IP 20<br> Kích thước: Width 28 mm x Height 110 mm x Depth 70 mm<br> Công suất: 4,4W<br> Vật liệu chế tạo: Vỏ nhôm và thép không gỉ<br> Các chứng chỉ công nhận: EMC Directive 2004/108/EC, EN 61000-6-4, EN 61000-6-2",
+        "formPage": "Form_SP_Phoenix_switch.html"
+    },
+    {
+        "id": "FL SWITCH SFNB 8TX",
+        "title": "Bộ chuyển đổi mạng 8 cổng FL SWITCH SFNB 8TX  ",
+        "image": "Picture_Phoenix/FL SWITCH SFNB 8TX.jpg",
+        "sku": "FL SWITCH SFNB 8TX",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Phoenix/FL SWITCH SFNB 8TX.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"FL SWITCH SFNB 8TX - 2891002 switch mạng công nghiệp Phoenix Contact ( industrial ethernet switch Phoenix Contact ) 8 ports đầu ra chuẩn kết nối mạng RJ45, dải điện áp hoạt động từ 9 đến 32 VDC, vỏ ngoài compact bằng nhôm giúp giải nhiệt và chống nhiễu tốt, gắn nhanh gọn trên DIN rail. Bộ chuyển đổi có trang bị tính năng autocrossing ( tính năng truyền và nhận dạng chéo giữa các switch với nhau), tốc độ dẫn truyền 10/100Mbps, có khả năng truyền với khoảng cách maximum là 100m." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5<br> Số cổng: 8 cổng RJ45<br> Tốc độ: 10/100 Mbps<br> Tính năng cơ bản: Tự phát hiện tốc độ truyền trên các cổng và giữa các switch khác trong mạng (Autocrossing & Auto detecting & negotiating) theo tiêu chuẩn IEEE 802.3<br> Điện áp cấp: 9-32 VDC<br> Nhiệt độ hoạt động: -10 °C ... 60 °C<br> Cấp bảo vệ (vỏ): IP 20<br> Kích thước: Width 28 mm x Height 110 mm x Depth 70 mm<br> Công suất: 4,4W<br> Vật liệu chế tạo: Vỏ nhôm và thép không gỉ<br> Các chứng chỉ công nhận: EMC Directive 2004/108/EC, EN 61000-6-4, EN 61000-6-2",
+        "formPage": "Form_SP_Phoenix_switch.html"
+    },
+    {
+        "id": "EEM-MA770",
+        "title": "Đồng hồ đa năng EEM-MA770",
+        "image": "Picture_Phoenix/EEM-MA770.jpg",
+        "sku": "EEM-MA770",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Phoenix/EEM-MA770.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"EEM-MA770 - 2907945 Đồng hồ đa chức năng với màn hình LCD (96x96) cấp chính xác 0,2, hỗ trợ Modbus TCP, 1 cổng Ethernet  ( 10/100mbps), nguồn nuôi AC/DC ( dải rộng ), tích hợp Web server." ,
+        "infor_2":"Hàng xuất xứ: Đức<br> Nguồn nuôi: Dải rộng AC/DC: 100 V AC ... 400 V AC & 150 V DC ... 250 V DC<br> Cấp chính xác: Tới 0,2%<br> Dải đo: Lớn 35 V AC ... 690 V AC (Pha/Pha) hoặc 20 V AC ... 400 V AC (Pha-Trung tính)<br> Đầu vào CT: 1A và 5A<br> Tích hợp: Web server<br> Tích hợp: Modbus TCP/IP<br> Tích hợp: 1 DO & 1 DI",
+        "formPage": "Form_SP_Phoenix_AT.html"
+    },
+    {
+        "id": "PLC-RSC- 24DC/21",
+        "title": "Relay PLC-RSC- 24DC/21",
+        "image": "Picture_Phoenix/PLC-RSC- 24DC-21.jpg",
+        "sku": "PLC-RSC- 24DC/21",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Phoenix/PLC-RSC- 24DC-21.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"PLC-RSC-24DC /21 là dòng rơ le kín 1 cặp tiếp điểm, In= 6A,  chất lượng cao của Phoenix Contact. 2966171 PLC-RSC-24DC /21 được sử dụng rộng rãi trong các ứng dụng yêu cầu về sản phẩm chất lượng và tiết kiệm không gian lắp đặt ( Kể từ 2019 tất cả dòng PLC relay sẽ chuyển qua màu xám thay cho màu xanh như cũ)." ,
+        "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5 <br> Điện áp danh định (Coil): 24VDC <br> Báo trạng thái: Đèn LED, Có test trạng thái <br> Số cặp tiếp điểm: 1 PDT (1 NO & NC) <br> Dòng tối đa: 6A <br> Kiểu đi dây: Vặn vít (cốt kim) <br> Cấp bảo vệ: IP 20 <br> Kích thước: 6,2 x 80 x 94 mm (Dày x Cao x Rộng) <br> Tuổi thọ: 2 x 10,000,000 lần <br> Xuất xứ: Đức",
+        "formPage": "Form_SP_Phoenix_AT.html"
+    },
+    {
+        "id": "FLT-SEC-T1+T2-3S-350/25-FM",
+        "title": "Chống sét 3 pha FLT-SEC-T1+T2-3S-350/25-FM ",
+        "image": "Picture_Phoenix/FLT-SEC-T1+T2-3S-350-25-FM.jpg",
+        "sku": "FLT-SEC-T1+T2-3S-350/25-FM",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Phoenix/FLT-SEC-T1+T2-3S-350-25-FM.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"FLT-SEC-T1+T2-3S-350/25-FM có dòng cắt Iimp = 100kA ( 10/350us ). FLT-SEC-T1+T2-3S-350/25-FM là chống sét cấp 1 + cấp 2, dùng cho nguồn 3 pha, 5 dây (L1, L2, L3, PE, N), dùng trước CB nguồn điện vào nhà máy, tòa nhà." ,
+        "infor_2":"Tiếng Việt: Kết hợp trực tiếp giữa khoảng hở điện kiểu 1 không có dòng theo sau và bộ chống sét kiểu 2<br> Đặc biệt phù hợp để bảo vệ tối đa cho các thiết bị nhạy cảm trong môi trường khắc nghiệt<br> Điện áp liên tục cao 350 V AC cho mạng lưới 230/400 V AC với biến động điện áp cao<br> Có thể cắm<br> Mức bảo vệ điện áp thấp 1.5 kV<br> Chỉ báo trạng thái quang học, cơ khí<br> Có tiếp điểm chỉ báo từ xa nổi<br> Các phích cắm có thể được kiểm tra bằng CHECKMASTER 2",
+        "formPage": "Form_SP_Phoenix_AT.html"
     },
     // ---------------------------------------------------weidmuller------------------------------------------------------------------
     {
