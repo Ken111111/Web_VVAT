@@ -1540,6 +1540,35 @@ const products = [
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Loại sản phẩm: Thanh nối cầu (jumper bar)<br>Số cực: 5<br>Dùng cho loại cầu đấu: Phù hợp với cầu đấu dòng PT, Push-in<br>Dòng định mức: Thường trong khoảng 32A-41A (tùy thuộc vào model cụ thể)<br>Vật liệu: Đồng và có lớp phủ chống ăn mòn<br>Chiều dài: 10 mm<br>Màu sắc: Màu đỏ<br>Ứng dụng: Dùng để nối các cầu đấu với nhau, giúp tiết kiệm thời gian đấu nối và đảm bảo độ chắc chắn trong kết nối." ,
+        "infor_2":"FBS 5-10 có khoảng cách các chân pitch: 5.2 mm, độ dầy 50,6 mm, bằng đồng chất lượng cao cho dòng tối đa 24A",
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "FBS 10-6",
+        "title": "Thanh nối cầu FBS 10-6",
+        "image": "Picture_Phoenix/FBS 10-6.jpg",
+        "sku": "FBS 10-6",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Sản phẩm: Thanh nối dạng cắm<br>Số chân: 10 chân<br>Chất liệu: Hợp kim với đầu bọc nhựa màu đỏ<br>Dòng cầu đấu: UT 4, PT 4, ST 4<br>Nhà sản xuất: Phoenix Contact." ,
+        "infor_2":"FBS 10-6 có khoảng cách các chân pitch: 6.2 mm, độ dầy 60mm, bằng đồng chất lượng cao cho dòng tối đa 32A.",
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "FBS 10-8",
+        "title": "Thanh nối cầu FBS 10-8",
+        "image": "Picture_Phoenix/FBS 10-6.jpg",
+        "sku": "FBS 10-8",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Sản phẩm: Thanh nối (thanh jump)<br>Số chân: 10 chân<br>Dòng cầu đấu: UT 6, PIT 6, ST 6<br>Nhà sản xuất: Phoenix Contact." ,
+        // "infor_2":"FBS 10-6 có khoảng cách các chân pitch: 6.2 mm, độ dầy 60mm, bằng đồng chất lượng cao cho dòng tối đa 32A.",
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
@@ -1553,6 +1582,7 @@ const products = [
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Loại sản phẩm: Thanh nối cầu (jumper bar)<br>Số cực: 10<br>Dùng cho loại cầu đấu: Phù hợp với cầu đấu dòng PT, Push-in<br>Dòng định mức: Thường trong khoảng 32A-41A (tùy thuộc vào model cụ thể)<br>Vật liệu: Đồng và có lớp phủ chống ăn mòn<br>Chiều dài: 5 mm<br>Màu sắc: Màu đỏ<br>Ứng dụng: Dùng để nối các cầu đấu với nhau, giúp tiết kiệm thời gian đấu nối và đảm bảo độ chắc chắn trong kết nối." ,
+        "infor_2":"FBS 10-5 có khoảng cách các chân pitch: 5.2 mm, độ dầy 50,6 mm, bằng đồng chất lượng cao cho dòng tối đa 24A.",
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
     {
@@ -1581,6 +1611,110 @@ const products = [
         "infor_1":"Cầu đấu dây cho dây 4 mm²<br>Dây: 0.14 mm² - 6 mm²<br>Dòng: 32A<br>Rộng: 6.2mm<br>Màu: Xám<br>Gắn trên thanh Din rail." ,
         "formPage": "Form_SP_Phoenix_accessories.html"
     },
+    {
+        "id": "UT 6",
+        "title": "Cầu đấu dây 4mm2",
+        "image": "Picture_Phoenix/UT 2,5.jpg",
+        "sku": "UT 6",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Cầu đấu dây cho dây 6 mm²<br>Dây: 0.2 mm² - 10 mm²<br>Dòng: 41A<br>Rộng: 8.2mm<br>Màu: Xám<br>Gắn trên thanh Din rail." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "UT 2,5-PE",
+        "title": "Cầu đấu dây tiếp địa UT 2,5-PE",
+        "image": "Picture_Phoenix/UT 2,5-PE.jpg",
+        "sku": "UT 2,5-PE",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Cầu đấu dây tiếp địa UT 2,5-PE, loại vặn vít cho dây 0.14 mm² - 4 mm², màu vàng xanh, rộng 5.2mm, gắn trực tiếp lên thanh DIN rail NS32; NS35/7,5; NS35/15, phù hợp sử dụng trong môi trường cháy nổ zone 1, zone 2.<br>Dây: 0.14 mm² - 4 mm²<br>Màu: Vàng xanh<br>Rộng: 5.2mm<br>Gắn trên thanh DIN rail NS32; NS35/7,5; NS35/15<br>Ứng dụng: Môi trường cháy nổ zone 1, zone 2." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "UT 4-PE",
+        "title": "Cầu đấu dây tiếp địa UT 2,5-PE",
+        "image": "Picture_Phoenix/UT 2,5-PE.jpg",
+        "sku": "UT 4-PE",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Cầu đấu dây tiếp địa UT 4-PE, loại vặn vít cho dây 0.14 mm² - 6 mm², màu vàng xanh, rộng 6.2mm, gắn trực tiếp lên thanh DIN rail NS32; NS35/7,5; NS35/15, phù hợp sử dụng trong môi trường cháy nổ zone 1, zone 2.<br>Dây: 0.14 mm² - 6 mm²<br>Màu: Vàng xanh<br>Rộng: 6.2mm<br>Gắn trên thanh DIN rail NS32; NS35/7,5; NS35/15<br>Ứng dụng: Môi trường cháy nổ zone 1, zone 2." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "UT 6-PE",
+        "title": "Cầu đấu dây tiếp địa UT 2,5-PE",
+        "image": "Picture_Phoenix/UT 2,5-PE.jpg",
+        "sku": "UT 6-PE",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Cầu đấu dây tiếp địa UT 6-PE, loại vặn vít cho dây 0.2 mm² - 10 mm², màu vàng xanh, rộng 8.2mm, gắn trực tiếp lên thanh DIN rail NS32; NS35/7,5; NS35/15, phù hợp sử dụng trong môi trường cháy nổ zone 1, zone 2.<br>Dây: 0.2 mm² - 10 mm²<br>Màu: Vàng xanh<br>Rộng: 8.2mm<br>Gắn trên thanh DIN rail NS32; NS35/7,5; NS35/15<br>Ứng dụng: Môi trường cháy nổ zone 1, zone 2." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "D-UT 2,5/10",
+        "title": "Nắp che cầu đấu D-UT 2,5/10",
+        "image": "Picture_Phoenix/D-UT 2,5-10.jpg",
+        "sku": "D-UT 2,5/10",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Sản phẩm: Nắp che cho cầu nối dây<br>Dòng cầu nối: UT 2,5, UT 4, UT 6, UT 10<br>Rộng: 2.2mm<br>Màu: Xám<br>Xuất xứ: Balan<br>Nhà sản xuất: Phoenix Contact." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "UTTB 2,5",
+        "title": "Cầu đấu hai tầng UTTB 2,5",
+        "image": "Picture_Phoenix/UTTB 2,5.jpg",
+        "sku": "UTTB 2,5",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Phoenix/UTTB 2,5.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Sản phẩm: Cầu đấu dây 2 tầng<br>Loại: Vặn vít<br>Dây: 2.5mm²<br>Rộng: 5.2mm<br>Màu: Xám<br>Gắn trên thanh DIN rail: NS32; NS35/7,5; NS35/15." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "UT 4-HESI 5X20",
+        "title": "Cầu đấu cầu chì UT 4-HESI (5X20) ",
+        "image": "Picture_Phoenix/UT 4-HESI (5X20).jpg",
+        "sku": "UT 4-HESI 5X20",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Phoenix/UT 4-HESI 5X20.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Sản phẩm: Cầu đấu dây có cầu chì<br>Tiết diện dây: 0.14 mm² - 6 mm²<br>Dòng: 6.3A<br>Chiều rộng: 6.2mm<br>Màu: Đen<br>Cầu chì: Size 5x20<br>Gắn trên thanh DIN rail." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
+    {
+        "id": "CLIPFIX 35",
+        "title": "Chặn cuối hàng kẹp CLIPFIX 35",
+        "image": "Picture_Phoenix/CLIPFIX 35.jpg",
+        "sku": "CLIPFIX 35",
+        "manufacturer": "Phonenix",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Sản phẩm: Chặn cuối hàng kẹp<br>Chất liệu: Nhựa<br>Lắp trên DIN rail: NS 35 / 7,5 hoặc NS 35 / 15<br>Chức năng: Giữ chắc khối cầu đấu hoặc thiết bị<br>Điểm gắn nhãn: 4 điểm gắn nhãn để đánh dấu dễ dàng." ,
+        "formPage": "Form_SP_Phoenix_accessories.html"
+    },
     // ---------------------------------------------------weidmuller------------------------------------------------------------------
     {
         "id": "ACT20P-2CI-2CO-12-S",
@@ -1598,7 +1732,7 @@ const products = [
     // --------------------------------------------------Phụ Kiện----------------------------------------------------------------------
     {
         "id": "AD7",
-        "title": "Ống ruột gà AD7",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD7",
         "image": "Picture_Phukien/AD7.jpg",
         "sku": "AD7",
         "manufacturer": "",
@@ -1606,12 +1740,12 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
-        "infor_1":"" ,
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 100m/Cuộn." ,
         "formPage": "Form_SP_PhuKien.html"
     },
     {
         "id": "AD11",
-        "title": "Ống ruột gà AD11",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD11",
         "image": "Picture_Phukien/AD11.jpg",
         "sku": "AD11",
         "manufacturer": "",
@@ -1619,12 +1753,12 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
-        "infor_1":"" ,
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 100m/Cuộn." ,
         "formPage": "Form_SP_PhuKien.html"
     },
     {
         "id": "AD13",
-        "title": "Ống ruột gà AD13",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD13",
         "image": "Picture_Phukien/AD13.jpg",
         "sku": "AD13",
         "manufacturer": "",
@@ -1632,12 +1766,12 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
-        "infor_1":"" ,
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 100m/Cuộn." ,
         "formPage": "Form_SP_PhuKien.html"
     },
     {
         "id": "AD15.8",
-        "title": "Ống ruột gà AD15.8",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD15.8",
         "image": "Picture_Phukien/AD15.8.jpg",
         "sku": "AD15.8",
         "manufacturer": "",
@@ -1645,7 +1779,7 @@ const products = [
         "warranty": "Chính hãng",
         "manual": "",
         "price": "Liên hệ (0896 449 884)",
-        "infor_1":"" ,
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 100m/Cuộn." ,
         "formPage": "Form_SP_PhuKien.html"
     },
 

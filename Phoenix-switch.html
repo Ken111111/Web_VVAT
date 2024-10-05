@@ -6,8 +6,8 @@
     <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" /> -->
-    <title>Chint - VietVuongAtech</title>
-    <link rel="stylesheet" href="style_form.css">
+    <title>Phoenix - VietVuongAtech</title>
+    <link rel="stylesheet" href="style_1.css">
     <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
     <!-- <script src="addQueryString.js" defer></script>  --> <!-- Đặt sau cùng với defer -->
 </head>
@@ -41,46 +41,40 @@
                 <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
                 <button type="button" onclick="searchProducts()">Tìm kiếm</button>
             </div>
-            <nav>
-                <ul class="SP">
-                    <li><a href="Phoenix.html" style="font-size: 1.4rem !important; color: red;" ><strong>Accessories</strong></a></li>
-                    <li><a href="Phoenix-switch.html" ><strong>Switch</strong></a></li>
-
-                </ul>
-            </nav>
         </div>
     </header>
 
-    <!-- Product Detail -->
-    <section id="product-detail" class="product-detail">
+   <!---------------------------------------------------------------- Product Detail-------------------------------------------------------- -->
+   <section id="product-detail" class="product-detail">
+    <div class="container">
+        <h2 class="section-title">Phoenix</h2>
+        <nav>
+            <ul class="SP">
+                <li><a href="Phoenix.html" ><strong>Accessories</strong></a></li>
+                <li><a href="Phoenix-switch.html" style="font-size: 1.4rem !important; color: red;"><strong>Switch</strong></a></li>
+
+            </ul>
+        </nav>
+    </div>
+</section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
         <div class="container">
-            <h2 class="section-title">Product Title</h2>
-            <div class="product-info">
-                <div class="product-image">
-                    <img src="Picture Siemens/S7-1200.png" alt="Product Image" style="width:100%;">
-                </div>
-                <div class="product-description">
-                    <p><strong>SKU:</strong> SKU Value</p>
-                    <p><strong>Nhà Sản Xuất:</strong> Manufacturer Name</p>
-                    <p><strong>Chất Lượng:</strong> Quality Info</p>
-                    <p><strong>Bảo Hành:</strong> Warranty Info</p>
-                    <p><strong>Tài liệu sản phẩm:</strong> <a href="SP Siemens/Catalogue_PLC_Siemens_S7_1200.pdf" target="_blank">Download PDF</a></p>
-                    <p style="color: crimson; font-weight: bold;"> Giá: Price Info</p>
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <div class="product-card">
+                    <a href="Form_SP_Phoenix_accessories.html?productId=PT 2,5">
+                        <img src="Picture_Phoenix/PT2.5.jpg" alt="PT 2,5">
+                        <h3>Terminal Blocks</h3>
+                        <p>Cầu đấu dây PT 2,5
+                        </p>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Product Description Section -->
-    <section id="product-description" class="product-description-detail">
-        <div class="container">
-            <h3 class="section-subtitle">Mô tả chi tiết sản phẩm:</h3>
-            <p class="infor-1">infor_1</p>
-            <h4 class="section-subtitle">Đặc tính kỹ thuật chính:</h4>
-            <p class="infor-2">infor_2</p>
-        </div>
-    </section>
-
 
     <!-- Footer -->
     <footer class="footer">
@@ -102,5 +96,6 @@
         }
     };
    </script> -->
+
 </body>
-</html>
+</html> 
