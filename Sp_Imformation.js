@@ -1807,20 +1807,20 @@ const products = [
         "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5 <br> Điện áp danh định (Coil): 24VDC <br> Báo trạng thái: Đèn LED, Có test trạng thái <br> Số cặp tiếp điểm: 1 PDT (1 NO & NC) <br> Dòng tối đa: 6A <br> Kiểu đi dây: Vặn vít (cốt kim) <br> Cấp bảo vệ: IP 20 <br> Kích thước: 6,2 x 80 x 94 mm (Dày x Cao x Rộng) <br> Tuổi thọ: 2 x 10,000,000 lần <br> Xuất xứ: Đức",
         "formPage": "Form_SP_Phoenix_AT.html"
     },
-    {
-        "id": "FLT-SEC-T1+T2-3S-350/25-FM",
-        "title": "Chống sét 3 pha FLT-SEC-T1+T2-3S-350/25-FM ",
-        "image": "Picture_Phoenix/FLT-SEC-T1+T2-3S-350-25-FM.jpg",
-        "sku": "FLT-SEC-T1+T2-3S-350/25-FM",
-        "manufacturer": "Phonenix",
-        "quality": "Mới 100%",
-        "warranty": "Chính hãng",
-        "manual": "SP_Phoenix/FLT-SEC-T1+T2-3S-350-25-FM.pdf",
-        "price": "Liên hệ (0896 449 884)",
-        "infor_1":"FLT-SEC-T1+T2-3S-350/25-FM có dòng cắt Iimp = 100kA ( 10/350us ). FLT-SEC-T1+T2-3S-350/25-FM là chống sét cấp 1 + cấp 2, dùng cho nguồn 3 pha, 5 dây (L1, L2, L3, PE, N), dùng trước CB nguồn điện vào nhà máy, tòa nhà." ,
-        "infor_2":"Tiếng Việt: Kết hợp trực tiếp giữa khoảng hở điện kiểu 1 không có dòng theo sau và bộ chống sét kiểu 2<br> Đặc biệt phù hợp để bảo vệ tối đa cho các thiết bị nhạy cảm trong môi trường khắc nghiệt<br> Điện áp liên tục cao 350 V AC cho mạng lưới 230/400 V AC với biến động điện áp cao<br> Có thể cắm<br> Mức bảo vệ điện áp thấp 1.5 kV<br> Chỉ báo trạng thái quang học, cơ khí<br> Có tiếp điểm chỉ báo từ xa nổi<br> Các phích cắm có thể được kiểm tra bằng CHECKMASTER 2",
-        "formPage": "Form_SP_Phoenix_AT.html"
-    },
+    // {
+    //     "id": "as",
+    //     "title": "Chống sét 3 pha FLT-SEC-T1+T2-3S-350/25-FM ",
+    //     "image": "Picture_Phoenix/FLT-SEC-T1+T2-3S-350-25-FM.jpg",
+    //     "sku": "FLT-SEC-T1+T2-3S-350/25-FM",
+    //     "manufacturer": "Phonenix",
+    //     "quality": "Mới 100%",
+    //     "warranty": "Chính hãng",
+    //     "manual": "SP_Phoenix/FLT-SEC-T1+T2-3S-350-25-FM.pdf",
+    //     "price": "Liên hệ (0896 449 884)",
+    //     "infor_1":"FLT-SEC-T1+T2-3S-350/25-FM có dòng cắt Iimp = 100kA ( 10/350us ). FLT-SEC-T1+T2-3S-350/25-FM là chống sét cấp 1 + cấp 2, dùng cho nguồn 3 pha, 5 dây (L1, L2, L3, PE, N), dùng trước CB nguồn điện vào nhà máy, tòa nhà." ,
+    //     "infor_2":"Tiếng Việt: Kết hợp trực tiếp giữa khoảng hở điện kiểu 1 không có dòng theo sau và bộ chống sét kiểu 2<br> Đặc biệt phù hợp để bảo vệ tối đa cho các thiết bị nhạy cảm trong môi trường khắc nghiệt<br> Điện áp liên tục cao 350 V AC cho mạng lưới 230/400 V AC với biến động điện áp cao<br> Có thể cắm<br> Mức bảo vệ điện áp thấp 1.5 kV<br> Chỉ báo trạng thái quang học, cơ khí<br> Có tiếp điểm chỉ báo từ xa nổi<br> Các phích cắm có thể được kiểm tra bằng CHECKMASTER 2",
+    //     "formPage": "Form_SP_Phoenix_AT.html"
+    // },
     // ---------------------------------------------------weidmuller------------------------------------------------------------------
     {
         "id": "ACT20P-2CI-2CO-12-S",
