@@ -1807,20 +1807,7 @@ const products = [
         "infor_2":"Cách gắn: Cài trên thanh Din chuẩn NS32, NS35/15, NS35/7.5 <br> Điện áp danh định (Coil): 24VDC <br> Báo trạng thái: Đèn LED, Có test trạng thái <br> Số cặp tiếp điểm: 1 PDT (1 NO & NC) <br> Dòng tối đa: 6A <br> Kiểu đi dây: Vặn vít (cốt kim) <br> Cấp bảo vệ: IP 20 <br> Kích thước: 6,2 x 80 x 94 mm (Dày x Cao x Rộng) <br> Tuổi thọ: 2 x 10,000,000 lần <br> Xuất xứ: Đức",
         "formPage": "Form_SP_Phoenix_AT.html"
     },
-    // {
-    //     "id": "as",
-    //     "title": "Chống sét 3 pha FLT-SEC-T1+T2-3S-350/25-FM ",
-    //     "image": "Picture_Phoenix/FLT-SEC-T1+T2-3S-350-25-FM.jpg",
-    //     "sku": "FLT-SEC-T1+T2-3S-350/25-FM",
-    //     "manufacturer": "Phonenix",
-    //     "quality": "Mới 100%",
-    //     "warranty": "Chính hãng",
-    //     "manual": "SP_Phoenix/FLT-SEC-T1+T2-3S-350-25-FM.pdf",
-    //     "price": "Liên hệ (0896 449 884)",
-    //     "infor_1":"FLT-SEC-T1+T2-3S-350/25-FM có dòng cắt Iimp = 100kA ( 10/350us ). FLT-SEC-T1+T2-3S-350/25-FM là chống sét cấp 1 + cấp 2, dùng cho nguồn 3 pha, 5 dây (L1, L2, L3, PE, N), dùng trước CB nguồn điện vào nhà máy, tòa nhà." ,
-    //     "infor_2":"Tiếng Việt: Kết hợp trực tiếp giữa khoảng hở điện kiểu 1 không có dòng theo sau và bộ chống sét kiểu 2<br> Đặc biệt phù hợp để bảo vệ tối đa cho các thiết bị nhạy cảm trong môi trường khắc nghiệt<br> Điện áp liên tục cao 350 V AC cho mạng lưới 230/400 V AC với biến động điện áp cao<br> Có thể cắm<br> Mức bảo vệ điện áp thấp 1.5 kV<br> Chỉ báo trạng thái quang học, cơ khí<br> Có tiếp điểm chỉ báo từ xa nổi<br> Các phích cắm có thể được kiểm tra bằng CHECKMASTER 2",
-    //     "formPage": "Form_SP_Phoenix_AT.html"
-    // },
+    
     // ---------------------------------------------------weidmuller------------------------------------------------------------------
     {
         "id": "ACT20P-2CI-2CO-12-S",
@@ -1834,6 +1821,35 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Bộ chuyển đổi/cách ly tín hiệu HART®<br>Đầu vào: 2 x 0(4) – 20 mA<br>Đầu ra: 2 x 4-20 mA<br>Nhiệt độ hoạt động: -20 °C…60 °C<br>Độ chính xác: <0,1% giá trị cuối<br>Dòng điện tiêu thụ: ≤60 mA (nguồn điện 24V, đầu ra 20mA)<br>Cách ly Galvanic: Bộ cách ly 3 chiều giữa đầu vào đầu ra nguồn cung cấp<br>Thanh ray: TS 35<br>Thời gian phản hồi bước: ≤ 0,5 ms<br>Hệ số nhiệt độ: 80 ppm/K<br>Loại kết nối: Kết nối vít<br>Điện áp cung cấp: 20…30 V DC." ,
         "formPage": "Form_SP_Weidmuller _AT.html"
+    },
+    // ---------------------------------------------------Inverter------------------------------------------------------------------
+    {
+        "id": "ATV320U15N4C",
+        "title": "Biến tần Schneider ATV320U15N4C 1.5kW 2HP 3 Pha 380-500V",
+        "image": "Picture Schneider/ATV320U15N4C.jpg",
+        "sku": "ATV320U15N4C",
+        "manufacturer": "Schneider ",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Catalog Altivar Machine ATV320 variable speed drives.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Dòng biến tần Schneider ATV320 series được Schneider Electric tung ra thị trường vào đầu năm 2017 để điều khiển động cơ đồng bộ và không đồng bộ 3 pha. với độ tin cậy cao, đáp ứng yêu cầu vận hành của các máy đơn giản và phức tạp như: máy đóng gói, vận chuyển vật liệu, máy dệt, máy chế biến vật liệu, bơm, quạt, máy nén khí, cẩu trục." ,
+        "infor_2":"Tích hợp sẵn 5 chức năng an toàn cho người vận hành máy: Safe Torque Off SIL3, Safe Stop 1, Safe Limited Speed, Safe Maximum Speed, Guard Door Locking, tuân theo chứng chỉ Machinery Directive 2006/42/EC. <br> Ngoài ra, biến tần còn có chức năng Altivar Logic (tương đương với PLC đơn giản), hỗ trợ điều khiển một số ứng dụng đơn giản và có thể lập trình thông qua phần mềm SoMove. <br> Khả năng kết nối mạng linh hoạt được thể hiện qua việc tích hợp sẵn các chuẩn truyền thông như Modbus RTU, CANopen, cùng với phụ kiện card truyền thông hỗ trợ các chuẩn như Ethernet/IP, Modbus TCP, Profinet, EtherCAT, Profibus DP, DeviceNet, và Canopen Dual Port. <br> Biến tần còn có khả năng vận hành trong môi trường khắc nghiệt, đáp ứng tiêu chuẩn IEC 60721-3-3, 3C3 & 3S2, hoạt động liên tục ở nhiệt độ môi trường lên đến 60ºC mà không bị suy giảm công suất ngõ ra khi nhiệt độ dưới 50ºC.",
+        "formPage": "Form_SP_Schneider_Inverter.html"
+    },
+    {
+        "id": "ATV340D37N4E",
+        "title": "Biến tần Schneider ATV340D37N4E 37KW 3 Pha 380V",
+        "image": "Picture Schneider/ATV340D37N4E.jpg",
+        "sku": "ATV340D37N4E",
+        "manufacturer": "Schneider ",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Catalog Altivar Machine ATV340 variable speed drives.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"ATV340 37KW 400V 3PH WITH ETHERNET" ,
+        "infor_2":"Công suất định mức: 37 kW (50 HP) ở điện áp 400V <br> Điện áp hoạt động: 380-480V AC, 3 pha <br> Dòng điện định mức: 72.5 A <br> Tần số ngõ vào: 50/60 Hz <br> Tích hợp sẵn bộ lọc EMC Class C3 <br> Chức năng an toàn: Safe Torque Off (STO) SIL3/PL e, tích hợp sẵn chức năng an toàn cho ứng dụng máy móc <br> Tốc độ điều khiển: điều khiển vector không cảm biến hoặc có cảm biến <br> Giao tiếp truyền thông: tích hợp sẵn Modbus RTU và CANopen, hỗ trợ mở rộng các giao thức như Ethernet/IP, Modbus TCP, Profinet, EtherCAT, Profibus DP <br> Khả năng chịu quá tải: 150% dòng định mức trong 60 giây <br> Cấp bảo vệ: IP20 <br> Điều kiện vận hành: Nhiệt độ hoạt động tối đa 60ºC, đáp ứng tiêu chuẩn IEC 60721-3-3, 3C3 và 3S2 <br> Kích thước (C x R x S): 480 mm x 275 mm x 221 mm <br> Trọng lượng: khoảng 16 kg.",
+        "formPage": "Form_SP_Schneider_Inverter.html"
     },
     // --------------------------------------------------Phụ Kiện----------------------------------------------------------------------
     {
@@ -1891,6 +1907,7 @@ const products = [
 
     
 ];
+
 
 // Function to load product information based on product ID from URL
 function loadProductInfo() {
