@@ -461,7 +461,9 @@ body {
         position: relative;
     }
     .product-grid {
-        grid-template-columns: 1fr; /* Hiển thị 1 sản phẩm mỗi dòng */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
 
     .hero h2 {
@@ -864,13 +866,20 @@ ul.SP li .dropdown-content li a:hover {
     padding: 7px 1px; /* Giảm padding để không gian nền gọn gàng */
 }
 
-/* Hiển thị dropdown khi hover */
 ul.SP li:hover .dropdown-content {
-    display: block; /* Hiển thị danh sách khi hover */
+    display: block; /* Hiển thị danh sách khi hover trên máy tính */
 }
 
-/* Style dropdown li khi hover */   
 ul.SP li .dropdown-content li a:hover {
     background-color: #ddd;
 }
+
+/* Style for devices that do not support hover (touch devices) */
+@media (hover: none) {
+    ul.SP li .dropdown-content {
+        position: relative;
+    }
+
+}
+
 

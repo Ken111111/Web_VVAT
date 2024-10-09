@@ -207,7 +207,9 @@ body {
 @media (max-width: 480px) {
     /* Điều chỉnh card sản phẩm */
     .product-grid {
-        grid-template-columns: 1fr; /* 1 cột trên điện thoại */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
     }
     .hero h2 {
         font-size: 1.5rem; /* Điều chỉnh kích thước tiêu đề nhỏ hơn */

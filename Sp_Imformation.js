@@ -2277,6 +2277,31 @@ function searchProducts() {
 
 }
 
+// Xử lý dropdown mở khi click trên thiết bị di động
+document.querySelectorAll('.dropdown-toggle').forEach(function(dropdownToggle) {
+    dropdownToggle.addEventListener('click', function(e) {
+        // Ngăn chặn việc click vào link nếu có
+        e.preventDefault();
+
+        // Đóng tất cả các dropdown khác nếu có mở
+        document.querySelectorAll('.dropdown-content').forEach(function(content) {
+            if (content !== dropdownToggle.nextElementSibling) {
+                content.style.display = 'none';
+            }
+        });
+
+        // Kiểm tra và mở dropdown nếu đang đóng
+        var dropdownContent = dropdownToggle.nextElementSibling;
+        if (dropdownContent.style.display === 'block') {
+            dropdownContent.style.display = 'none';
+            dropdownToggle.classList.remove('active');
+        } else {
+            dropdownContent.style.display = 'block';
+            dropdownToggle.classList.add('active');
+        }
+    });
+});
+
 
 // Gọi hàm để tải thông tin sản phẩm khi trang tải
 document.addEventListener("DOMContentLoaded", loadProductInfo);
