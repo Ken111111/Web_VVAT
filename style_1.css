@@ -811,21 +811,66 @@ button:hover {
     height: 34px;
 }
 
-#suggestions {
-list-style-type: none;
-padding: 0;
-margin: 0;
-border: 1px solid #ccc;
-max-height: 200px;
-overflow-y: auto;
+
+/* Cấu trúc cơ bản cho danh sách */
+ul.SP {
+    list-style-type: none; /* Ẩn dấu chấm trước các mục */
+    padding: 0;
+    margin: 0;
 }
 
-#suggestions li {
-padding: 10px;
-cursor: pointer;
+ul.SP li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative; /* Giữ vị trí cho dropdown */
 }
 
-#suggestions li:hover {
-background-color: #f0f0f0;
+ul.SP li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
 }
-  
+
+ul.SP li a:hover {
+    color: #006bb3ed;
+    padding: 20px;
+}
+
+/* Cấu hình cho dropdown */
+ul.SP li .dropdown-content {
+    display: none; /* Ẩn danh sách con khi không hover */
+    position: absolute; /* Đặt dropdown bên dưới mục cha */
+    background-color: #f9f9f9;
+    width: auto; /* Điều chỉnh nền theo cỡ chữ tự động */
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 1px 1px; /* Giảm padding để không gian nền gọn gàng */
+    border-radius: 4px;
+    white-space: nowrap; /* Ngăn không cho text xuống dòng */
+}
+
+ul.SP li .dropdown-content li {
+    display: block;
+    padding: 4px 8px;
+}
+
+ul.SP li .dropdown-content li a {
+    color: black;
+    font-size: 1rem;
+}
+
+ul.SP li .dropdown-content li a:hover {
+    color: #006bb3ed;
+    padding: 7px 1px; /* Giảm padding để không gian nền gọn gàng */
+}
+
+/* Hiển thị dropdown khi hover */
+ul.SP li:hover .dropdown-content {
+    display: block; /* Hiển thị danh sách khi hover */
+}
+
+/* Style dropdown li khi hover */   
+ul.SP li .dropdown-content li a:hover {
+    background-color: #ddd;
+}
+
