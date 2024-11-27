@@ -82,7 +82,7 @@ const products = [
         "quality": "Mới 100%",
         "warranty": "Chính hãng",
         "manual": "SP Siemens/Catalogue_PLC_Siemens_S7_1200.pdf",
-        "price": "Liên hệ (0896 449 884)",
+        "price": "4.800.000 ₫",
         "infor_1":"SIMATIC S7-1200, CPU 1214C, COMPACT CPU, DC/DC/DC, ONBOARD I/O: 14 DI 24V DC; 10 DO 24 V DC; 2 AI 0 – 10V DC, POWER SUPPLY: DC 20.4 – 28.8 V DC, PROGRAM/DATA MEMORY: 100 KB.",
         "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
         "formPage": "Form_SP_Siemens.html"
@@ -2213,7 +2213,21 @@ const products = [
         "formPage": "Form_SP_PhuKien.html"
     },
 
-    
+    // --------------------------------------------------Autonics----------------------------------------------------------------------
+    {
+        "id": "MN-AB-020",
+        "title": "Công tắc không tiếp xúc loại từ tính Autonics MN-AB-020",
+        "image": "Picture Autonics/MN-AB-020.jpg",
+        "sku": "MN-AB-020",
+        "manufacturer": "Autonics",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "Sp Auonics/MN-AB-020.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Loại tiếp điểm: 1 × N.O. + 1 × N.C. <br> Khoảng cách hoạt động_OFF→ON: ≥ 5 mm <br> Khoảng cách hoạt động_ON→OFF: ≤ 15 mm <br> Trọng lượng: Khoảng 92.6g (khoảng 106.5g) <br> Điện áp chuyển mạch: ≤ 24VDC <br> Dòng điện chuyển mạch: ≤ 400mA <br> Tuổi thọ: ≥ 1 tỷ lần (với tải thấp) <br> Rung động: Biên độ 1.0mm ở tần số 10 đến 55Hz theo mỗi hướng X, Y, Z trong 2 giờ <br> Rung động_Lỗi: Biên độ 1.0mm ở tần số 10 đến 55Hz theo mỗi hướng X, Y, Z trong 10 phút <br> Va chạm: 300m/s² (khoảng 30G) theo từng hướng X, Y, Z trong 3 lần <br> Shock_Malfunction: 300m/s² (khoảng 30G) theo mỗi hướng X, Y, Z ở trạng thái BẬT / TẮT đầu ra trong 3 lần <br> Nhiệt độ xung quanh: -10 đến 55℃, bảo quản: -20 đến 60℃ <br> Độ ẩm môi trường: 35 đến 85%RH, bảo quản: 35 đến 85%RH <br> Cấu trúc bảo vệ: IP67 (tiêu chuẩn IEC) <br> Kết nối: Loại cáp <br> Chất liệu: Body/CAP: PC." ,
+        "formPage": "Form_SP_Autonics_Sensor.html"
+    },
+
 ];
 
 
