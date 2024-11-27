@@ -1463,6 +1463,19 @@ const products = [
         "infor_1":"Nguồn cấp: 380…480VAC, 450…600VDC<br>Công suất đầu ra: 120W<br>Điện áp đầu ra: 24VDC<br>Dòng điện đầu ra: 5A<br>Kiểu lắp đặt: Lắp thanh ray DIN<br>Phụ kiện đi kèm: No<br>Loại: Switching power supplies<br>Loại chuyển đổi điện áp: AC/DC to DC<br>Hình dạng: Có vỏ<br>Số đầu ra: 1<br>Số pha đầu vào: 3<br>Tần số đầu vào: 50Hz, 60Hz<br>Hiệu suất: 89%<br>Chức năng bảo vệ: Overload protection, Overvoltage protection<br>Chức năng: Parallel operation, Series operation, Output indicator<br>Quạt làm mát tích hợp: Không<br>Kiểu đấu nối: Bắt vít<br>Nhiệt độ môi trường: -40…70°C<br>Độ ẩm môi trường: 0…95%<br>Khối lượng tương đối: 700g<br>Chiều rộng tổng thể: 40mm<br>Chiều cao tổng thể: 125mm<br>Chiều sâu tổng thể: 122.2mm<br>Cấp bảo vệ: IP20<br>Tiêu chuẩn: CE, CSA, EN, UL" ,
         "formPage": "Form_SP_Omron_PD.html"
     },
+    {
+        "id": "E3F3-R61",
+        "title": "Cảm biến quang Omron E3F3-R61",
+        "image": "Picture Omron/E3F3-R61.jpg",
+        "sku": "E3F3-R61",
+        "manufacturer": "Omron",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Loại phát hiện: Gương <br> Khoảng cách phát hiện: 3m <br> Đối tượng phát hiện: Vật mờ đục 56mm <br> Nguồn cấp: 12 - 24 VDC±10% <br> Thời gian đáp ứng: 1ms <br> Nguồn sáng: LED đỏ 680mm <br> Chế độ hoạt động: Dark - ON <br> Tính năng bảo vệ: Ngắn mạch ngõ ra, nối ngược cực nguồn cấp <br> Ngõ ra: NPN (Open collector transistor output) <br> Kiểu đấu nối: Dây dài 2m <br> Cấp bảo vệ: IP66 <br> Vật liệu: Vỏ nhựa <br>" ,
+        "formPage": "Form_SP_Omron_PD.html"
+    },
     
     // --------------------------------------------------Phoneix----------------------------------------------------------------------
     {
