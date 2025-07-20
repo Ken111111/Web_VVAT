@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="KowsZsdKslkbAi9rcr7S7YfeJMYuBMFtnCJnUypfEK0" />
+    <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" /> -->
+    <title>Schneider - VietVuongAtech</title>
+    <link rel="icon" href="Picture/logo_cty.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="style_1.css">
+    <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
+    <!-- <script src="addQueryString.js" defer></script>  --> <!-- Đặt sau cùng với defer --></head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-top">
+            <div class="contact-info">
+                <p>Hotline:  <a href="tel:0896449884">0896 449 884</a> | Email: <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="container header-bottom">
+            <div class="logo-container">
+                <a href="index.html"> <!-- Thêm thẻ <a> với href trỏ đến trang index -->
+                    <img src="Picture/logo_cty.jpg" alt="Logo VietVuongAtech" class="logo-img">
+                </a>
+                <div class="company-info">
+                    <p class="company-name">CÔNG TY TNHH ĐIỆN VÀ TỰ ĐỘNG HÓA</p>
+                    <h1 class="logo">VietVuongAtech</h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html"><strong>Trang Chủ</strong> </a></li>
+                    <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
+                    <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
+                    <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
+                    <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
+                </ul>
+            </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Detail -->
+    <section id="product-detail" class="product-detail">
+        <div class="container">
+            <h2 class="section-title">Schneider Electric</h2>
+            <nav>
+                <ul class="SP">
+                    <li><a href="schneider.html" style="font-size: 1.4rem !important; color:#006bb3ed;"><strong>Power Distribution</strong></a></li>
+                    <li><a href="schneider_AT.html" ><strong>Automation & Control</strong></a></li>
+                    <li><a href="schneider_Safety.html" ><strong>Safety Products</strong> </a></li>
+                    <li class="dropdown">
+                        <a href="schneider_Inverter.html" class="dropdown-toggle" >
+                            <strong>Inverter</strong>
+                        </a>
+                        <ul class="dropdown-content">
+                            <li><a href="schneider_Inverter_ATV320.html">ATV320</a></li>
+                            <li><a href="schneider_Inverter_ATV340.html">ATV340</a></li>
+                        </ul>
+                    </li> 
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34240">
+                        <img src="Picture Schneider/EZ9F34240.jpg" alt="EZ9F34240">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider EZ9F34240 40A 4.5kA 2P                             
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34220">
+                        <img src="Picture Schneider/EZ9F34240.jpg" alt="EZ9F34220">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider EZ9F34220 20A 4.5kA 2P                         
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34232">
+                        <img src="Picture Schneider/EZ9F34240.jpg" alt="EZ9F34232">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider EZ9F34232 32A 4.5kA 2P                         
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34210">
+                        <img src="Picture Schneider/EZ9F34240.jpg" alt="EZ9F34210">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider EZ9F34210 10A 4.5kA 2P                      
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=A9F74232">
+                        <img src="Picture Schneider/A9F74232.JPG" alt="A9F74232">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider A9F74232 32A 6kA 2P                
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=A9K27220">
+                        <img src="Picture Schneider/A9F74232.JPG" alt="A9K27220">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider A9K27220 20A 6kA 2P          
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=A9F74216">
+                        <img src="Picture Schneider/A9F74232.JPG" alt="A9F74216">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider A9F74216 16A 6kA 2P        
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=A9F74210">
+                        <img src="Picture Schneider/A9F74232.JPG" alt="A9F74210">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider A9F74210 10A 6kA 2P      
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34332">
+                        <img src="Picture Schneider/EZ9F34332.JPG" alt="EZ9F34332">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider EZ9F34332 32A 4.5kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34306">
+                        <img src="Picture Schneider/EZ9F34332.JPG" alt="EZ9F34306">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider EZ9F34306 6A 4.5kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34340">
+                        <img src="Picture Schneider/EZ9F34332.JPG" alt="EZ9F34340">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider EZ9F34340 40A 4.5kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9F34320">
+                        <img src="Picture Schneider/EZ9F34332.JPG" alt="EZ9F34320">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider EZ9F34320 20A 4.5kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=A9F74332">
+                        <img src="Picture Schneider/A9F74332.JPG" alt="A9F74332">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider A9F74332 32A 6kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=A9F74340">
+                        <img src="Picture Schneider/A9F74332.JPG" alt="A9F74340">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider A9F74340 40A 6kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=A9F74310">
+                        <img src="Picture Schneider/A9F74332.JPG" alt="A9F74310">
+                        <h3>MCB</h3>
+                        <p>MCB Schneider A9F74310 10A 6kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZC100N3075">
+                        <img src="Picture Schneider/EZC100N3075.JPG" alt="EZC100N3075">
+                        <h3>MCCB</h3>
+                        <p>MCCB Schneider EZC100N3075 75A 15kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZC100F3100">
+                        <img src="Picture Schneider/EZC100N3075.JPG" alt="EZC100F3100">
+                        <h3>MCCB</h3>
+                        <p>MCCB Schneider EZC100F3100 100A 10kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZC250N3100">
+                        <img src="Picture Schneider/EZC250N3100.JPG" alt="EZC250N3100">
+                        <h3>MCCB</h3>
+                        <p>MCCB Schneider EZC250N3100 100A 25kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZC100N3100">
+                        <img src="Picture Schneider/EZC100N3075.JPG" alt="EZC100N3100">
+                        <h3>MCCB</h3>
+                        <p>MCCB Schneider EZC100N3100 100A 15kA 3P
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9L33620">
+                        <img src="Picture Schneider/EZ9L33620.JPG" alt="EZ9L33620">
+                        <h3>CB</h3>
+                        <p>CB chống sét Schneider EZ9L33620 20kA 1P+N
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_PD.html?productId=EZ9L33745">
+                        <img src="Picture Schneider/EZ9L33745.JPG" alt="EZ9L33745">
+                        <h3>CB</h3>
+                        <p>CB chống sét Schneider EZ9L33745 45kA 3P+N
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 VietVuongAtech. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://zalo.me/0896449884" target="_blank" class="zalo-btn">
+        <img src="Picture/zalo.png" alt="Zalo" class="zalo-icon">
+    </a>
+   <!-- <script>
+        window.onscroll = function() {
+        let zaloButton = document.querySelector('.zalo-btn');
+        if (document.documentElement.scrollTop > 100) {
+            zaloButton.style.display = 'flex'; // Hiển thị khi cuộn xuống hơn 100px
+        } else {
+            zaloButton.style.display = 'none'; // Ẩn khi trở về đầu trang
+        }
+    };
+   </script> -->
+
+</body>
+</html>

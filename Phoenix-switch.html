@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="KowsZsdKslkbAi9rcr7S7YfeJMYuBMFtnCJnUypfEK0" />
+    <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" /> -->
+    <title>Phoenix - VietVuongAtech</title>
+    <link rel="icon" href="Picture/logo_cty.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="style_1.css">
+    <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
+    <!-- <script src="addQueryString.js" defer></script>  --> <!-- Đặt sau cùng với defer -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-top">
+            <div class="contact-info">
+                <p>Hotline:  <a href="tel:0896449884">0896 449 884</a> | Email: <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="container header-bottom">
+            <div class="logo-container">
+                <a href="index.html"> <!-- Thêm thẻ <a> với href trỏ đến trang index -->
+                    <img src="Picture/logo_cty.jpg" alt="Logo VietVuongAtech" class="logo-img">
+                </a>
+                <div class="company-info">
+                    <p class="company-name">CÔNG TY TNHH ĐIỆN VÀ TỰ ĐỘNG HÓA</p>
+                    <h1 class="logo">VietVuongAtech</h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html"><strong>Trang Chủ</strong> </a></li>
+                    <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
+                    <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
+                    <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
+                    <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
+                </ul>
+            </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
+        </div>
+    </header>
+
+   <!---------------------------------------------------------------- Product Detail-------------------------------------------------------- -->
+   <section id="product-detail" class="product-detail">
+    <div class="container">
+        <h2 class="section-title">Phoenix</h2>
+        <nav>
+            <ul class="SP">
+                <li><a href="Phoenix.html" ><strong>Accessories</strong></a></li>
+                <li><a href="Phoenix-switch.html" style="font-size: 1.4rem !important; color: #006bb3ed;"><strong>Switch</strong></a></li>
+                <li><a href="Phoenix-AT.html" ><strong>Automation & Control</strong></a></li>
+                <li><a href="Phoenix-PD.html" ><strong>Power Distribution</strong></a></li>
+
+
+            </ul>
+        </nav>
+    </div>
+</section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <div class="product-card">
+                    <a href="Form_SP_Phoenix_switch.html?productId=FL SWITCH 1005N">
+                        <img src="Picture_Phoenix/FL SWITCH 1005N.jpg" alt="FL SWITCH 1005N">
+                        <h3>Switch</h3>
+                        <p>Switch 5 cổng FL SWITCH 1005N
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Phoenix_switch.html?productId=FL SWITCH 1008N">
+                        <img src="Picture_Phoenix/FL SWITCH 1008N.jpg" alt="FL SWITCH 1008N">
+                        <h3>Switch</h3>
+                        <p>Switch 8 cổng FL SWITCH 1008N
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Phoenix_switch.html?productId=FL SWITCH SFNB 5TX ">
+                        <img src="Picture_Phoenix/FL SWITCH SFNB 5TX.jpg" alt="FL SWITCH SFNB 5TX ">
+                        <h3>Switch</h3>
+                        <p>Bộ chuyển đổi mạng 5 cổng FL SWITCH SFNB 5TX 
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Phoenix_switch.html?productId=FL SWITCH SFNB 8TX  ">
+                        <img src="Picture_Phoenix/FL SWITCH SFNB 8TX.jpg" alt="FL SWITCH SFNB 8TX ">
+                        <h3>Switch</h3>
+                        <p>Bộ chuyển đổi mạng 8 cổng FL SWITCH SFNB 8TX 
+                        </p>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 VietVuongAtech. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://zalo.me/0896449884" target="_blank" class="zalo-btn">
+        <img src="Picture/zalo.png" alt="Zalo" class="zalo-icon">
+    </a>
+   <!-- <script>
+        window.onscroll = function() {
+        let zaloButton = document.querySelector('.zalo-btn');
+        if (document.documentElement.scrollTop > 100) {
+            zaloButton.style.display = 'flex'; // Hiển thị khi cuộn xuống hơn 100px
+        } else {
+            zaloButton.style.display = 'none'; // Ẩn khi trở về đầu trang
+        }
+    };
+   </script> -->
+
+</body>
+</html> 

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8"> <!-- Đặt đầu tiên -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Đặt sau charset -->
+        <meta name="google-site-verification" content="KowsZsdKslkbAi9rcr7S7YfeJMYuBMFtnCJnUypfEK0" />
+        <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" /> -->
+        <title>INVT - VietVuongAtech</title> <!-- Có thể đặt gần đầu -->
+        <link rel="icon" href="Picture/logo_cty.ico" type="image/x-icon" >
+        <link rel="stylesheet" href="style_1.css"> <!-- Đặt trước script -->
+        <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
+        <!-- <script src="addQueryString.js" defer></script>  --> <!-- Đặt sau cùng với defer -->
+    </head>
+    
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-top">
+            <div class="contact-info">
+                <p>Hotline:  <a href="tel:0896449884">0896 449 884</a> | Email: <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="container header-bottom">
+            <div class="logo-container">
+                <a href="index.html"> <!-- Thêm thẻ <a> với href trỏ đến trang index -->
+                    <img src="Picture/logo_cty.jpg" alt="Logo VietVuongAtech" class="logo-img">
+                </a>
+                <div class="company-info">
+                    <p class="company-name">CÔNG TY TNHH ĐIỆN VÀ TỰ ĐỘNG HÓA</p>
+                    <h1 class="logo">VietVuongAtech</h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html?v=1.0"><strong>Trang Chủ</strong></a></li> <!-- Thêm query string cho HTML -->
+                    <li><a href="index.html?v=1.0#about"><strong>Giới Thiệu</strong></a></li>
+                    <li><a href="index.html?v=1.0#products"><strong>Sản Phẩm</strong></a></li>
+                    <li><a href="index.html?v=1.0#news"><strong>Tin Tức</strong></a></li>
+                    <li><a href="index.html?v=1.0#contact"><strong>Liên Hệ</strong></a></li>
+                </ul>
+            </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Detail -->
+    <section id="product-detail" class="product-detail">
+        <div class="container">
+            <h2 class="section-title">INVT</h2>  
+        </div>
+        <nav></nav>
+            <ul class="SP">
+                <li><a href="invt.html?v=1.0" style="font-size: 1.4rem !important; color: #006bb3ed;"><strong>Inverter</strong></a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <div class="product-card">
+                    <a href="Form_SP_INVT.html?productId=GD20-0R7G-S2-BK">
+                        <img src="Picture_Invt/GD20-0R7G-S2-BK.png" alt="GD20-0R7G-S2-BK">
+                        <h3>Inverter</h3>
+                        <p>Biến tần INVT GD20-0R7G-S2-BK 0.75kW 1 Pha 220V</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_INVT.html?productId=GD20-1R5G-S2">
+                        <img src="Picture_Invt/GD20-0R7G-S2-BK.png" alt="GD20-1R5G-S2">
+                        <h3>Inverter</h3>
+                        <p>Biến tần INVT GD20-1R5G-S2 1.5kW 1 Pha 220V</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_INVT.html?productId=GD200A-090G/110P-4">
+                        <img src="Picture_Invt/GD200A-090G_110P-4.jpg" alt="GD200A-090G/110P-4">
+                        <h3>Inverter</h3>
+                        <p>Biến tần INVT GD200A-090G/110P-4 (90-110kW) 3 Pha 380V</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 VietVuongAtech. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Zalo button -->
+    <a href="https://zalo.me/0896449884" target="_blank" class="zalo-btn">
+        <img src="Picture/zalo.png" alt="Zalo" class="zalo-icon">
+    </a>
+
+    
+</body>
+</html>

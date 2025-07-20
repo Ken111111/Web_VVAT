@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="KowsZsdKslkbAi9rcr7S7YfeJMYuBMFtnCJnUypfEK0" />
+    <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" /> -->
+    <title>Siemens - VietVuongAtech</title>
+    <link rel="icon" href="Picture/logo_cty.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="style_form.css">
+    <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
+    <!-- <script src="addQueryString.js" defer></script>  --> <!-- Đặt sau cùng với defer -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-top">
+            <div class="contact-info">
+                <p>Hotline:  <a href="tel:0896449884">0896 449 884</a> | Email: <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="container header-bottom">
+            <div class="logo-container">
+                <a href="index.html"> <!-- Thêm thẻ <a> với href trỏ đến trang index -->
+                    <img src="Picture/logo_cty.jpg" alt="Logo VietVuongAtech" class="logo-img">
+                </a>
+                <div class="company-info">
+                    <p class="company-name">CÔNG TY TNHH ĐIỆN VÀ TỰ ĐỘNG HÓA</p>
+                    <h1 class="logo">VietVuongAtech</h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html"><strong>Trang Chủ</strong> </a></li>
+                    <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
+                    <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
+                    <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
+                    <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
+                </ul>
+            </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
+            <nav>
+                <ul class="SP">
+                    <li><a href="siemens.html" style="font-size: 1.4rem !important; color: #006bb3ed;"><strong>PLC S7-1200</strong></a></li>
+                    <li><a href="siemens_S7_1500.html"><strong>PLC S7-1500</strong></a></li>
+                    <li><a href="siemens_S7_HMI.html"><strong>Panels</strong> </a></li>
+                    <li><a href="siemens_S7_ET200.html"><strong>ET-200</strong></a></li>
+                    <li><a href="siemens_S7_SITOP.html"><strong>Power Supply & DC-UPS</strong></a></li>
+                    <li><a href="siemens_S7_Safety.html"><strong>Safety Control Devices</strong></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Product Detail -->
+    <section id="product-detail" class="product-detail">
+        <div class="container">
+            <h2 class="section-title">Product Title</h2>
+            <div class="product-info">
+                <div class="product-image">
+                    <img src="Picture Siemens/S7-1200.png" alt="Product Image" style="width:100%;">
+                </div>
+                <div class="product-description">
+                    <p><strong>SKU:</strong> SKU Value</p>
+                    <p><strong>Nhà Sản Xuất:</strong> Manufacturer Name</p>
+                    <p><strong>Chất Lượng:</strong> Quality Info</p>
+                    <p><strong>Bảo Hành:</strong> Warranty Info</p>
+                    <p><strong>Tài liệu sản phẩm:</strong> <a href="SP Siemens/Catalogue_PLC_Siemens_S7_1200.pdf" target="_blank">Download PDF</a></p>
+                    <p style="color: crimson; font-weight: bold;"> Giá: Price Info</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Description Section -->
+    <section id="product-description" class="product-description-detail">
+        <div class="container">
+            <h3 class="section-subtitle">Mô tả chi tiết sản phẩm:</h3>
+            <p class="infor-1">infor_1</p>
+            <h4 class="section-subtitle">Đặc tính kỹ thuật chính:</h4>
+            <p class="infor-2">infor_2</p>
+        </div>
+    </section>
+
+    <!-- Product Specification Section -->
+    <section id="product-specification" class="product-specification">
+        <div class="container">
+            <h3 class="section-subtitle">Thông số kỹ thuật chi tiết</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Đặc tính</th>
+                        <th>CPU 1211C</th>
+                        <th>CPU 1212C</th>
+                        <th>CPU 1214C</th>
+                        <th>CPU 1215C</th>
+                        <th>CPU 1217C</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tùy chọn</td>
+                        <td>DC/DC/DC, AC/DC/relay, DC/DC/relay</td>
+                        <td>DC/DC/DC, AC/DC/relay, DC/DC/relay</td>
+                        <td>DC/DC/DC, AC/DC/relay, DC/DC/relay</td>
+                        <td>DC/DC/DC, AC/DC/relay, DC/DC/relay</td>
+                        <td>DC/DC/DC</td>
+                    </tr>
+                    <tr>
+                        <td>Bộ nhớ work memory</td>
+                        <td>50 KB</td>
+                        <td>75 KB</td>
+                        <td>100 KB</td>
+                        <td>125 KB</td>
+                        <td>150 KB</td>
+                    </tr>
+                    <tr>
+                        <td>Bộ nhớ load memory</td>
+                        <td>1 MB</td>
+                        <td>2 MB</td>
+                        <td>4 MB</td>
+                        <td>4 MB</td>
+                        <td>4 MB</td>
+                    </tr>
+                    <tr>
+                        <td>Thẻ nhớ</td>
+                        <td>Tùy chọn thẻ nhớ</td>
+                        <td>Tùy chọn thẻ nhớ</td>
+                        <td>Tùy chọn thẻ nhớ</td>
+                        <td>Tùy chọn thẻ nhớ</td>
+                        <td>Tùy chọn thẻ nhớ</td>
+                    </tr>
+                    <tr>
+                        <td>DI/DO tích hợp</td>
+                        <td>6/4</td>
+                        <td>8/6</td>
+                        <td>14/10</td>
+                        <td>14/10</td>
+                        <td>14/10</td>
+                    </tr>
+                    <tr>
+                        <td>Ngõ vào Analog tích hợp</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Ngõ ra Analog tích hợp</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>2</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Process image</td>
+                        <td>1024 bytes cho ngõ vào, 1024 bytes cho ngõ ra</td>
+                        <td>1024 bytes cho ngõ vào, 1024 bytes cho ngõ ra</td>
+                        <td>1024 bytes cho ngõ vào, 1024 bytes cho ngõ ra</td>
+                        <td>1024 bytes cho ngõ vào, 1024 bytes cho ngõ ra</td>
+                        <td>1024 bytes cho ngõ vào, 1024 bytes cho ngõ ra</td>
+                    </tr>
+                    <tr>
+                        <td>Board mạch tín hiệu mở rộng</td>
+                        <td>Max. 1</td>
+                        <td>Max. 1</td>
+                        <td>Max. 1</td>
+                        <td>Max. 1</td>
+                        <td>Max. 1</td>
+                    </tr>
+                    <tr>
+                        <td>Mô đun tín hiệu mở rộng</td>
+                        <td>No</td>
+                        <td>Max. 2</td>
+                        <td>Max. 8</td>
+                        <td>Max. 8</td>
+                        <td>Max. 8</td>
+                    </tr>
+                    <tr>
+                        <td>Mô đun truyền thông mở rộng</td>
+                        <td>Max. 3</td>
+                        <td>Max. 3</td>
+                        <td>Max. 3</td>
+                        <td>Max. 3</td>
+                        <td>Max. 3</td>
+                    </tr>
+                    <tr>
+                        <td>Mã order</td>
+                        <td>6ES7211-1AE40-0XB0</td>
+                        <td>6ES7212-1AE40-0XB0</td>
+                        <td>6ES7214-1AG40-0XB0</td>
+                        <td>6ES7215-1AG40-0XB0</td>
+                        <td>6ES7217-1AG40-0XB0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 VietVuongAtech. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <a href="https://zalo.me/0896449884" target="_blank" class="zalo-btn">
+        <img src="Picture/zalo.png" alt="Zalo" class="zalo-icon">
+    </a>
+   <!-- <script>
+        window.onscroll = function() {
+        let zaloButton = document.querySelector('.zalo-btn');
+        if (document.documentElement.scrollTop > 100) {
+            zaloButton.style.display = 'flex'; // Hiển thị khi cuộn xuống hơn 100px
+        } else {
+            zaloButton.style.display = 'none'; // Ẩn khi trở về đầu trang
+        }
+    };
+   </script> -->
+</body>
+</html>

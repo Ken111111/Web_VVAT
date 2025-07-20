@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="KowsZsdKslkbAi9rcr7S7YfeJMYuBMFtnCJnUypfEK0" />
+    <title>VietVuongAtech</title>
+    <link rel="icon" href="Picture/logo_cty.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="style_1.css">
+    <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-top">
+            <div class="contact-info">
+                <p>Hotline:  <a href="tel:0896449884">0896 449 884</a> | Email: <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="container header-bottom">
+            <div class="logo-container">
+                <a href="index.html"> <!-- Thêm thẻ <a> với href trỏ đến trang index -->
+                    <img src="Picture/logo_cty.jpg" alt="Logo VietVuongAtech" class="logo-img">
+                </a>
+                <div class="company-info">
+                    <p class="company-name">CÔNG TY TNHH ĐIỆN VÀ TỰ ĐỘNG HÓA</p>
+                    <h1 class="logo">VietVuongAtech</h1>
+                </div>
+            </div>
+            
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html"><strong>Trang Chủ </strong> </a></li>
+                    <li><a href="index.html#about"> <strong>Giới Thiệu </strong></a></li>
+                    <li class="dropdown">
+                        <a href="index.html#products"><strong>Sản Phẩm</strong></a>
+                        <!-- <ul class="dropdown-content">
+                            <li><a href="chint.html">Thiết bị đóng cắt</a></li>
+                            <li><a href="siemens.html">Cảm biến</a></li>
+                            <li><a href="schneider.html">Biến tần</a></li>
+                            <li><a href="invt.html">INVT</a></li>
+                            <li><a href="Phoenix.html">Thiết bị đóng cắt</a></li>
+                            <li><a href="Phukien.html">Cảm biến</a></li>
+                            <li><a href="ls.html">Biến tần</a></li>
+                            <li><a href="hanyoung.html">INVT</a></li>
+                        </ul> -->
+                    </li>
+                    <li><a href="news.html"><strong>Tin Tức</strong> </a></li>
+                    <!-- <li><a href="index.html#catalogue"> <strong>Catalogue</strong> </a></li> -->
+                    <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
+                </ul>
+            </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Slide 1 -->
+        <div class="hero-slide active" style="background-image: url('Picture/Slide_1.png');"></div>
+        <!-- Slide 2 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_2.png');"></div>
+        <!-- Slide 3 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_3.png');"></div>
+        <!-- Slide 4 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_4.png');"></div>
+        <!-- Slide 5 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_5.png');"></div>
+        <!-- Slide 6 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_6.png');"></div>
+        <!-- Slide 7 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_7.png');"></div>
+        <!-- Slide 8 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_8.png');"></div>
+        <!-- Slide 9 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_9.png');"></div>
+        <!-- Slide 10 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_10.png');"></div>
+        <!-- Slide 11 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_11.png');"></div>
+        <!-- Slide 12 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_12.png');"></div>
+        <!-- Slide 13 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_13.png');"></div>
+        <!-- Slide 14 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_14.png');"></div>
+        <!-- Slide 15 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_15.jpg');"></div>
+        <!-- Slide 16 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_16.jpeg');"></div>
+        <!-- Slide 17 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_17.jpeg');"></div>
+        <!-- Slide 18 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_18.jpg');"></div>
+        <!-- Slide 19 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_19.jpg');"></div>
+        <!-- Slide 20 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_20.jpg');"></div>
+        <!-- Slide 21 -->
+        <div class="hero-slide hidden" style="background-image: url('Picture/Slide_21.jpg');"></div>
+        
+        
+        <!-- <div class="hero-slide hidden" data-type="video" style="background-image: none;">
+            <video autoplay loop muted>
+                <source src="Picture/Slide_16.mp4" type="video/mp4">
+            </video>
+        </div> -->
+
+        <!-- <div class="hero-content">
+            <h2>Tủ Điện - Tự Động Hóa</h2>
+            <p>Chuyên cung cấp thiết bị tự động hóa và bảo vệ hệ thống điện</p>
+            <a href="#products" class="btn">Khám Phá Sản Phẩm</a>
+        </div> -->
+        <!-- Nút điều hướng trái -->
+        <button id="prevSlide" class="nav-arrow left-arrow" >◀</button>
+        <!-- Nút điều hướng phải -->
+        <button id="nextSlide" class="nav-arrow right-arrow">▶</button>
+
+        <div id="imageModal" class="modal">
+            <span class="close" id="closeModal">&times;</span>
+            <img class="modal-content" id="modalImage" />
+            <div id="caption"></div>
+        </div>
+        
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <div class="product-card">
+                    <a href="chint.html">
+                        <img src="Picture/Chint.png" alt="Chint">
+                        <h3>Chint</h3>
+                        <p>Thiết bị điện từ hãng Chint</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="siemens.html">
+                        <img src="Picture/Siemens.png" alt="Siemens">
+                        <h3>Siemens</h3>
+                        <p>Giải pháp tự động hóa từ Siemens</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="schneider.html">
+                        <img src="Picture/Schneider.png" alt="Schneider">
+                        <h3>Schneider</h3>
+                        <p>Thiết bị điện và cảm biến từ Schneider</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="invt.html">
+                        <img src="Picture/invt.png" alt="INVT">
+                        <h3>INVT</h3>
+                        <p>Giải pháp tự động hóa và biến tần từ INVT</p>
+                    </a>
+                </div>
+                
+                <!-- Hàng thứ hai: Thêm 4 hãng sản phẩm khác -->
+                <div class="product-card">
+                    <a href="Phoenix.html">
+                        <img src="Picture/phoenix.png" alt="Phoenix">
+                        <h3>Phoenix.</h3>
+                        <p>Thiết bị tự động hóa</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Phukien.html">
+                        <img src="Picture/Phu_Kien.jpg" alt="Phụ kiện thiết bị">
+                        <h3>Phụ kiện thiết bị</h3>
+                        <p>Phụ kiện thiết bị lĩnh vực tự động hóa</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Mitsubishi_AT.html">
+                        <img src="Picture/Mitsubishi.jpg" alt="Mitsubishi">
+                        <h3>Mitsubishi</h3>
+                        <p>Thiết bị điện từ hãng Mitsubishi</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Omron_AT.html">
+                        <img src="Picture/OMRON.jpg" alt="OMRON">
+                        <h3>OMRON</h3>
+                        <p>Thiết bị tự động hóa từ OMRON</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="weidmuller.html">
+                        <img src="Picture/weidmuller.png" alt="Weidmuller ">
+                        <h3>Weidmuller </h3>
+                        <p>Thiết bị tự động hóa </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Powmax.html">
+                        <img src="Picture/powmax.jpg" alt="PowMax ">
+                        <h3>PowMax </h3>
+                        <p>Thiết bị tự động hóa - Servo</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Khi_nen.html">
+                        <img src="Picture/Khi_nen.jpg" alt="Khí Nén ">
+                        <h3>Khí Nén</h3>
+                        <p>Thiết bị tự động hóa - Khí nén</p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Autonics.html">
+                        <img src="Picture/AUTONICS.jpg" alt="AUTONICS">
+                        <h3>Khí Nén</h3>
+                        <p>Thiết bị tự động hóa - Cảm biến</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">  
+        <div class="container">
+            <h2 class="section-title">Giới thiệu về VietVuongAtech</h2>
+            <p>VietVuongAtech tự hào là nhà phân phối thiết bị điện tử công nghiệp hàng đầu tại Việt Nam, với sứ mệnh mang đến các giải pháp công nghệ tiên tiến cho lĩnh vực tự động hóa và công nghiệp. Chúng tôi là đối tác phân phối chính thức của những thương hiệu uy tín toàn cầu như Schneider, ABB, Mitsubishi, LS, Hanyoung và nhiều hãng nổi tiếng khác, bảo đảm cung cấp sản phẩm chất lượng, đạt tiêu chuẩn quốc tế.</p>
+            <p><strong>Hồ sơ năng lực:</strong> <a href="Picture/Ho_so_nang_luc.pdf" target="_blank">Download PDF</a></p>
+            <!-- Video Section --> 
+            <div class="video-wrapper">
+                <video controls width="70%">
+                    <source src="Picture/Video_company.mp4" type="video/mp4">
+                </video>
+            </div>
+            <h2 class="section-title">Dịch vụ & Giải pháp</h2>
+            <p>Không chỉ dừng lại ở phân phối thiết bị, VietVuongAtech còn cung cấp các dịch vụ thi công và quản lý dự án chuyên nghiệp, đặc biệt trong lĩnh vực hệ thống tủ điện công nghiệp và hệ thống tự động hóa nhà máy. Chúng tôi đã tham gia thực hiện nhiều dự án quy mô lớn, đóng góp vào việc xây dựng và phát triển hạ tầng công nghiệp cho các nhà máy lớn tại Việt Nam.</p>
+    
+            <h2 class="section-title">Giá trị cốt lõi</h2>
+            <ul>
+                <li><strong>Uy tín:</strong> Chúng tôi cam kết mang đến các sản phẩm chính hãng, dịch vụ chất lượng và sự hỗ trợ tốt nhất cho khách hàng.</li>
+                <li><strong>Chuyên nghiệp:</strong> Đội ngũ kỹ thuật và quản lý dự án của VietVuongAtech là những chuyên gia giàu kinh nghiệm, luôn đảm bảo tiến độ và hiệu quả trong từng công trình.</li>
+                <li><strong>Tối ưu hóa giải pháp:</strong> Với triết lý "giải pháp tối ưu cho khách hàng", chúng tôi luôn tìm kiếm và triển khai các phương án kỹ thuật tối ưu, đảm bảo hiệu suất và tiết kiệm chi phí.</li>
+            </ul>
+    
+            <h2 class="section-title">Tầm nhìn và Sứ mệnh</h2>
+            <p>VietVuongAtech hướng tới việc trở thành một trong những doanh nghiệp hàng đầu trong lĩnh vực phân phối thiết bị điện tử công nghiệp và tự động hóa tại Việt Nam, không ngừng đổi mới, nâng cao chất lượng dịch vụ, mang lại giá trị bền vững cho khách hàng và đối tác.</p>
+        </div>
+    </section>
+
+    
+    <!-- Logo Đối tác -->
+    <section id="news" class="news">
+        <h2>Đối Tác & Khách Hàng</h2>
+        <div class="partners">
+            <!-- Logo 1 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/ast.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/ast.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Logo 2 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/thaca truong hai.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/thaca truong hai.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Logo 3 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/vui coffee.jpg"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/vui coffee.jpg" class="partner-logo">
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Logo 4 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/Scheider_1.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/Schneider.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo 5 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/HMV.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/HMV.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo 6 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/Ofi.jpg"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/Ofi.jpg"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo 7 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/AVP.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/AVP.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+            <!-- Logo 8 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/hawee.jpg"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/hawee.jpg"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+            <!-- Logo 9 -->
+            <div class="flip-container">
+                <div class="flip-card">
+                    <div class="flip-card-front">
+                        <img src="Picture/Dcar.png"  class="partner-logo">
+                    </div>
+                    <div class="flip-card-back">
+                        <img src="Picture/Dcar.png"  class="partner-logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Liên Hệ</h2>
+                <!-- Contact Information Section -->
+                <div class="contact-info">
+                    <p><strong>CÔNG TY TNHH ĐIỆN VÀ TỰ ĐỘNG HÓA VIẾT VƯƠNG ATECH</strong> </p>
+                    <p><strong>Địa chỉ:</strong> 260/6/9 Nguyễn Văn Quỳ, Phường Phú Thuận, Quận 7, TP. Hồ Chí Minh.</p>
+                    <p><strong>Địa chỉ kho:</strong> Đường N5, Hiệp Phước Harbour View, Phước Vĩnh Đông, Cần Giuộc, Long An.</p>
+                    <p><strong>MST:</strong> 0316074350</p>
+                    <p><strong>Điện thoại:</strong> <a href="tel:0896449884">0896 449 884</a></p>
+                    <p><strong>Gmail:</strong> <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
+                </div>
+                <!-- Google Maps Embed -->
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.264388199558!2d106.73276107451484!3d10.574100762894126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175390003e68bef%3A0x6a4a023f8a10693a!2zQ8OUTkcgVFkgVE5ISCDEkEnhu4ZOIFbDgCBU4buwIMSQ4buYTkcgSMOTQSBWSeG6vlQgVsavxqBORyBBVEVDSA!5e1!3m2!1svi!2s!4v1727706868344!5m2!1svi!2s" 
+                        width="600" 
+                        height="450" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 VietVuongAtech. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+    <button id="scrollToTopBtn" class="scroll-to-top-btn">&#8679;</button>
+    
+    <a href="https://zalo.me/0896449884" target="_blank" class="zalo-btn">
+        <img src="Picture/zalo.png" alt="Zalo" class="zalo-icon">
+    </a>
+
+    <!-- <button id="zaloBtn" class="zalo-btn"> -->
+        <!-- <img src="Picture/zalo.png" alt="Zalo" class="zalo-icon">
+    </button>
+
+    <script>
+        document.getElementById('zaloBtn').addEventListener('click', function() {
+            window.open('https://zalo.me/0896449884', '_blank');
+        });
+    </script> -->
+
+    <script>
+        const slides = document.querySelectorAll('.hero-slide');
+        const leftArrow = document.querySelector('.left-arrow');
+        const rightArrow = document.querySelector('.right-arrow');
+        const modal = document.getElementById('imageModal');
+        const modalImage = document.getElementById('modalImage');
+        const captionText = document.getElementById('caption');
+        const closeModal = document.getElementById('closeModal');
+        
+        let currentIndex = 0;
+        let slideInterval;
+
+        // Hàm hiển thị slide hiện tại
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+                slide.classList.toggle('hidden', i !== index);
+            });
+        }
+
+        // Hàm chuyển slide tự động
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            showSlide(currentIndex);
+        }
+
+        // Thêm sự kiện cho nút điều hướng
+        leftArrow.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            showSlide(currentIndex);
+            resetSlideInterval(); // Đặt lại khoảng thời gian tự động
+        });
+
+        rightArrow.addEventListener('click', () => {
+            nextSlide();
+            resetSlideInterval(); // Đặt lại khoảng thời gian tự động
+        });
+
+        // Hàm khởi động lại khoảng thời gian tự động
+        function resetSlideInterval() {
+            clearInterval(slideInterval);
+            slideInterval = setInterval(nextSlide, 3000);
+        }
+
+        // Khởi động tự động chuyển slide
+        slideInterval = setInterval(nextSlide, 3000);
+
+        // Xử lý sự kiện click cho từng slide
+        slides.forEach(slide => {
+            slide.addEventListener('click', () => {
+                modal.style.display = 'block';
+                modalImage.src = slide.style.backgroundImage.slice(5, -2); // Lấy URL từ background-image
+                captionText.innerHTML = ''; // Có thể thay đổi nội dung nếu cần
+            });
+        });
+
+        // Đóng modal khi nhấn vào nút đóng
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        // Đóng modal khi nhấn ra ngoài ảnh
+        modal.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+
+
+         // JavaScript để hiển thị nút khi cuộn và cuộn về đầu trang khi nhấn
+         const scrollToTopBtn = document.getElementById('scrollToTopBtn');
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopBtn.style.display = 'block';
+            } else {
+                scrollToTopBtn.style.display = 'none';
+            }
+        };
+
+        scrollToTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+    </script>
+    
+
+</body>
+</html>

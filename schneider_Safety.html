@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="KowsZsdKslkbAi9rcr7S7YfeJMYuBMFtnCJnUypfEK0" />
+    <!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" /> -->
+    <title>Schneider - VietVuongAtech</title>
+    <link rel="icon" href="Picture/logo_cty.ico" type="image/x-icon" >
+    <link rel="stylesheet" href="style_1.css">
+    <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
+    <!-- <script src="addQueryString.js" defer></script>  --> <!-- Đặt sau cùng với defer -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-top">
+            <div class="contact-info">
+                <p>Hotline:  <a href="tel:0896449884">0896 449 884</a> | Email: <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="container header-bottom">
+            <div class="logo-container">
+                <a href="index.html"> <!-- Thêm thẻ <a> với href trỏ đến trang index -->
+                    <img src="Picture/logo_cty.jpg" alt="Logo VietVuongAtech" class="logo-img">
+                </a>
+                <div class="company-info">
+                    <p class="company-name">CÔNG TY TNHH ĐIỆN VÀ TỰ ĐỘNG HÓA</p>
+                    <h1 class="logo">VietVuongAtech</h1>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html"><strong>Trang Chủ</strong> </a></li>
+                    <li><a href="index.html#about"><strong>Giới Thiệu</strong></a></li>
+                    <li><a href="index.html#products"><strong>Sản Phẩm</strong> </a></li>
+                    <li><a href="index.html#news"><strong>Tin Tức</strong></a></li>
+                    <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
+                </ul>
+            </nav>
+            <!-- Search Form -->
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
+                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Product Detail -->
+    <section id="product-detail" class="product-detail">
+        <div class="container">
+            <h2 class="section-title">Schneider Electric</h2>
+            <nav></nav>
+                <ul class="SP">
+                    <li><a href="schneider.html" ><strong>Power Distribution</strong></a></li>
+                    <li><a href="schneider_AT.html"  ><strong>Automation & Control</strong></a></li>
+                    <li><a href="schneider_Safety.html" style="font-size: 1.4rem !important; color: #006bb3ed;"><strong>Safety Products</strong> </a></li>
+                    <li class="dropdown">
+                        <a href="schneider_Inverter.html" class="dropdown-toggle" >
+                            <strong>Inverter</strong>
+                        </a>
+                        <ul class="dropdown-content">
+                            <li><a href="schneider_Inverter_ATV320.html">ATV320</a></li>
+                            <li><a href="schneider_Inverter_ATV340.html">ATV340</a></li>
+                        </ul>
+                    </li>                 
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2EA31">
+                        <img src="Picture Schneider/XA2EA31.JPG" alt="XA2EA31">
+                        <h3>Button</h3>
+                        <p>Nút nhấn nhả Schneider XA2EA31, 22mm                        
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2EA42">
+                        <img src="Picture Schneider/XA2EA42.JPG" alt="XA2EA42">
+                        <h3>Button</h3>
+                        <p>Nút nhấn nhả Schneider XA2EA42, 22mm                    
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2ED21">
+                        <img src="Picture Schneider/XA2ED21.JPG" alt="XA2ED21">
+                        <h3>Button</h3>
+                        <p>Công tắc xoay 2 vị trí Schneider XA2ED21, 22mm (tự giữ)                  
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2ED33">
+                        <img src="Picture Schneider/XA2ED33.JPG" alt="XA2ED33">
+                        <h3>Button</h3>
+                        <p>Công tắc xoay 3 vị trí Schneider XA2ED33, 22mm (tự giữ)               
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2EVM4LC">
+                        <img src="Picture Schneider/XA2EVM4LC.JPG" alt="XA2EVM4LC">
+                        <h3>Light</h3>
+                        <p>Đèn báo Schneider XA2EVM4LC, 22mm 220V AC              
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2EVM3LC">
+                        <img src="Picture Schneider/XA2EVM3LC.JPG" alt="XA2EVM3LC">
+                        <h3>Light</h3>
+                        <p>Đèn báo Schneider XA2EVM3LC, 22mm 220V AC          
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2EVM5LC">
+                        <img src="Picture Schneider/XA2EVM5LC.JPG" alt="XA2EVM5LC">
+                        <h3>Light</h3>
+                        <p>Đèn báo Schneider XA2EVM5LC, 22mm 220V AC     
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2EVM6LC">
+                        <img src="Picture Schneider/XA2EVM6LC.JPG" alt="XA2EVM6LC">
+                        <h3>Light</h3>
+                        <p>Đèn báo Schneider XA2EVM6LC, 22mm 220V AC     
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2EVB3LC">
+                        <img src="Picture Schneider/XA2EVB3LC.JPG" alt="XA2EVB3LC">
+                        <h3>Light</h3>
+                        <p>Đèn báo Schneider XA2EVB3LC, 22mm 24V AC/DC   
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2EVB4LC">
+                        <img src="Picture Schneider/XA2EVM4LC.JPG" alt="XA2EVB4LC">
+                        <h3>Light</h3>
+                        <p>Đèn báo Schneider XA2EVB4LC, 22mm 24V AC/DC
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XB7NA31">
+                        <img src="Picture Schneider/XB7NA31.JPG" alt="XB7NA31">
+                        <h3>Button</h3>
+                        <p>Nút nhấn nhả Schneider XB7NA31, 22mm
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XB7NA42">
+                        <img src="Picture Schneider/XB7NA42.JPG" alt="XB7NA42">
+                        <h3>Button</h3>
+                        <p>Nút nhấn nhả Schneider XB7NA42, 22mm
+                        </p>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="Form_SP_Schneider_Safety.html?productId=XA2ET42">
+                        <img src="Picture Schneider/XA2ET42.JPG" alt="XA2ET42">
+                        <h3>Button</h3>
+                        <p>Nút dừng khẩn cấp Schneider XA2ET42, 22mm
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 VietVuongAtech. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://zalo.me/0896449884" target="_blank" class="zalo-btn">
+        <img src="Picture/zalo.png" alt="Zalo" class="zalo-icon">
+    </a>
+   <!-- <script>
+        window.onscroll = function() {
+        let zaloButton = document.querySelector('.zalo-btn');
+        if (document.documentElement.scrollTop > 100) {
+            zaloButton.style.display = 'flex'; // Hiển thị khi cuộn xuống hơn 100px
+        } else {
+            zaloButton.style.display = 'none'; // Ẩn khi trở về đầu trang
+        }
+    };
+   </script> -->
+
+</body>
+</html>
