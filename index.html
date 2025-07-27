@@ -56,10 +56,13 @@
                     <li><a href="index.html#contact"><strong>Liên Hệ</strong></a></li>
                 </ul>
             </nav>
-            <!-- Search Form -->
+            <!-- Cập nhật trong tất cả các file HTML có chứa ô tìm kiếm -->
             <div class="search-container">
-                <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
-                <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            <input type="text" id="search-input" placeholder="Nhập mã, tên sản phẩm..." 
+                onkeyup="checkEnter(event)" 
+                onblur="setTimeout(hideSearchResults, 200)">
+            <button type="button" onclick="searchProducts()">Tìm kiếm</button>
+            <div id="search-results"></div>
             </div>
 
         </div>
@@ -379,11 +382,12 @@
                 <!-- Contact Information Section -->
                 <div class="contact-info">
                     <p><strong>CÔNG TY TNHH ĐIỆN VÀ TỰ ĐỘNG HÓA VIẾT VƯƠNG ATECH</strong> </p>
-                    <p><strong>Địa chỉ:</strong> 260/6/9 Nguyễn Văn Quỳ, Phường Phú Thuận, Quận 7, TP. Hồ Chí Minh.</p>
-                    <p><strong>Địa chỉ kho:</strong> Đường N5, Hiệp Phước Harbour View, Phước Vĩnh Đông, Cần Giuộc, Long An.</p>
-                    <p><strong>MST:</strong> 0316074350</p>
+                    <p><strong>Địa chỉ đăng ký kinh doanh:</strong> 260/6/9 Nguyễn Văn Quỳ, Phường Phú Thuận, Quận 7, TP. Hồ Chí Minh.</p>
+                    <!-- <p><strong>Địa chỉ kho:</strong> Đường N5, Hiệp Phước Harbour View, Phước Vĩnh Đông, Cần Giuộc, Long An.</p> -->
+                    <p><strong>MST :</strong> 0316074350</p>
                     <p><strong>Điện thoại:</strong> <a href="tel:0896449884">0896 449 884</a></p>
                     <p><strong>Gmail:</strong> <a href="mailto:vietvuongatech.vvat@gmail.com">vietvuongatech.vvat@gmail.com</a></p>
+                    <p></p>
                 </div>
                 <!-- Google Maps Embed -->
                 <div class="map-container">

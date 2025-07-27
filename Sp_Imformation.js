@@ -2231,12 +2231,12 @@ const products = [
     {
         "id": "MN-AB-020",
         "title": "Công tắc không tiếp xúc loại từ tính Autonics MN-AB-020",
-        "image": "Picture Autonics/MN-AB-020.jpg",
+        "image": "Picture_Autonics/MN-AB-020.jpg",
         "sku": "MN-AB-020",
         "manufacturer": "Autonics",
         "quality": "Mới 100%",
         "warranty": "Chính hãng",
-        "manual": "Sp Auonics/MN-AB-020.pdf",
+        "manual": "SP_Auonics/MN-AB-020 information.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Loại tiếp điểm: 1 × N.O. + 1 × N.C. <br> Khoảng cách hoạt động_OFF→ON: ≥ 5 mm <br> Khoảng cách hoạt động_ON→OFF: ≤ 15 mm <br> Trọng lượng: Khoảng 92.6g (khoảng 106.5g) <br> Điện áp chuyển mạch: ≤ 24VDC <br> Dòng điện chuyển mạch: ≤ 400mA <br> Tuổi thọ: ≥ 1 tỷ lần (với tải thấp) <br> Rung động: Biên độ 1.0mm ở tần số 10 đến 55Hz theo mỗi hướng X, Y, Z trong 2 giờ <br> Rung động_Lỗi: Biên độ 1.0mm ở tần số 10 đến 55Hz theo mỗi hướng X, Y, Z trong 10 phút <br> Va chạm: 300m/s² (khoảng 30G) theo từng hướng X, Y, Z trong 3 lần <br> Shock_Malfunction: 300m/s² (khoảng 30G) theo mỗi hướng X, Y, Z ở trạng thái BẬT / TẮT đầu ra trong 3 lần <br> Nhiệt độ xung quanh: -10 đến 55℃, bảo quản: -20 đến 60℃ <br> Độ ẩm môi trường: 35 đến 85%RH, bảo quản: 35 đến 85%RH <br> Cấu trúc bảo vệ: IP67 (tiêu chuẩn IEC) <br> Kết nối: Loại cáp <br> Chất liệu: Body/CAP: PC." ,
         "formPage": "Form_SP_Autonics_Sensor.html"
@@ -2260,50 +2260,227 @@ function loadProductInfo() {
         document.querySelector(".product-description p:nth-child(2)").textContent = `Nhà Sản Xuất: ${product.manufacturer || 'Thông tin không có sẵn'}`;
         document.querySelector(".product-description p:nth-child(3)").textContent = `Chất Lượng: ${product.quality}`;
         document.querySelector(".product-description p:nth-child(4)").textContent = `Bảo Hành: ${product.warranty}`;
-        document.querySelector(".product-description a").href = product.manual;
+        
         // Kiểm tra và gán giá trị cho liên kết PDF (Download)
         const manualLink = document.querySelector(".product-description a");
-        manualLink.href = product.manual || "#";  // Nếu product.manual trống, href sẽ là "#"
+        manualLink.href = product.manual || "#";
         manualLink.textContent = product.manual ? "Download PDF" : "Thông tin không có sẵn";
         
         // Nếu không có product.manual, vô hiệu hóa liên kết và đổi màu
         if (!product.manual) {
-            manualLink.style.pointerEvents = 'none';  // Ngăn không cho nhấn
-            manualLink.style.color = 'gray';  // Màu xám để cho thấy liên kết không hoạt động
+            manualLink.style.pointerEvents = 'none';
+            manualLink.style.color = 'gray';
         }
 
         document.querySelector(".product-description p:nth-child(6)").textContent = `Giá: ${product.price}`;
         document.querySelector(".infor-1").innerHTML = product.infor_1 || 'Thông tin không có sẵn';
         document.querySelector(".infor-2").innerHTML = product.infor_2 || 'Thông tin không có sẵn';
-        document.querySelector(".infor-3").innerHTML = product.infor_3 
-        document.querySelector(".infor-4").innerHTML = product.infor_4 
-        
     } else {
         console.error('Product not found');
     }
-
 }
 
-function checkEnter(event) {
-    // Kiểm tra xem phím được nhấn có phải là Enter không
-    if (event.key === 'Enter') {
-        event.preventDefault(); // Ngăn chặn hành động mặc định
-        searchProducts(); // Gọi hàm tìm kiếm
-    }
-}
+// ======================== CẢI TIẾN CHỨC NĂNG TÌM KIẾM ======================== //
 
 function searchProducts() {
-    const searchInput = document.getElementById('search-input').value.trim();
-    const product = products.find(p => p.id.toLowerCase() === searchInput.toLowerCase());
-
-    if (product) {
-        // Redirect to the product page with the selected product ID
-        window.location.href = `${product.formPage}?productId=${product.id}`;
-    } else {
-        alert('Sản phẩm không được tìm thấy');
+    const searchInput = document.getElementById('search-input').value.trim().toLowerCase();
+    if (!searchInput) {
+        hideSearchResults();
+        return;
     }
 
+    const foundProducts = products.filter(product => {
+        // Tìm kiếm trong nhiều trường
+        const searchFields = [
+            product.id,
+            product.title,
+            product.sku,
+            product.manufacturer,
+            product.infor_1,
+            product.infor_2
+        ].join(' ').toLowerCase();
+
+        // Sử dụng cả exact match và fuzzy search
+        return searchFields.includes(searchInput) || 
+               fuzzySearch(searchFields, searchInput);
+    });
+
+    displaySearchResults(foundProducts, searchInput);
 }
+
+// Hàm fuzzy search đơn giản
+function fuzzySearch(text, query) {
+    text = text.toLowerCase();
+    query = query.toLowerCase();
+    
+    let queryIndex = 0;
+    for (let i = 0; i < text.length && queryIndex < query.length; i++) {
+        if (text[i] === query[queryIndex]) {
+            queryIndex++;
+        }
+    }
+    return queryIndex === query.length;
+}
+
+// Hiển thị kết quả tìm kiếm với highlight
+function displaySearchResults(products, searchQuery) {
+    const searchResults = document.getElementById('search-results');
+    if (!searchResults) {
+        const container = document.createElement('div');
+        container.id = 'search-results';
+        container.style.position = 'absolute';
+        container.style.backgroundColor = 'white';
+        container.style.zIndex = '1000';
+        container.style.width = '100%';
+        container.style.maxHeight = '400px';
+        container.style.overflowY = 'auto';
+        container.style.boxShadow = '0 4px 8px rgba(0,0,0,0.1)';
+        container.style.borderRadius = '4px';
+        container.style.marginTop = '5px';
+        document.querySelector('.search-container').appendChild(container);
+    }
+    
+    const resultsContainer = document.getElementById('search-results');
+    resultsContainer.innerHTML = '';
+    
+    if (products.length === 0) {
+        resultsContainer.innerHTML = '<div class="search-result-item" style="padding:10px; text-align:center;">Không tìm thấy sản phẩm</div>';
+        return;
+    }
+    
+    products.forEach(product => {
+        const item = document.createElement('div');
+        item.className = 'search-result-item';
+        item.style.padding = '8px';
+        item.style.borderBottom = '1px solid #eee';
+        item.style.cursor = 'pointer';
+        item.style.display = 'flex';
+        item.style.alignItems = 'center';
+        
+        // Phần hình ảnh
+        const imageDiv = document.createElement('div');
+        imageDiv.style.flexShrink = '0';
+        imageDiv.style.marginRight = '10px';
+        imageDiv.style.width = '40px';
+        imageDiv.style.height = '40px';
+        imageDiv.style.display = 'flex';
+        imageDiv.style.alignItems = 'center';
+        imageDiv.style.justifyContent = 'center';
+        imageDiv.style.overflow = 'hidden';
+        
+        const img = document.createElement('img');
+        img.src = product.image;
+        img.alt = product.title;
+        img.style.maxWidth = '100%';
+        img.style.maxHeight = '100%';
+        img.style.objectFit = 'contain';
+        img.style.border = '1px solid #eee';
+        img.style.borderRadius = '4px';
+        
+        imageDiv.appendChild(img);
+        item.appendChild(imageDiv);
+        
+        // Phần thông tin với highlight
+        const infoDiv = document.createElement('div');
+        infoDiv.style.flexGrow = '1';
+        infoDiv.style.minWidth = '0';
+        infoDiv.style.overflow = 'hidden';
+        
+        // Hàm highlight từ khóa
+        const highlightText = (text) => {
+            if (!searchQuery || !text) return text;
+            const regex = new RegExp(`(${escapeRegExp(searchQuery)})`, 'gi');
+            return text.replace(regex, '<span class="highlight">$1</span>');
+        };
+        
+        const idDiv = document.createElement('div');
+        idDiv.style.fontWeight = 'bold';
+        idDiv.style.color = '#006bb3';
+        idDiv.style.fontSize = '14px';
+        idDiv.style.whiteSpace = 'nowrap';
+        idDiv.style.overflow = 'hidden';
+        idDiv.style.textOverflow = 'ellipsis';
+        idDiv.innerHTML = highlightText(product.id);
+        
+        const titleDiv = document.createElement('div');
+        titleDiv.style.fontSize = '13px';
+        titleDiv.style.whiteSpace = 'nowrap';
+        titleDiv.style.overflow = 'hidden';
+        titleDiv.style.textOverflow = 'ellipsis';
+        titleDiv.style.marginBottom = '2px';
+        titleDiv.innerHTML = highlightText(product.title);
+        
+        const manufacturerDiv = document.createElement('div');
+        manufacturerDiv.style.fontSize = '12px';
+        manufacturerDiv.style.color = '#666';
+        manufacturerDiv.style.whiteSpace = 'nowrap';
+        manufacturerDiv.style.overflow = 'hidden';
+        manufacturerDiv.style.textOverflow = 'ellipsis';
+        manufacturerDiv.innerHTML = highlightText(product.manufacturer);
+        
+        infoDiv.appendChild(idDiv);
+        infoDiv.appendChild(titleDiv);
+        infoDiv.appendChild(manufacturerDiv);
+        
+        item.appendChild(infoDiv);
+        
+        item.addEventListener('click', () => {
+            window.location.href = `${product.formPage}?productId=${product.id}`;
+        });
+        
+        resultsContainer.appendChild(item);
+    });
+    
+    resultsContainer.style.display = 'block';
+}
+
+// Hàm escape ký tự đặc biệt cho regex
+function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function hideSearchResults() {
+    const results = document.getElementById('search-results');
+    if (results) {
+        results.style.display = 'none';
+    }
+}
+
+// Sử dụng debounce để tối ưu hiệu suất
+let searchTimeout;
+function checkEnter(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault();
+        searchProducts();
+    } else {
+        // Sử dụng debounce để giảm số lần gọi hàm tìm kiếm
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            const searchInput = document.getElementById('search-input').value.trim();
+            if (searchInput.length > 1) {
+                searchProducts();
+            } else {
+                hideSearchResults();
+            }
+        }, 300); // Chờ 300ms sau khi ngừng gõ
+    }
+}
+
+// Gọi hàm để tải thông tin sản phẩm khi trang tải
+document.addEventListener("DOMContentLoaded", function() {
+    // Nếu trang có phần tử product-detail thì gọi loadProductInfo
+    if (document.querySelector('#product-detail')) {
+        loadProductInfo();
+    }
+    
+    // Đóng kết quả tìm kiếm khi click ra ngoài
+    document.addEventListener('click', function(event) {
+        const searchContainer = document.querySelector('.search-container');
+        if (searchContainer && !searchContainer.contains(event.target)) {
+            hideSearchResults();
+        }
+    });
+});
 
 // Xử lý dropdown mở khi click trên thiết bị di động
 document.querySelectorAll('.dropdown-toggle').forEach(function(dropdownToggle) {
@@ -2331,5 +2508,4 @@ document.querySelectorAll('.dropdown-toggle').forEach(function(dropdownToggle) {
 });
 
 
-// Gọi hàm để tải thông tin sản phẩm khi trang tải
-document.addEventListener("DOMContentLoaded", loadProductInfo);
+
