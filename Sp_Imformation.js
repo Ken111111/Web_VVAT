@@ -2283,14 +2283,37 @@ function loadProductInfo() {
 // ======================== CẢI TIẾN CHỨC NĂNG TÌM KIẾM ======================== //
 
 function searchProducts() {
-    const searchInput = document.getElementById('search-input').value.trim().toLowerCase();
+    const searchInput = document.getElementById('search-input').value.trim();
     if (!searchInput) {
         hideSearchResults();
         return;
     }
 
-    const foundProducts = products.filter(product => {
-        // Tìm kiếm trong nhiều trường
+    // Sử dụng thuật toán xếp hạng mới
+    const foundProducts = advancedProductSearch(searchInput, products);
+    displaySearchResults(foundProducts, searchInput);
+}
+
+// Hàm tìm kiếm nâng cao với xếp hạng sản phẩm
+function advancedProductSearch(keyword, products) {
+    if (!keyword) return [];
+
+    // Chuẩn hóa từ khóa
+    const normalizedKeyword = keyword
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "") // Bỏ dấu tiếng Việt
+        .replace(/[^a-z0-9\s]/gi, "")   // Loại bỏ ký tự đặc biệt
+        .trim();
+    
+    if (!normalizedKeyword) return [];
+
+    const keywordParts = normalizedKeyword.split(/\s+/);
+    const exactMatchRegex = new RegExp(`\\b${escapeRegExp(normalizedKeyword)}\\b`, 'i');
+    
+    // Tính điểm cho từng sản phẩm
+    const scoredProducts = products.map(product => {
+        // Chuẩn hóa dữ liệu sản phẩm
         const searchFields = [
             product.id,
             product.title,
@@ -2298,28 +2321,56 @@ function searchProducts() {
             product.manufacturer,
             product.infor_1,
             product.infor_2
-        ].join(' ').toLowerCase();
-
-        // Sử dụng cả exact match và fuzzy search
-        return searchFields.includes(searchInput) || 
-               fuzzySearch(searchFields, searchInput);
-    });
-
-    displaySearchResults(foundProducts, searchInput);
-}
-
-// Hàm fuzzy search đơn giản
-function fuzzySearch(text, query) {
-    text = text.toLowerCase();
-    query = query.toLowerCase();
-    
-    let queryIndex = 0;
-    for (let i = 0; i < text.length && queryIndex < query.length; i++) {
-        if (text[i] === query[queryIndex]) {
-            queryIndex++;
+        ].join(' ');
+        
+        const normalizedSearchFields = searchFields
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase();
+        
+        let score = 0;
+        
+        // Ưu tiên 1: Khớp chính xác toàn bộ từ khóa
+        if (normalizedSearchFields.includes(normalizedKeyword)) {
+            score += 100;
+            
+            // Ưu tiên cao hơn nếu khớp chính xác từ đơn
+            if (exactMatchRegex.test(searchFields)) {
+                score += 50;
+            }
         }
-    }
-    return queryIndex === query.length;
+        
+        // Ưu tiên 2: Khớp tất cả các phần của từ khóa
+        const allPartsMatch = keywordParts.every(part => 
+            normalizedSearchFields.includes(part)
+        );
+        
+        if (allPartsMatch) {
+            score += 75;
+            
+            // Cộng thêm điểm cho mỗi phần khớp
+            keywordParts.forEach(part => {
+                if (normalizedSearchFields.includes(part)) {
+                    score += 30;
+                }
+            });
+        }
+        
+        // Ưu tiên 3: Khớp ở đầu ID/title
+        if (product.id.toLowerCase().startsWith(normalizedKeyword)) {
+            score += 40;
+        }
+        
+        if (product.title.toLowerCase().startsWith(normalizedKeyword)) {
+            score += 30;
+        }
+        
+        return { product, score };
+    })
+    .filter(item => item.score > 0) // Chỉ giữ sản phẩm có liên quan
+    .sort((a, b) => b.score - a.score); // Sắp xếp theo điểm giảm dần
+
+    return scoredProducts.map(item => item.product);
 }
 
 // Hiển thị kết quả tìm kiếm với highlight
@@ -2386,13 +2437,6 @@ function displaySearchResults(products, searchQuery) {
         infoDiv.style.minWidth = '0';
         infoDiv.style.overflow = 'hidden';
         
-        // Hàm highlight từ khóa
-        const highlightText = (text) => {
-            if (!searchQuery || !text) return text;
-            const regex = new RegExp(`(${escapeRegExp(searchQuery)})`, 'gi');
-            return text.replace(regex, '<span class="highlight">$1</span>');
-        };
-        
         const idDiv = document.createElement('div');
         idDiv.style.fontWeight = 'bold';
         idDiv.style.color = '#006bb3';
@@ -2400,7 +2444,7 @@ function displaySearchResults(products, searchQuery) {
         idDiv.style.whiteSpace = 'nowrap';
         idDiv.style.overflow = 'hidden';
         idDiv.style.textOverflow = 'ellipsis';
-        idDiv.innerHTML = highlightText(product.id);
+        idDiv.innerHTML = highlightExactMatches(searchQuery, product.id);
         
         const titleDiv = document.createElement('div');
         titleDiv.style.fontSize = '13px';
@@ -2408,7 +2452,7 @@ function displaySearchResults(products, searchQuery) {
         titleDiv.style.overflow = 'hidden';
         titleDiv.style.textOverflow = 'ellipsis';
         titleDiv.style.marginBottom = '2px';
-        titleDiv.innerHTML = highlightText(product.title);
+        titleDiv.innerHTML = highlightExactMatches(searchQuery, product.title);
         
         const manufacturerDiv = document.createElement('div');
         manufacturerDiv.style.fontSize = '12px';
@@ -2416,7 +2460,7 @@ function displaySearchResults(products, searchQuery) {
         manufacturerDiv.style.whiteSpace = 'nowrap';
         manufacturerDiv.style.overflow = 'hidden';
         manufacturerDiv.style.textOverflow = 'ellipsis';
-        manufacturerDiv.innerHTML = highlightText(product.manufacturer);
+        manufacturerDiv.innerHTML = highlightExactMatches(searchQuery, product.manufacturer || '');
         
         infoDiv.appendChild(idDiv);
         infoDiv.appendChild(titleDiv);
@@ -2432,6 +2476,28 @@ function displaySearchResults(products, searchQuery) {
     });
     
     resultsContainer.style.display = 'block';
+}
+
+// Hàm highlight chính xác từ khóa
+function highlightExactMatches(keyword, text) {
+    if (!keyword || !text) return text;
+    
+    // Chuẩn hóa keyword
+    const normalizedKeyword = keyword
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^a-z0-9\s]/gi, "");
+    
+    if (!normalizedKeyword) return text;
+    
+    // Tách keyword thành các từ
+    const keywords = normalizedKeyword.split(/\s+/).filter(k => k.length > 0);
+    
+    // Tạo regex để highlight
+    const regex = new RegExp(keywords.map(k => escapeRegExp(k)).join('|'), 'gi');
+    
+    return text.replace(regex, match => `<span class="highlight">${match}</span>`);
 }
 
 // Hàm escape ký tự đặc biệt cho regex
