@@ -326,6 +326,20 @@ const products = [
         "formPage": "Form_SP_Siemns_Module.html"
     },
     {
+        "id": "6ES7221-1BF32-0XB0",
+        "title": "6ES7221-1BF32-0XB0 – Module Siemens SM1221 8DI",
+        "image": "Picture Siemens/6ES7221-1BF32-0XB0.jpg",
+        "sku": "6ES7221-1BF32-0XB0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES72211BF320XB0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Module Siemens SM1221 8DI – 6ES7 221-1BF32-0XB0 là mô-đun mở rộng ngõ vào số dành cho dòng PLC Siemens S7-1200. Thiết bị có 8 kênh ngõ vào số (Digital Input), hoạt động ở điện áp 24VDC, hỗ trợ kiểu kết nối sinking hoặc sourcing (PNP/NPN) tùy cấu hình. Mô-đun được sử dụng để thu nhận tín hiệu từ các cảm biến, công tắc, nút nhấn trong hệ thống điều khiển tự động. SM1221 kết nối trực tiếp với CPU S7-1200 qua bus mở rộng, giúp tăng số lượng ngõ vào số mà không cần thay đổi CPU chính, đảm bảo tính linh hoạt và mở rộng dễ dàng cho hệ thống.",
+        // "infor_2":"Tích hợp giao diện điều khiển I/O PROFINET.<br>Mô-đun truyền thông Master/Slave PROFIBUS DP.<br>Mô-đun GPRS để kết nối với mạng di động GSM/G.<br>Mô-đun LTE để liên lạc trong các mạng di động thế hệ thứ 4 (sự phát triển lâu dài).<br>Bộ xử lý truyền thông để kết nối với phần mềm TeleControl Server Basic điều khiển phần mềm trung tâm thông qua Ethernet, cũng như để giao tiếp an toàn qua mạng dựa trên IP.<br>Bộ xử lý truyền thông để kết nối trung tâm điều khiển cho các ứng dụng điều khiển từ xa.<br>RF120C để kết nối với hệ thống nhận dạng SIMATIC.<br>Mô-đun SM1278 để kết nối cảm biến IO-Link và thiết bị truyền động.<br>Kết nối point-to-point thông qua các mô-đun truyền thông hoặc bo mạch truyền thông.",
+        "formPage": "Form_SP_Siemns_Module.html"
+    },
+    {
         "id": "6ES7954-8LC03-0AA0",
         "title": "6ES7954-8LC03-0AA0 – Thẻ nhớ cho S7-1×00 CPU/ Sinamics 4MB",
         "image": "Picture Siemens/6ES7954-8LC03-0AA0.jpg",
@@ -419,6 +433,32 @@ const products = [
         "manual": "SP Siemens/6ES75111AK020AB0_datasheet_en.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"SIMATIC S7-1500, CPU 1511-1 PN vào danh sách sản phẩm của mình. Đây là thông tin về CPU với bộ nhớ làm việc 150 KB cho chương trình và 1 MB cho dữ liệu, giao diện PROFINET IRT với switch 2 cổng và thời gian xử lý bit là 60 ns. Để sử dụng, cần có thẻ nhớ SIMATIC.",
+        "formPage": "Form_SP_Siemns_S7_1500.html"
+    },
+    {
+        "id": "6ES7521-1BH10-0AA0",
+        "title": "6ES7521-1BH10-0AA0 S7-1500 SM 521 16DI",
+        "image": "Picture Siemens/6ES7521-1BH10-0AA0.jpg",
+        "sku": "6ES7521-1BH10-0AA0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES75211BH100AA0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC S7-1500, DIGITAL INPUT MODULE, DI 16xDC 24V BA, 16 CHANNELS IN GROUPS OF 16; INPUT DELAY TYP. 3.2MS; INPUT TYPE 3 (IEC 61131) INCL. FRONT CONNECTOR PUSH-IN.",
+        "formPage": "Form_SP_Siemns_S7_1500.html"
+    },
+    {
+        "id": "6ES7522-1BH10-0AA0",
+        "title": "6ES7522-1BH10-0AA0 Module DQ16 24V/0.5A BA",
+        "image": "Picture Siemens/6ES7522-1BH10-0AA0.jpg",
+        "sku": "6ES7522-1BH10-0AA0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES75221BH100AA0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"SIMATIC S7-1500, DIGITAL OUTPUT MODULE, DQ 16 X 24VDC/0.5A BA; 16 CHANNELS IN GROUPS OF 8, 4 A PER GROUP; INCL. FRONT CONNECTOR PUSH-IN.",
         "formPage": "Form_SP_Siemns_S7_1500.html"
     },
     // ------------------------------------------------------HMI----------------------------------------------------------------------
@@ -568,7 +608,19 @@ const products = [
         "infor_1":"SITOP PSU100S 24 V/2.5 A Đầu vào nguồn điện ổn định: 120/230 VAC Đầu ra: 24 VDC/2.5 A." ,
         "formPage": "Form_SP_Siemns_SITOP.html"
     },
-    
+    {
+        "id": "6EP1334-2BA20",
+        "title": "6EP1334-2BA20 – Stabilized Power Supply SITOP PSU100S 24 V/10 A",
+        "image": "Picture Siemens/6EP1334-2BA20.jpg",
+        "sku": "6EP1334-2BA20",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6EP13342BA20_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bộ nguồn Siemens SITOP PSU100S – 6EP1334-2BA20 là nguồn ổn định (Stabilized Power Supply) được thiết kế cho các hệ thống tự động hóa công nghiệp. Thiết bị cung cấp điện áp ra 24VDC với dòng tối đa 10A, đảm bảo cấp nguồn ổn định và đáng tin cậy cho PLC, cảm biến, rơ le và các thiết bị điều khiển khác. Bộ nguồn hoạt động trong dải điện áp vào 120–230VAC, có hiệu suất cao, khả năng bảo vệ quá tải, quá áp, ngắn mạch, và thiết kế gọn nhẹ dễ dàng lắp trên thanh DIN rail. SITOP PSU100S là lựa chọn phổ biến cho các tủ điện và hệ thống tự động hóa yêu cầu nguồn DC 24V ổn định và bền bỉ." ,
+        "formPage": "Form_SP_Siemns_SITOP.html"
+    },
     // -----------------------------------------------------CB Scheider--------------------------------------------------------
     {
         "id": "EZ9F34240",
@@ -1950,6 +2002,33 @@ const products = [
         "formPage": "Form_SP_Schneider_Inverter.html"
     },
     {
+        "id": "VW3A7701",
+        "title": "Điện trở hãm Schneider cho biến tần",
+        "image": "Picture Schneider/VW3A7701.jpg",
+        "sku": "VW3A7701",
+        "manufacturer": "Schneider ",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/ATV_LXM_IS_braking_resistor_1755553_06.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Điện trở hãm (Braking Resistor) VW3A7701 của Schneider Electric là phụ kiện dùng kèm với biến tần dòng Altivar (ATV) để hỗ trợ hãm động năng của động cơ trong các ứng dụng cần dừng nhanh hoặc giảm tốc liên tục. Điện trở có thông số 100Ω – 50W, cấp bảo vệ IP20, được lắp trong tủ điều khiển và giúp tiêu tán năng lượng dư sinh ra khi động cơ giảm tốc, tránh quá áp DC-link và bảo vệ biến tần. VW3A7701 được sử dụng rộng rãi trong các hệ thống cơ cấu nâng hạ, băng tải, máy cuốn và những ứng dụng yêu cầu dừng chính xác và an toàn." ,
+        // "infor_2":"Model: ATV320U40N4C<br>Điện áp ngõ vào: 3 Pha 380-480VAC<br>Điện áp ngõ ra: 3 Pha 380-480VAC<br>Công suất: 4kW<br>Dòng điện ngõ vào: 13.7A<br>Dòng điện ngõ ra: 9.5A<br>Tần số ra Max: 599Hz<br>Lọc EMC: Có tích hợp<br>Đầu vào digital: 6<br>Đầu vào analog: 3<br>Đầu vào xung: Không<br>Đầu ra transistor: Không<br>Đầu ra rơ le: 2<br>Đầu ra analog: 1<br>Phương pháp điều khiển/Chế độ điều khiển: V/f Control<br>Kết nối với PC: RJ45, USB port<br>Truyền thông: CANopen, EtherCAT, Modbus TCP<br>Chức năng: Over current, Over voltage, Overload Protection, Overvoltage during ac celeration<br>Công suất quá tải ở mức tải bình thường (60s): 120%<br>Công suất quá tải ở mức tải nặng (60s): 150%<br>Bộ phanh: Có tích hợp<br>Điện trở phanh (Bán riêng): VW3A7731, VW3A7606R07<br>Bàn phím (Bán riêng): VW3A1006, VW3A1007<br>Ứng dụng: Cần trục, Xử lý vật liệu, Máy đóng gói, Bơm, máy dệt<br>Tích hợp quạt làm mát: Có<br>Khối lượng: 2.2kg<br>Kích thước: 140x184x158mm.",
+        "formPage": "Form_SP_Schneider_Accessories.html"
+    },
+    {
+        "id": "VW3A3627",
+        "title": "Module truyền thông VW3A3627",
+        "image": "Picture Schneider/VW3A3627.jpg",
+        "sku": "VW3A3627",
+        "manufacturer": "Schneider ",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/ATV_ATH_LXM_IS_option_modules_S1A45591_14.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Mô-đun truyền thông VW3A3627 của Schneider Electric dùng để mở rộng giao tiếp PROFINET cho các biến tần dòng Altivar như ATV320, ATV340, ATV600 và ATV900. Thiết bị tích hợp 2 cổng RJ45 tốc độ 100 Mbps, cho phép biến tần kết nối và trao đổi dữ liệu thời gian thực với PLC, HMI, SCADA trong mạng công nghiệp. VW3A3627 giúp việc điều khiển và giám sát biến tần trở nên linh hoạt hơn, dễ dàng tích hợp vào hệ thống tự động hóa quy mô lớn." ,
+        "formPage": "Form_SP_Schneider_Accessories.html"
+    },
+    {
         "id": "ATV340D37N4E",
         "title": "Biến tần Schneider ATV340D37N4E 37KW 3 Pha 380V",
         "image": "Picture Schneider/ATV340D37N4E.jpg",
@@ -2188,6 +2267,19 @@ const products = [
         "formPage": "Form_SP_PhuKien.html"
     },
     {
+        "id": "AD10",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD10",
+        "image": "Picture_Phukien/AD13.jpg",
+        "sku": "AD10",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 100m/Cuộn." ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
+    {
         "id": "AD11",
         "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD11",
         "image": "Picture_Phukien/AD11.jpg",
@@ -2226,7 +2318,71 @@ const products = [
         "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 100m/Cuộn." ,
         "formPage": "Form_SP_PhuKien.html"
     },
-
+    {
+        "id": "AD18.5",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD18.5",
+        "image": "Picture_Phukien/AD15.8.jpg",
+        "sku": "AD18.5",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 100m/Cuộn." ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
+    {
+        "id": "AD21.5",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD21.5",
+        "image": "Picture_Phukien/AD15.8.jpg",
+        "sku": "AD21.5",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 100m/Cuộn." ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
+    {
+        "id": "AD25",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD25",
+        "image": "Picture_Phukien/AD15.8.jpg",
+        "sku": "AD25",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 50m/Cuộn." ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
+{
+        "id": "AD28.5",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD28.5",
+        "image": "Picture_Phukien/AD15.8.jpg",
+        "sku": "AD28.5",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 50m/Cuộn." ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
+    {
+        "id": "AD34",
+        "title": "Ống Ruột Gà xẻ rãnh Ô Tô AD34",
+        "image": "Picture_Phukien/AD15.8.jpg",
+        "sku": "AD34",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Ruột gà dùng bảo vệ dây điện được sử dụng phổ biến nhất trên ô tô, xe tải. Ruột gà được sử dụng để giữ bẹ dây cố định, không bị rơi rớt, đồng thời chống ăn mòn và cọ xát dây điện với các chi tiết xung quanh.<br>Có thể dễ dàng thêm dây điện vào bên trong thông qua đường cắt dọc của ống. Thiết kế với các đường gân giúp đường cắt dọc không làm ống bị hở hay lộ dây bên trong.<br>Rất thích hợp cho các ứng dụng đi dây điện trong ô tô.<br>Chất liệu: PE chống mài mòn, xăng dầu và nhiều hóa chất khác.<br>Số lượng: 50m/Cuộn." ,
+        "formPage": "Form_SP_PhuKien.html"
+    },
     // --------------------------------------------------Autonics----------------------------------------------------------------------
     {
         "id": "MN-AB-020",
@@ -2240,6 +2396,20 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Loại tiếp điểm: 1 × N.O. + 1 × N.C. <br> Khoảng cách hoạt động_OFF→ON: ≥ 5 mm <br> Khoảng cách hoạt động_ON→OFF: ≤ 15 mm <br> Trọng lượng: Khoảng 92.6g (khoảng 106.5g) <br> Điện áp chuyển mạch: ≤ 24VDC <br> Dòng điện chuyển mạch: ≤ 400mA <br> Tuổi thọ: ≥ 1 tỷ lần (với tải thấp) <br> Rung động: Biên độ 1.0mm ở tần số 10 đến 55Hz theo mỗi hướng X, Y, Z trong 2 giờ <br> Rung động_Lỗi: Biên độ 1.0mm ở tần số 10 đến 55Hz theo mỗi hướng X, Y, Z trong 10 phút <br> Va chạm: 300m/s² (khoảng 30G) theo từng hướng X, Y, Z trong 3 lần <br> Shock_Malfunction: 300m/s² (khoảng 30G) theo mỗi hướng X, Y, Z ở trạng thái BẬT / TẮT đầu ra trong 3 lần <br> Nhiệt độ xung quanh: -10 đến 55℃, bảo quản: -20 đến 60℃ <br> Độ ẩm môi trường: 35 đến 85%RH, bảo quản: 35 đến 85%RH <br> Cấu trúc bảo vệ: IP67 (tiêu chuẩn IEC) <br> Kết nối: Loại cáp <br> Chất liệu: Body/CAP: PC." ,
         "formPage": "Form_SP_Autonics_Sensor.html"
+    },
+    // -------------------------------------------------- Solar -----------------------------------------------------------------------
+    {
+        "id": "Senergy SE 6K ECO",
+        "title": "INVERTER HYBRID ON/OFF GRID 6KW",
+        "image": "Picture_Solar/Senergy SE 6K ECO.jpg",
+        "sku": "Senergy SE 6K ECO",
+        "manufacturer": "Senergy",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Solar/6K ECO, PRO, GREEN, 10KHB Hybrid Senergy Catalogue.pdf",
+        "price": "14.500.000",
+        "infor_1":"Sản phẩm Inverter Hybrid Senergy 6kW SE 6K ECO là bộ biến tần đa chức năng kiểu on/off-grid (hòa lưới kết hợp lưu trữ) công suất định mức 6kW, đến từ thương hiệu Senergy. Thiết bị hỗ trợ cả chế độ hòa lưới và lưu trữ pin, phù hợp cho các hệ thống điện mặt trời gia đình hoặc doanh nghiệp nhỏ muốn sử dụng điện “vừa hòa lưới, vừa dự phòng”.<br> Một số thông số nổi bật: hiệu suất PV→AC đạt tới 97,3% và hiệu suất BAT→AC lên tới 94,3%. Dải điện áp MPPT khoảng 70-480V (với phiên bản ECO) và hỗ trợ pin lưu trữ 48V, dòng sạc/xả lên đến 135A. Thiết bị có khả năng lắp ngoài trời tiêu chuẩn IP65, chống bụi và nước, thích hợp môi trường Việt Nam. " ,
+        "formPage": "Form_SP_Solar.html"
     },
 
 ];
