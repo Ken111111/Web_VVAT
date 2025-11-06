@@ -2400,18 +2400,44 @@ const products = [
     // -------------------------------------------------- Solar -----------------------------------------------------------------------
     {
         "id": "Senergy SE 6K ECO",
-        "title": "INVERTER HYBRID ON/OFF GRID 6KW",
+        "title": "BIẾN TẦN HYBRID ON/OFF GRID 6KW",
         "image": "Picture_Solar/Senergy SE 6K ECO.jpg",
         "sku": "Senergy SE 6K ECO",
         "manufacturer": "Senergy",
         "quality": "Mới 100%",
         "warranty": "Chính hãng",
         "manual": "SP_Solar/6K ECO, PRO, GREEN, 10KHB Hybrid Senergy Catalogue.pdf",
-        "price": "14.500.000",
+        "price": "Liên hệ (0896 449 884)",
         "infor_1":"Sản phẩm Inverter Hybrid Senergy 6kW SE 6K ECO là bộ biến tần đa chức năng kiểu on/off-grid (hòa lưới kết hợp lưu trữ) công suất định mức 6kW, đến từ thương hiệu Senergy. Thiết bị hỗ trợ cả chế độ hòa lưới và lưu trữ pin, phù hợp cho các hệ thống điện mặt trời gia đình hoặc doanh nghiệp nhỏ muốn sử dụng điện “vừa hòa lưới, vừa dự phòng”.<br> Một số thông số nổi bật: hiệu suất PV→AC đạt tới 97,3% và hiệu suất BAT→AC lên tới 94,3%. Dải điện áp MPPT khoảng 70-480V (với phiên bản ECO) và hỗ trợ pin lưu trữ 48V, dòng sạc/xả lên đến 135A. Thiết bị có khả năng lắp ngoài trời tiêu chuẩn IP65, chống bụi và nước, thích hợp môi trường Việt Nam. " ,
         "formPage": "Form_SP_Solar.html"
     },
-
+    {
+        "id": "Senergy SE 6K GREEN",
+        "title": "BIẾN TẦN Hybrid 6kW SE 6K GREEN ",
+        "image": "Picture_Solar/Senergy SE 6K GREEN.jpg",
+        "sku": "Senergy SE 6K GREEN",
+        "manufacturer": "Senergy",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Solar/6K ECO, PRO, GREEN, 10KHB Hybrid Senergy Catalogue.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Sản phẩm Inverter Hybrid Senergy SE 6K GREEN là thiết bị biến tần hòa lưới kết hợp lưu trữ (Hybrid) công suất 6 kW đến từ thương hiệu Senergy – một nhà sản xuất có uy tín trong lĩnh vực inverter và giải pháp năng lượng mặt trời. Thiết bị hỗ trợ cả hai chế độ “on-grid” (hòa lưới) và “off-grid” hoặc kết hợp pin lưu trữ, phù hợp cho các hệ thống điện mặt trời gia đình hoặc doanh nghiệp nhỏ muốn vừa dùng điện mặt trời, vừa có khả năng dự phòng. SE 6K GREEN có hiệu suất cao, khả năng mở rộng pin lưu trữ, chuẩn chống nước/bụi tốt (thường IP65), và được thiết kế phù hợp với môi trường Việt Nam, nơi khí hậu đa dạng và nhu cầu sử dụng linh hoạt." ,
+        "infor_2":"<strong>1. Hiệu suất vượt trội</strong> <br> • Hỗ trợ tối đa đến 150% công suất PV <br> • Hỗ trợ tấm pin mặt trời công suất cao với dòng điện 18A <br> • Dòng sạc/xả pin lưu trữ tối đa 140A <br> <strong>2. Linh hoạt cao</strong> <br> • Hỗ trợ pin Lithium hoặc ắc quy axit-chì 40-60V <br> • Hỗ trợ chức năng tải thông minh (Smart Load) <br> • Nối song song tối đa 12 inverters lên đến 72kW <br> • Tích hợp cổng GEN <br> <strong>3. An toàn và tin cậy</strong> <br> • Cấp chống nước/ chống bụi: IP54 <br> • Bảo hành 3 năm <br> • Nhiều lớp bảo vệ tích hợp <br> <strong>4. Tính năng thông minh</strong> <br> • Quản lý thông minh, hỗ trợ giám sát từ xa." ,        
+        "formPage": "Form_SP_Solar.html"
+    },
+    {
+        "id": "Battery Gigabox 15E",
+        "title": "Pin lưu trữ LifePo4 14.34kWh 51.2V280Ah Gigabox 15E",
+        "image": "Picture_Solar/Pin lưu trữ LifePo4 14.34kWh 51.2V280Ah Gigabox 15E.jpg",
+        "sku": "Gigabox 15E",
+        "manufacturer": "Gigabox",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Solar/Pin lưu trữ LifePo4 14.34kWh 51.2V280Ah Gigabox 15E.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Gigabox 15E là bộ pin lưu trữ công nghệ LiFePO₄ (Lithium Iron Phosphate) với điện áp danh định 51.2 V và dung lượng danh định 280 Ah, cho năng lượng khoảng 14.34 kWh. Sản phẩm phù hợp để tích hợp vào hệ thống hybrid (hòa lưới + lưu trữ) hoặc hệ độc lập, giúp lưu trữ lượng điện lớn để dùng khi lưới điện bị mất hoặc trong giờ cao điểm." ,
+        "formPage": "Form_SP_Solar _Battery.html"
+    },
 ];
 
 

@@ -9,7 +9,7 @@
     <meta http-equiv="Expires" content="0" /> -->
     <title>Solar - VietVuongAtech</title>
     <link rel="icon" href="Picture/logo_cty.ico" type="image/x-icon" >
-    <link rel="stylesheet" href="style_form.css">
+    <link rel="stylesheet" href="style_1.css">
     <script src="Sp_Imformation.js" defer></script> <!-- Sử dụng defer để không làm chậm trang -->
     <!-- <script src="addQueryString.js" defer></script>  --> <!-- Đặt sau cùng với defer --></head>
 <body>
@@ -44,46 +44,39 @@
                 <input type="text" id="search-input" placeholder="Mã sản phẩm..." onkeydown="checkEnter(event)">
                 <button type="button" onclick="searchProducts()">Tìm kiếm</button>
             </div>
-            <nav></nav>
-            <ul class="SP">
-                <li><a href="Solar.html" ><strong>Inverter</strong></a></li>
-                <li><a href="Solar_Battery.html" style="font-size: 1.4rem !important; color: #006bb3ed;"><strong>Battery</strong></a></li>
-            </ul>
-        </nav>
         </div>
     </header>
 
     <!-- Product Detail -->
     <section id="product-detail" class="product-detail">
         <div class="container">
-            <h2 class="section-title">Product Title</h2>
-            <div class="product-info">
-                <div class="product-image">
-                    <img src="Picture_Invt/GD20-0R7G-S2-BK.png" alt="Product Image" style="width:100%;">
-                </div>
-                <div class="product-description">
-                    <p><strong>SKU:</strong> SKU Value</p>
-                    <p><strong>Nhà Sản Xuất:</strong> Manufacturer Name</p>
-                    <p><strong>Chất Lượng:</strong> Quality Info</p>
-                    <p><strong>Bảo Hành:</strong> Warranty Info</p>
-                    <p><strong>Tài liệu sản phẩm:</strong> <a href="" target="_blank">Download PDF</a></p>
-                    <p style="color: crimson; font-weight: bold;"> Giá: Price Info</p>
-                </div>
-            </div>
+            <h2 class="section-title">Solar</h2>  
         </div>
+        <nav></nav>
+            <ul class="SP">
+                <li><a href="Solar.html" ><strong>Inverter</strong></a></li>
+                <li><a href="Powmax.html" style="font-size: 1.4rem !important; color: #006bb3ed;"><strong>Battery</strong></a></li>
+            </ul>
+        </nav>
     </section>
 
-
-    <!-- Product Description Section -->
-    <section id="product-description" class="product-description-detail">
+    <!-- Products Section -->
+    <section id="products" class="products">
         <div class="container">
-            <h3 class="section-subtitle">Mô tả chi tiết sản phẩm:</h3>
-            <p class="infor-1">infor_1</p>
-            <h4 class="section-subtitle">Đặc tính kỹ thuật chính:</h4>
-            <p class="infor-2">infor_2</p>
+            <h2 class="section-title">Danh Mục Sản Phẩm</h2>
+            <div class="product-grid">
+                <!-- Hàng thứ nhất -->
+                <div class="product-card">
+                    <a href="Form_SP_Solar.html?productId=Battery Gigabox 15E">
+                        <img src="Picture_Solar/Pin lưu trữ LifePo4 14.34kWh 51.2V280Ah Gigabox 15E.jpg" alt="Gigabox 15E">
+                        <h3>Battery </h3>
+                        <p>Pin lưu trữ LifePo4 14.34kWh 51.2V280Ah Gigabox 15E
+                        </p>
+                    </a>
+                </div>
+                
         </div>
     </section>
-
 
     <!-- Footer -->
     <footer class="footer">
