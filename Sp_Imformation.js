@@ -340,6 +340,19 @@ const products = [
         "formPage": "Form_SP_Siemns_Module.html"
     },
     {
+        "id": "6ES7222-1BH32-0XB0",
+        "title": "6ES7222-1BH32-0XB0 – Module Siemens SM1222 16DO Transistor",
+        "image": "Picture Siemens/6ES7222-1BH32-0XB0.jpg",
+        "sku": "6ES7222-1BH32-0XB0",
+        "manufacturer": "Siemens",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP Siemens/6ES72221BH320XB0_datasheet_en.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Module Siemens SM1222 16DO – 6ES7222-1BH32-0XB0 là mô-đun mở rộng ngõ ra số dành cho PLC dòng S7-1200, cung cấp 16 kênh Output 24VDC dạng transistor, phù hợp để điều khiển các thiết bị như rơ le, đèn báo, cuộn coil van điện và cơ cấu chấp hành tốc độ cao. Mô-đun hỗ trợ dòng tải tối đa 0.5A mỗi kênh, kết nối dễ dàng với CPU S7-1200 qua bus mở rộng, giúp tăng số lượng ngõ ra điều khiển trong hệ thống một cách linh hoạt và ổn định. Thiết kế nhỏ gọn, gắn DIN rail thuận tiện, độ bền cao và đáp ứng tiêu chuẩn công nghiệp, SM1222 là lựa chọn phù hợp cho các ứng dụng tự động hóa trong tủ điện, dây chuyền sản xuất và máy móc công nghiệp.",
+        "formPage": "Form_SP_Siemns_Module.html"
+    },
+    {
         "id": "6ES7954-8LC03-0AA0",
         "title": "6ES7954-8LC03-0AA0 – Thẻ nhớ cho S7-1×00 CPU/ Sinamics 4MB",
         "image": "Picture Siemens/6ES7954-8LC03-0AA0.jpg",
@@ -623,6 +636,19 @@ const products = [
     },
     // -----------------------------------------------------CB Scheider--------------------------------------------------------
     {
+        "id": "EZ9F34106",
+        "title": "MCB Schneider EZ9F34106 6A 4.5kA 1P",
+        "image": "Picture Schneider/EZ9F34106.jpg",
+        "sku": "EZ9F34106",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34106.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 1P<br>Dòng điện định mức: 6A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 230V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
         "id": "EZ9F34240",
         "title": "MCB Schneider EZ9F34240 40A 4.5kA 2P",
         "image": "Picture Schneider/EZ9F34240.jpg",
@@ -659,6 +685,19 @@ const products = [
         "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34232.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 2P<br>Dòng điện định mức: 32A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 230V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "EZ9F34216",
+        "title": "MCB Schneider EZ9F34216 16A 4.5kA 2P",
+        "image": "Picture Schneider/EZ9F34240.jpg",
+        "sku": "EZ9F34216",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34216.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 2P<br>Dòng điện định mức: 16A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 230V" ,
         "formPage": "Form_SP_Schneider_PD.html"
     },
     {
@@ -776,6 +815,19 @@ const products = [
         "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34320.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 3P<br>Dòng điện định mức: 20A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 400V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "EZ9F34363",
+        "title": "MCB Schneider EZ9F34363 63A 4.5kA 3P",
+        "image": "Picture Schneider/EZ9F34332.JPG",
+        "sku": "EZ9F34363",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34363.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 3P<br>Dòng điện định mức: 63A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 400V" ,
         "formPage": "Form_SP_Schneider_PD.html"
     },
     {
@@ -1998,7 +2050,75 @@ const products = [
         "manual": "SP_Schneider/Catalog Altivar Machine ATV320 variable speed drives.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Dòng biến tần Schneider ATV320 series được Schneider Electric tung ra thị trường vào đầu năm 2017 để điều khiển động cơ đồng bộ và không đồng bộ 3 pha. với độ tin cậy cao, đáp ứng yêu cầu vận hành của các máy đơn giản và phức tạp như: máy đóng gói, vận chuyển vật liệu, máy dệt, máy chế biến vật liệu, bơm, quạt, máy nén khí, cẩu trục... <br> Tích hợp sẵn 5 chức năng an toàn cho người vận hành máy: Safe Torque Off SIL3, Safe Stop 1, Safe Limited Speed, Safe Maximum Speed, Guard Door Locking, tuân theo chứng chỉ Machinery Directive 2006/42/EC. <br> Ngoài ra, biến tần còn có chức năng Altivar Logic (tương đương với PLC đơn giản), hỗ trợ điều khiển một số ứng dụng đơn giản và có thể lập trình thông qua phần mềm SoMove. <br> Khả năng kết nối mạng linh hoạt được thể hiện qua việc tích hợp sẵn các chuẩn truyền thông như Modbus RTU, CANopen, cùng với phụ kiện card truyền thông hỗ trợ các chuẩn như Ethernet/IP, Modbus TCP, Profinet, EtherCAT, Profibus DP, DeviceNet, và Canopen Dual Port. <br> Biến tần còn có khả năng vận hành trong môi trường khắc nghiệt, đáp ứng tiêu chuẩn IEC 60721-3-3, 3C3 & 3S2, hoạt động liên tục ở nhiệt độ môi trường lên đến 60ºC mà không bị suy giảm công suất ngõ ra khi nhiệt độ dưới 50ºC." ,
-        "infor_2":"Model: ATV320U40N4C<br>Điện áp ngõ vào: 3 Pha 380-480VAC<br>Điện áp ngõ ra: 3 Pha 380-480VAC<br>Công suất: 4kW<br>Dòng điện ngõ vào: 13.7A<br>Dòng điện ngõ ra: 9.5A<br>Tần số ra Max: 599Hz<br>Lọc EMC: Có tích hợp<br>Đầu vào digital: 6<br>Đầu vào analog: 3<br>Đầu vào xung: Không<br>Đầu ra transistor: Không<br>Đầu ra rơ le: 2<br>Đầu ra analog: 1<br>Phương pháp điều khiển/Chế độ điều khiển: V/f Control<br>Kết nối với PC: RJ45, USB port<br>Truyền thông: CANopen, EtherCAT, Modbus TCP<br>Chức năng: Over current, Over voltage, Overload Protection, Overvoltage during ac celeration<br>Công suất quá tải ở mức tải bình thường (60s): 120%<br>Công suất quá tải ở mức tải nặng (60s): 150%<br>Bộ phanh: Có tích hợp<br>Điện trở phanh (Bán riêng): VW3A7731, VW3A7606R07<br>Bàn phím (Bán riêng): VW3A1006, VW3A1007<br>Ứng dụng: Cần trục, Xử lý vật liệu, Máy đóng gói, Bơm, máy dệt<br>Tích hợp quạt làm mát: Có<br>Khối lượng: 2.2kg<br>Kích thước: 140x184x158mm.",
+        "infor_2": `
+        <table>
+        <tr><td>Model</td><td>ATV320U40N4C</td></tr>
+        <tr><td>Điện áp ngõ vào</td><td>3 Pha 380-480VAC</td></tr>
+        <tr><td>Điện áp ngõ ra</td><td>3 Pha 380-480VAC</td></tr>
+        <tr><td>Công suất</td><td>4kW</td></tr>
+        <tr><td>Dòng điện ngõ vào</td><td>13.7A</td></tr>
+        <tr><td>Dòng điện ngõ ra</td><td>9.5A</td></tr>
+        <tr><td>Tần số ra Max</td><td>599Hz</td></tr>
+        <tr><td>Lọc EMC</td><td>Có tích hợp</td></tr>
+        <tr><td>Đầu vào digital</td><td>6</td></tr>
+        <tr><td>Đầu vào analog</td><td>3</td></tr>
+        <tr><td>Đầu ra rơ le</td><td>2</td></tr>
+        <tr><td>Đầu ra analog</td><td>1</td></tr>
+        <tr><td>Chế độ điều khiển</td><td>V/f Control</td></tr>
+        <tr><td>Truyền thông</td><td>CANopen, EtherCAT, Modbus TCP</td></tr>
+        <tr><td>Overload (tải thường)</td><td>120% trong 60s</td></tr>
+        <tr><td>Overload (tải nặng)</td><td>150% trong 60s</td></tr>
+        <tr><td>Điện trở phanh</td><td>VW3A7731, VW3A7606R07 (tùy chọn)</td></tr>
+        <tr><td>Bàn phím điều khiển</td><td>VW3A1006, VW3A1007 (tùy chọn)</td></tr>
+        <tr><td>Ứng dụng</td><td>Cẩu trục, đóng gói, bơm, xử lý vật liệu, máy dệt</td></tr>
+        <tr><td>Kích thước</td><td>140 × 184 × 158 mm</td></tr>
+        <tr><td>Khối lượng</td><td>2.2 kg</td></tr>
+        </table>
+        `,
+        "formPage": "Form_SP_Schneider_Inverter.html"
+    },
+    {
+        "id": "ATV320D15N4C",
+        "title": "Biến tần Schneider ATV320D15N4C 15kW 3 Pha 380V",
+        "image": "Picture Schneider/ATV320D15N4C.jpg",
+        "sku": "ATV320D15N4C",
+        "manufacturer": "Schneider ",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/ATV320_Getting_Started_EN_NVE21763_04.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Dòng biến tần Schneider ATV320 series được Schneider Electric tung ra thị trường vào đầu năm 2017 để điều khiển động cơ đồng bộ và không đồng bộ 3 pha. với độ tin cậy cao, đáp ứng yêu cầu vận hành của các máy đơn giản và phức tạp như: máy đóng gói, vận chuyển vật liệu, máy dệt, máy chế biến vật liệu, bơm, quạt, máy nén khí, cẩu trục... <br> Tích hợp sẵn 5 chức năng an toàn cho người vận hành máy: Safe Torque Off SIL3, Safe Stop 1, Safe Limited Speed, Safe Maximum Speed, Guard Door Locking, tuân theo chứng chỉ Machinery Directive 2006/42/EC. <br> Ngoài ra, biến tần còn có chức năng Altivar Logic (tương đương với PLC đơn giản), hỗ trợ điều khiển một số ứng dụng đơn giản và có thể lập trình thông qua phần mềm SoMove. <br> Khả năng kết nối mạng linh hoạt được thể hiện qua việc tích hợp sẵn các chuẩn truyền thông như Modbus RTU, CANopen, cùng với phụ kiện card truyền thông hỗ trợ các chuẩn như Ethernet/IP, Modbus TCP, Profinet, EtherCAT, Profibus DP, DeviceNet, và Canopen Dual Port. <br> Biến tần còn có khả năng vận hành trong môi trường khắc nghiệt, đáp ứng tiêu chuẩn IEC 60721-3-3, 3C3 & 3S2, hoạt động liên tục ở nhiệt độ môi trường lên đến 60ºC mà không bị suy giảm công suất ngõ ra khi nhiệt độ dưới 50ºC." ,
+        "infor_2": `
+        <table>
+        <tr><td>Model</td><td>ATV320D15N4C</td></tr>
+        <tr><td>Điện áp ngõ vào</td><td>3 Pha 380-480VAC</td></tr>
+        <tr><td>Điện áp ngõ ra</td><td>3 Pha 380-480VAC</td></tr>
+        <tr><td>Công suất</td><td>15kW</td></tr>
+        <tr><td>Dòng điện ngõ vào</td><td>47.3A</td></tr>
+        <tr><td>Dòng điện ngõ ra</td><td>33A</td></tr>
+        <tr><td>Tần số ra Max</td><td>599Hz</td></tr>
+        <tr><td>Lọc EMC</td><td>Có tích hợp</td></tr>
+        <tr><td>Đầu vào digital</td><td>6</td></tr>
+        <tr><td>Đầu vào analog</td><td>3</td></tr>
+        <tr><td>Đầu vào xung</td><td>Không</td></tr>
+        <tr><td>Đầu ra transistor</td><td>Không</td></tr>
+        <tr><td>Đầu ra rơ le</td><td>2</td></tr>
+        <tr><td>Đầu ra analog</td><td>1</td></tr>
+        <tr><td>Chế độ điều khiển</td><td>V/f Control</td></tr>
+        <tr><td>Kết nối với PC</td><td>RJ45, USB port</td></tr>
+        <tr><td>Truyền thông</td><td>CANopen, EtherCAT, Modbus TCP</td></tr>
+        <tr><td>Chức năng</td><td>Over current, Over voltage, Overload Protection, Overvoltage during acceleration</td></tr>
+        <tr><td>Quá tải (tải thường)</td><td>120% trong 60s</td></tr>
+        <tr><td>Quá tải (tải nặng)</td><td>150% trong 60s</td></tr>
+        <tr><td>Bộ phanh</td><td>Có tích hợp</td></tr>
+        <tr><td>Điện trở phanh (Bán riêng)</td><td>VW3A7733</td></tr>
+        <tr><td>Bàn phím (Bán riêng)</td><td>VW3A1006, VW3A1007</td></tr>
+        <tr><td>Ứng dụng</td><td>Cần trục, Xử lý vật liệu, Máy đóng gói, Bơm, Máy dệt</td></tr>
+        <tr><td>Tích hợp quạt làm mát</td><td>Có</td></tr>
+        <tr><td>Khối lượng</td><td>6.9 kg</td></tr>
+        <tr><td>Kích thước</td><td>180 × 330 × 198 mm</td></tr>
+        </table>
+        `,
         "formPage": "Form_SP_Schneider_Inverter.html"
     },
     {
@@ -2409,6 +2529,7 @@ const products = [
         "manual": "SP_Solar/6K ECO, PRO, GREEN, 10KHB Hybrid Senergy Catalogue.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Sản phẩm Inverter Hybrid Senergy 6kW SE 6K ECO là bộ biến tần đa chức năng kiểu on/off-grid (hòa lưới kết hợp lưu trữ) công suất định mức 6kW, đến từ thương hiệu Senergy. Thiết bị hỗ trợ cả chế độ hòa lưới và lưu trữ pin, phù hợp cho các hệ thống điện mặt trời gia đình hoặc doanh nghiệp nhỏ muốn sử dụng điện “vừa hòa lưới, vừa dự phòng”.<br> Một số thông số nổi bật: hiệu suất PV→AC đạt tới 97,3% và hiệu suất BAT→AC lên tới 94,3%. Dải điện áp MPPT khoảng 70-480V (với phiên bản ECO) và hỗ trợ pin lưu trữ 48V, dòng sạc/xả lên đến 135A. Thiết bị có khả năng lắp ngoài trời tiêu chuẩn IP65, chống bụi và nước, thích hợp môi trường Việt Nam. " ,
+        "infor_2":"<strong>1. Hiệu suất vượt trội</strong> <br> • Hỗ trợ tấm pin mặt trời công suất cao với dòng điện 18A <br> • Dòng sạc/xả pin lưu trữ tối đa 135A <br> • Công suất tải liên tục đạt 110% công suất danh định <br> <strong>2. Linh hoạt cao</strong> <br> • Hỗ trợ pin Lithium hoặc ắc quy axit-chì 40-60V <br> • Hỗ trợ nâng cao công suất đầu vào từ inverter hòa lưới (AC coupling) <br> • Nối song song tối đa 9 inverters lên đến 54kW <br> • Bám tải chính xác với CT ngoài <br> <strong>3. An toàn và tin cậy</strong> <br> • Tiêu chuẩn IP65: Lắp đặt trong nhà hoặc ngoài trời <br> • Nhiều lớp bảo vệ tích hợp <br> • Thiết kế nhỏ gọn, nhẹ, dễ vận chuyển và tiết kiệm không gian <br> <strong>4. Tính năng thông minh</strong> <br> • Màn hình màu cảm ứng LCD, dễ vận hành <br> • Quản lý thông minh, hỗ trợ giám sát từ xa " ,                 
         "formPage": "Form_SP_Solar.html"
     },
     {
