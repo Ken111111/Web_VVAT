@@ -2620,7 +2620,7 @@ function advancedProductSearch(keyword, products) {
         .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "") // Bỏ dấu tiếng Việt
-        .replace(/[^a-z0-9\s]/gi, "")   // Loại bỏ ký tự đặc biệt
+        .replace(/[^a-z0-9\s-]/gi, "")   // Loại bỏ ký tự đặc biệt
         .trim();
     
     if (!normalizedKeyword) return [];
