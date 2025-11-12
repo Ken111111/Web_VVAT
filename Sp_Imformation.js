@@ -1357,6 +1357,19 @@ const products = [
         "formPage": "Form_SP_Chint.html"
     },
     {
+        "id": "NXB-63 C40 3P",
+        "title": "MCB Chint NXB-63 40A 6KA 3P ",
+        "image": "Picture_Chint/NXB-63 32A.jpg",
+        "sku": "NXB-63 C40 3P",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/Catalog-Aptomat-Chint-MCB-NXB-63.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tên: MCB NXB-63-3 pha-40A dòng cắt 6KA <br> Danh Mục: Thiết bị đóng cắt <br> Nhà SX: Chint <br> Phân loại: MCB <br> Điện áp định mức: 240/415V <br> Dòng điện định mức: 40A <br> Số pha: 3 pha <br> Dòng cắt ngắn mạch: 6KA <br> Tiêu chuẩn: IEC 60898-1" ,
+        "formPage": "Form_SP_Chint.html"
+    },
+    {
         "id": "NXB-63 C6 3P",
         "title": "MCB Chint NXB-63 6A 6KA 3P  ",
         "image": "Picture_Chint/NXB-63 32A.jpg",
@@ -1380,6 +1393,19 @@ const products = [
         "manual": "SP_Chint/nxb-125-chint-series-catalogue.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Tên: MCB NXB-125-2 pha-100A dòng cắt 10KA <br> Danh Mục: Thiết bị đóng cắt <br> Nhà SX: Chint <br> Phân loại: MCB <br> Điện áp định mức: 240/415V <br> Dòng điện định mức: 100A <br> Số pha: 2 pha <br> Dòng cắt ngắn mạch: 10KA <br> Tiêu chuẩn: IEC 60947-2" ,
+        "formPage": "Form_SP_Chint.html"
+    },
+    {
+        "id": "NXB-63 C25 1P",
+        "title": "MCB CHINT NXB-63 1P C25 6kA 1P 6kA ",
+        "image": "Picture_Chint/NXB-63 1P C25 6kA.jpg",
+        "sku": "NXB-63 1P C25 6kA",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/NXB-63 C25 1P.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Tên: MCB NXB-63-1 pha-25A dòng cắt 6KA <br> Danh Mục: Thiết bị đóng cắt <br> Nhà SX: Chint <br> Phân loại: MCB <br> Điện áp định mức: 240/415V <br> Dòng điện định mức: 25A <br> Số pha: 1 pha <br> Dòng cắt ngắn mạch: 6KA <br> Tiêu chuẩn: IEC 60947-2" ,
         "formPage": "Form_SP_Chint.html"
     },
     {
@@ -1434,6 +1460,34 @@ const products = [
         "infor_1":"Dòng rơ le bảo vệ lỗi pha và thứ tự pha Chint XJ3-G được sử dụng để bảo vệ cho các trường hợp quá áp, thấp áp và lỗi pha cũng như bảo vệ thứ tự pha cho mạch điện 3 pha điện áp AC. khi một trong các pha đầu vào bị gián đoạn hoặc khi một trong các pha bị lỗi, rơ le XJ3 sẽ ngay lập tức tác động thông qua việc ngắt cặp tín hiệu cấp nguồn điều khiển cho mạch điện và khi đó toàn bộ mạch điều khiển sẽ ngừng hoạt động, đảm bảo cho các thiết bị phần phụ tải không bị hư hỏng." ,
         "infor_2":"Nguồn: 3 Pha (50Hz) 380VAC<br> Bảo vệ quá áp: 380460VAC, thời gian trễ: 1,54s (có thể điều chỉnh)<br> Bảo vệ thấp áp: 300380VAC, thời gian trễ: 29s (có thể điều chỉnh)<br> Độ chính xác với điện áp: ±5%<br> Lỗi pha: Điện áp nguồn cấp < 60%Ue và Bảo vệ thứ tự pha ≤ 2s<br> Công suất tiếp điểm: AC380V 3A<br> Công suất tiêu thụ: ≤ 1W<br> Độ bền điện: 10⁵ (không lớn hơn tải định mức)<br> Dải Nhiệt độ hoạt động: -5°C~+40°C",
         "formPage": "Form_SP_Chint.html"
+    },
+    {
+        "id": "PD666-3S4",
+        "title": "Đồng hồ đo Volt Amper CHINT PD666-3S4 3×450V 3×*A/5A",
+        "image": "Picture_Chint/PD666-3S4.jpg",
+        "sku": "PD666-3S4 3×450V 3×*A/5A",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/PD666-3S4.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Đồng hồ đa chức năng 3 pha PD666-3S4 của CHINT hỗ trợ đo các thông số điện quan trọng như điện áp, dòng điện, công suất, hệ số công suất và tần số trong hệ thống ba pha. Thiết bị phù hợp cho mạng 3 pha với điện áp danh định 450 V và dòng lớn sử dụng CT với 5 A chuẩn hoặc tùy chọn (*A) theo yêu cầu, giúp giám sát hiệu quả và kịp thời các tiêu chí vận hành của hệ thống điện công nghiệp. Thiết kế chuẩn panel (96×96 mm) dễ lắp đặt, tích hợp cổng giao tiếp RS-485 theo chuẩn Modbus-RTU cho phép kết nối với hệ thống SCADA/PLC, phù hợp cho tủ điều khiển, phân phối điện, trung tâm giám sát năng lượng và ứng dụng tự động hóa." ,
+        // "infor_2":"Nguồn: 3 Pha (50Hz) 380VAC<br> Bảo vệ quá áp: 380460VAC, thời gian trễ: 1,54s (có thể điều chỉnh)<br> Bảo vệ thấp áp: 300380VAC, thời gian trễ: 29s (có thể điều chỉnh)<br> Độ chính xác với điện áp: ±5%<br> Lỗi pha: Điện áp nguồn cấp < 60%Ue và Bảo vệ thứ tự pha ≤ 2s<br> Công suất tiếp điểm: AC380V 3A<br> Công suất tiêu thụ: ≤ 1W<br> Độ bền điện: 10⁵ (không lớn hơn tải định mức)<br> Dải Nhiệt độ hoạt động: -5°C~+40°C",
+        "formPage": "Form_SP_Chint_AT.html"
+    },
+    {
+        "id": "NU6-IIG-40kA-440V-4P",
+        "title": "Thiết bị chống sét CHINT NU6-IIG 40kA/440V 4P 50/60Hz",
+        "image": "Picture_Chint/NU6-IIG-40kA-440V-4P.jpg",
+        "sku": "NU6-IIG-40kA-440V-4P",
+        "manufacturer": "Chint",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Chint/NXU-IIG-SPD-catalog.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Thiết bị chống sét lan truyền NU6-IIG của CHINT được thiết kế dành cho hệ thống điện 3 pha với điện áp danh định lên đến 440 V, cấu hình 4 cực (4P), khả năng chịu dòng xung sét lên đến 40 kA (8/20µs).Sản phẩm tuân thủ tiêu chuẩn quốc tế IEC 61643‑11, phù hợp cho các hệ thống nguồn phân phối chính, bảng điện tủ điều khiển trong nhà máy, tòa nhà hoặc cơ sở thương mại.  Chint Global Với thiết kế lắp đặt dễ dàng trên thanh DIN-rail và chỉ báo trạng thái module rõ ràng, NU6-IIG giúp tăng cường khả năng bảo vệ thiết bị khỏi hiện tượng tăng áp đột ngột, sét lan truyền và góp phần đảm bảo an toàn, liên tục cho hệ thống điện." ,
+        // "infor_2":"Nguồn: 3 Pha (50Hz) 380VAC<br> Bảo vệ quá áp: 380460VAC, thời gian trễ: 1,54s (có thể điều chỉnh)<br> Bảo vệ thấp áp: 300380VAC, thời gian trễ: 29s (có thể điều chỉnh)<br> Độ chính xác với điện áp: ±5%<br> Lỗi pha: Điện áp nguồn cấp < 60%Ue và Bảo vệ thứ tự pha ≤ 2s<br> Công suất tiếp điểm: AC380V 3A<br> Công suất tiêu thụ: ≤ 1W<br> Độ bền điện: 10⁵ (không lớn hơn tải định mức)<br> Dải Nhiệt độ hoạt động: -5°C~+40°C",
+        "formPage": "Form_SP_Chint_AT.html"
     },
     // --------------------------------------------------Contactor Chint---------------------------------------------------------------------
     {
