@@ -387,6 +387,61 @@ body {
     color: #0056b3;
 }
 
+#contact {
+    background-color: #f8f9fa; /* Màu nền xám nhạt hiện đại */
+}
+
+/* Sử dụng Flexbox để tạo bố cục 2 cột */
+#contact .container {
+    display: flex;
+    gap: 3rem; /* Khoảng cách giữa 2 cột */
+    align-items: center; /* Canh giữa các cột theo chiều dọc */
+    flex-wrap: wrap; /* Cho phép xuống dòng trên màn hình nhỏ */
+}
+
+/* Định dạng cho cột thông tin và cột bản đồ */
+.contact-info-wrapper, .map-container {
+    flex: 1 1 400px; /* Tự động co giãn nhưng chiều rộng cơ bản là 400px */
+}
+
+/* Định dạng bản đồ */
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+    border-radius: 8px; /* Bo góc cho bản đồ */
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1); /* Thêm bóng đổ nhẹ */
+}
+
+/* Định dạng cho từng dòng thông tin */
+.contact-info-wrapper p {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    display: flex; /* Bật flexbox để icon và text nằm trên một hàng */
+    align-items: flex-start; /* Canh icon và text theo lề trên */
+    line-height: 1.7; /* Tăng khoảng cách dòng cho dễ đọc */
+}
+
+/* Định dạng cho icon */
+.contact-info-wrapper i {
+    margin-right: 15px; /* Khoảng cách giữa icon và text */
+    color: #0056b3; /* Màu xanh chủ đạo */
+    font-size: 1.2rem;
+    margin-top: 5px; /* Căn chỉnh icon cho đẹp hơn */
+    width: 20px; /* Cố định chiều rộng icon */
+    text-align: center;
+}
+
+/* Định dạng cho các đường link */
+.contact-info-wrapper a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 500;
+}
+.contact-info-wrapper a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 .footer {
     background-color: #003366;
