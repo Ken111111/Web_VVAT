@@ -649,6 +649,32 @@ const products = [
         "formPage": "Form_SP_Schneider_PD.html"
     },
     {
+        "id": "EZ9F34120",
+        "title": "MCB Schneider EZ9F34120 20A 4.5kA 1P",
+        "image": "Picture Schneider/EZ9F34106.jpg",
+        "sku": "EZ9F34120",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34120.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 1P<br>Dòng điện định mức: 20A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 230V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "EZ9F34116",
+        "title": "MCB Schneider EZ9F34116 16A 4.5kA 1P",
+        "image": "Picture Schneider/EZ9F34106.jpg",
+        "sku": "EZ9F34116",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34116.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 1P<br>Dòng điện định mức: 16A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 230V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
         "id": "EZ9F34240",
         "title": "MCB Schneider EZ9F34240 40A 4.5kA 2P",
         "image": "Picture Schneider/EZ9F34240.jpg",
@@ -659,6 +685,19 @@ const products = [
         "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34240.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 2P<br>Dòng điện định mức: 40A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 230V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "EZ9F34225",
+        "title": "MCB Schneider EZ9F34225 25A 4.5kA 2P",
+        "image": "Picture Schneider/EZ9F34240.jpg",
+        "sku": "EZ9F34225",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34225.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 2P<br>Dòng điện định mức: 25A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 230V" ,
         "formPage": "Form_SP_Schneider_PD.html"
     },
     {
@@ -818,7 +857,7 @@ const products = [
         "formPage": "Form_SP_Schneider_PD.html"
     },
     {
-        "id": "EZ9F34363",
+       "id": "EZ9F34363",
         "title": "MCB Schneider EZ9F34363 63A 4.5kA 3P",
         "image": "Picture Schneider/EZ9F34332.JPG",
         "sku": "EZ9F34363",
@@ -829,7 +868,20 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 3P<br>Dòng điện định mức: 63A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 400V" ,
         "formPage": "Form_SP_Schneider_PD.html"
-    },
+    }, 
+    {
+       "id": "EZ9F34325",
+        "title": "MCB Schneider EZ9F34325 25A 4.5kA 3P",
+        "image": "Picture Schneider/EZ9F34332.JPG",
+        "sku": "EZ9F34325",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9-MCBs_EZ9F34325.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Bảo vệ chống dòng quá tải<br>Bảo vệ chống dòng ngắn mạch<br>Số cực: 3P<br>Dòng điện định mức: 25A<br>Dòng cắt ngắn mạch: 4.5kA<br>Điện áp định mức: 400V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    }, 
     {
         "id": "A9F74332",
         "title": "MCB Schneider A9F74332 32A 6kA 3P",
@@ -867,6 +919,71 @@ const products = [
         "manual": "SP_Schneider/Schneider Electric_Acti-9-iC60_A9F74310.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Số cực: 3P<br>Dòng điện định mức: 10A<br>Dòng cắt ngắn mạch: 6kA<br>Điện áp định mức: 400V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "A9F84350",
+        "title": "MCB Schneider A9F84350 50A 10kA 3P",
+        "image": "Picture Schneider/A9F74332.JPG",
+        "sku": "A9F84350",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Acti-9-iC60_A9F84350.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Số cực: 3P<br>Dòng điện định mức: 50A<br>Dòng cắt ngắn mạch: 10kA<br>Điện áp định mức: 400V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "A9F84340",
+        "title": "MCB Schneider A9F84340 40A 10kA 3P",
+        "image": "Picture Schneider/A9F74332.JPG",
+        "sku": "A9F84340",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Acti-9-iC60_A9F84340.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Số cực: 3P<br>Dòng điện định mức: 40A<br>Dòng cắt ngắn mạch: 10kA<br>Điện áp định mức: 400V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "A9F84332",
+        "title": "MCB Schneider A9F84332 32A 10kA 3P",
+        "image": "Picture Schneider/A9F74332.JPG",
+        "sku": "A9F84332",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Acti-9-iC60_A9F84332.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Số cực: 3P<br>Dòng điện định mức: 32A<br>Dòng cắt ngắn mạch: 10kA<br>Điện áp định mức: 400V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "A9K24332",
+        "title": "MCB Schneider A9K24332 32A 6kA 3P",
+        "image": "Picture Schneider/A9K24332.JPG",
+        "sku": "A9K24332",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Acti-9-iK60_A9K24332.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Số cực: 3P<br>Dòng điện định mức: 32A<br>Dòng cắt ngắn mạch: 6kA<br>Điện áp định mức: 400V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "A9N18367",
+        "title": "MCB Schneider A9N18367 100A 10kA 3P",
+        "image": "Picture Schneider/A9N18367.JPG",
+        "sku": "A9N18367",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Acti9 Catalog.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Số cực: 3P<br>Dòng điện định mức: 100A<br>Dòng cắt ngắn mạch: 10kA<br>Điện áp định mức: 400V" ,
         "formPage": "Form_SP_Schneider_PD.html"
     },
     {
@@ -919,6 +1036,45 @@ const products = [
         "manual": "SP_Schneider/Schneider Electric_EasyPact-EZC_EZC100N3100.pdf",
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Số cực: 3P<br>Dòng điện định mức: 100A<br>Dòng cắt ngắn mạch: 15kA<br>Điện áp định mức: 415V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "EZC250N3150",
+        "title": "MCCB Schneider EZC250N3150 150A 25kA 3P",
+        "image": "Picture Schneider/EZC100N3075.JPG",
+        "sku": "EZC100N3100",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_EasyPact-EZC_EZC250N3150.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Số cực: 3P<br>Dòng điện định mức: 150A<br>Dòng cắt ngắn mạch: 25kA<br>Điện áp định mức: 415V" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "EZ9D34620",
+        "title": "CB chống giật Schneider EZ9D34620 20A 30mA 4.5kA 1P+N",
+        "image": "Picture Schneider/EZ9D34620.JPG",
+        "sku": "EZ9D34620",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9_EZ9D34620.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Số cực: 1P+N<br>Dòng điện định mức: 20A<br>Dòng cắt ngắn mạch: 4.5kA<br>Dòng rò: 30mA" ,
+        "formPage": "Form_SP_Schneider_PD.html"
+    },
+    {
+        "id": "EZ9D34632",
+        "title": "CB chống giật Schneider EZ9D34632 32A 30mA 4.5kA 1P+N",
+        "image": "Picture Schneider/EZ9D34620.JPG",
+        "sku": "EZ9D34632",
+        "manufacturer": "Schneider",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "SP_Schneider/Schneider Electric_Easy9_EZ9D34632.pdf",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Số cực: 1P+N<br>Dòng điện định mức: 32A<br>Dòng cắt ngắn mạch: 4.5kA<br>Dòng rò: 30mA" ,
         "formPage": "Form_SP_Schneider_PD.html"
     },
     {
