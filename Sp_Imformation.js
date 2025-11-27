@@ -72,6 +72,101 @@ const products = [
         // "infor_2":"L1, L2: Terminal cho nguồn vào <br> U, V, M: Terminal cho động cơ Servo <br> B1(+), PG(-): Terminal cho Servo bus <br> B1(+), B2(+),B3(+): Terminal cho điện trở xả	<br> PE: Terminal cho nối đất",
         "formPage": "Form_SP_Powmax.html"
     },
+    {
+        "id": "POWSM-110-05030-A0",
+        "title": "Động cơ Servo Powmax ",
+        "image": "Picture_Powmax/servo-powmax-1.5kw.png",
+        "sku": "POWSM-110-05030-A0",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Công suất định mức: 1.5 kW <br> Mô-men xoắn định mức: ~5 N·m <br> Tốc độ định mức: 3000 rpm <br> Điện áp làm việc: 220 VAC <br> Cấp bảo vệ: IP65 <br> Encoder: 17-bit (tăng dần) <br> Bao gồm: motor + driver + dây cáp motor + dây cáp encoder + dây tín hiệu điều khiển.",
+        "infor_2":`POWSM-110-05030-A0 – Bộ servo 1.5 kW kèm driver & cáp
+                   Bộ servo POWSM-110-05030-A0 gồm động cơ 1.5 kW tốc độ định mức 3000 rpm, đi kèm driver và đầy đủ dây cáp kết nối, mang đến giải pháp điều khiển chuyển động mạnh mẽ và chính xác. Motor sử dụng encoder 17-bit cho độ phân giải cao, đảm bảo phản hồi vị trí nhanh và ổn định. Cấp bảo vệ IP65 giúp motor hoạt động tốt trong môi trường công nghiệp có bụi hoặc hơi ẩm. Với mô-men xoắn định mức khoảng 5 N·m và nguồn cấp 220 VAC, bộ servo phù hợp cho nhiều ứng dụng tự động hóa yêu cầu độ chính xác và độ tin cậy cao.
+                <br>
+                
+                Ứng dụng gợi ý: máy CNC, máy cắt plasma/laser, máy đóng gói, máy dán nhãn, dây chuyền sản xuất tự động, băng tải đồng bộ, cánh tay robot mini, máy cuộn/nhả, máy phân loại sản phẩm, hệ thống pick-and-place.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "M4-75B-080-02430-17M-A0",
+        "title": "Động cơ Servo Powmax ",
+        "image": "Picture_Powmax/servo-powmax-1.5kw.png",
+        "sku": "M4-75B-080-02430-17M-A0",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":"Công suất định mức: 0.75 kW <br> Mô-men xoắn định mức: ~2.4 N·m <br> Tốc độ định mức: 3000 rpm <br> Điện áp làm việc: 220 VAC <br> Cấp bảo vệ: IP65 <br> Encoder: 17-bit <br> Loại: Motor servo rời, kèm driver và cáp kết nối.",
+        "infor_2":`Bộ động cơ servo POWSM-110-05030-A0 công suất 1.5 kW, tốc độ định mức 3000 rpm, tích hợp encoder 17-bit cho độ chính xác cao và đáp ứng nhanh. Bộ kit bao gồm motor + driver + dây tín hiệu hoàn chỉnh, phù hợp cho các hệ thống tự động hóa yêu cầu độ ổn định, tốc độ và độ chính xác vị trí cao. Với cấp bảo vệ IP65, motor hoạt động bền bỉ trong môi trường công nghiệp, hạn chế bụi và hơi ẩm.
+                <br>
+                Servo 1.5 kW thích hợp cho các ứng dụng như máy CNC mini và trung bình, máy đóng gói, máy dán nhãn, băng tải tốc độ cao, máy cắt cuộn, robot 1–2 trục, và các hệ thống cần điều khiển chính xác vị trí – tốc độ – mô-men. Bộ servo này là lựa chọn tối ưu cho các kỹ sư muốn lắp đặt nhanh, vận hành ổn định và dễ tích hợp với PLC phổ biến.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "M4-10C-080-04025-175-A0",
+        "title": "Động cơ Servo Powmax ",
+        "image": "Picture_Powmax/servo-powmax-1.5kw.png",
+        "sku": "M4-10C-080-04025-175-A0",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 1 kW <br>
+                    Mô-men xoắn định mức: ~4 N·m <br>
+                    Tốc độ định mức: 2500–3000 rpm <br>
+                    Điện áp làm việc: 220 VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Loại: Motor servo rời (không kèm driver) <br>
+                    Thích hợp cho cơ cấu chuyển động chính xác trong máy tự động hóa.` ,   
+        "infor_2":`Bộ động cơ servo POWSM-110-05030-A0 (1.5 kW, 3000 rpm) là dòng servo hiệu suất cao, tích hợp encoder chính xác và khả năng phản hồi nhanh, phù hợp cho các hệ thống tự động hóa yêu cầu độ ổn định và độ chính xác cao. Sản phẩm đi kèm driver điều khiển + dây cáp motor + dây cáp encoder, giúp triển khai nhanh chóng và đồng bộ.
+                    <br>
+                – Máy CNC mini và trung cấp <br>
+                – Cơ cấu dịch chuyển tuyến tính (XY, Z-axis) <br>
+                – Máy đóng gói, máy dán nhãn, máy chiết rót <br>
+                – Máy cuộn/nhả, bàn xoay, tay máy công nghiệp nhỏ <br>
+                – Ứng dụng điều khiển vị trí/tốc độ/mô-men yêu cầu độ chính xác cao`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "POWSM-130-10025-A0",
+        "title": "Động cơ Servo Powmax ",
+        "image": "Picture_Powmax/servo-powmax-1.5kw.png",
+        "sku": "POWSM-130-10025-A0",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 2.6kW <br> Mô-men xoắn định mức: ~10 N·m <br> Tốc độ định mức: 2500 rpm <br> Điện áp làm việc: 220VAC hoặc 380VAC (tùy cấu hình) <br> Encoder: 17-bit/23-bit <br> Cấp bảo vệ: IP65 <br> Bao gồm: Motor + Driver + Cáp nguồn + Cáp encoder + Cáp tín hiệu` ,   
+        "infor_2":`POWSM-130-10025-A0 2.6kW là bộ servo công suất lớn, phù hợp cho các máy móc tải nặng như máy CNC kim loại, máy uốn, máy ép, bàn trượt công suất cao, robot công nghiệp hoặc cơ cấu truyền động cần lực mạnh và độ chính xác cao. Gồm đầy đủ driver và dây cáp kèm theo, sẵn sàng lắp đặt vào dây chuyền sản xuất.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "POWSM-130-15020-A0",
+        "title": "Động cơ Servo Powmax ",
+        "image": "Picture_Powmax/servo-powmax-1.5kw.png",
+        "sku": "POWSM-130-15020-A0",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 3.0 kW <br>
+                    Tốc độ định mức: 2000 r/min <br>
+                    Mô-men xoắn định mức: ~14–15 N·m <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Bao gồm: motor servo + driver điều khiển + cáp nguồn motor + cáp encoder + cáp tín hiệu.` ,   
+        "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
     // -------------------------------------------------------PLC S7-1200-----------------------------------------------------------
     {
         "id": "6ES7214-1AG40-0XB0",
