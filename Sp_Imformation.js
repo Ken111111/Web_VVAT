@@ -1058,7 +1058,7 @@ const products = [
     {
         "id": "A9K24332",
         "title": "MCB Schneider A9K24332 32A 6kA 3P",
-        "image": "Picture Schneider/A9K24332.JPG",
+        "image": "Picture Schneider/A9K24332.jpg",
         "sku": "A9K24332",
         "manufacturer": "Schneider",
         "quality": "Mới 100%",
@@ -1071,7 +1071,7 @@ const products = [
     {
         "id": "A9N18367",
         "title": "MCB Schneider A9N18367 100A 10kA 3P",
-        "image": "Picture Schneider/A9N18367.JPG",
+        "image": "Picture Schneider/A9N18367.jpg",
         "sku": "A9N18367",
         "manufacturer": "Schneider",
         "quality": "Mới 100%",
@@ -1149,7 +1149,7 @@ const products = [
     {
         "id": "EZ9D34620",
         "title": "CB chống giật Schneider EZ9D34620 20A 30mA 4.5kA 1P+N",
-        "image": "Picture Schneider/EZ9D34620.JPG",
+        "image": "Picture Schneider/EZ9D34620.jpg",
         "sku": "EZ9D34620",
         "manufacturer": "Schneider",
         "quality": "Mới 100%",
@@ -1162,7 +1162,7 @@ const products = [
     {
         "id": "EZ9D34632",
         "title": "CB chống giật Schneider EZ9D34632 32A 30mA 4.5kA 1P+N",
-        "image": "Picture Schneider/EZ9D34620.JPG",
+        "image": "Picture Schneider/EZ9D34620.jpg",
         "sku": "EZ9D34632",
         "manufacturer": "Schneider",
         "quality": "Mới 100%",
@@ -2863,6 +2863,37 @@ const products = [
         "price": "Liên hệ (0896 449 884)",
         "infor_1":"Gigabox 15E là bộ pin lưu trữ công nghệ LiFePO₄ (Lithium Iron Phosphate) với điện áp danh định 51.2 V và dung lượng danh định 280 Ah, cho năng lượng khoảng 14.34 kWh. Sản phẩm phù hợp để tích hợp vào hệ thống hybrid (hòa lưới + lưu trữ) hoặc hệ độc lập, giúp lưu trữ lượng điện lớn để dùng khi lưới điện bị mất hoặc trong giờ cao điểm." ,
         "formPage": "Form_SP_Solar _Battery.html"
+    },
+    {
+        "id": "CL150",
+        "title": "ĐÈN ĐƯỜNG CHIẾC LÁ NLMT 150W CL150",
+        "image": "Picture_Solar/den_CL150.png",
+        "sku": "CL150",
+        "manufacturer": "",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Pin: 42000mAh (cell 32700 mới hoàn toàn) – 7 cell<br>
+                    Thông số bóng đèn: 3 bóng độ sáng cao<br>
+                    Kích thước đèn: 860 × 320 × 80 mm<br>
+                    Chất liệu thân đèn: Vỏ nhôm, chụp đèn bằng kính<br>
+                    Công suất tấm pin NLMT: 6V / 60W<br>
+                    Chiều dài dây: 1.2 mét<br>
+                    Chuẩn chống nước: IP65<br>
+                    Thời gian sạc: Đủ nắng, sạc đầy trong khoảng 5 giờ<br>
+                    Thời gian chiếu sáng: Lên đến 15 giờ khi đầy pin<br>
+                    Kích thước tấm pin: 535 × 670 × 25 mm<br>
+                    Quy cách đóng gói: 1 bộ<br><br>
+
+                    <b>Bao gồm:</b><br>
+                    ✓ Bộ phụ kiện 3 món: Cột đèn, tay đỡ/pát ôm, bộ vít<br>
+                    ✓ Điều khiển từ xa<br>
+                    ✓ Cảm biến ánh sáng tự động<br>
+                    ✓ Điều chỉnh độ sáng<br>
+                    ✓ Chế độ chiếu sáng theo thời gian<br>
+                    ✓ Hẹn giờ bật/tắt<br>` ,
+        "formPage": "Form_SP_Solar _Lighting.html"
     },
 ];
 
