@@ -167,6 +167,316 @@ const products = [
         "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
         "formPage": "Form_SP_Powmax.html"
     },
+    {
+        "id": "40-00330",
+        "title": "Bộ động cơ Servo Powmax 40-00330 100W ",
+        "image": "Picture_Powmax/40-00330.png",
+        "sku": "40-00330",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 100W <br>
+                    Mô-men xoắn định mức: 0.3 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 0.46 kg <br>
+                    Khối lượng driver: 0.85 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "60-00630",
+        "title": "Bộ động cơ Servo Powmax 60-00630 200W ",
+        "image": "Picture_Powmax/60-00630.png",
+        "sku": "60-00630",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 200W <br>
+                    Mô-men xoắn định mức: 0.64 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 1.6 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "60-01330",
+        "title": "Bộ động cơ Servo Powmax 60-01330 400W ",
+        "image": "Picture_Powmax/60-01330.png",
+        "sku": "60-01330",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 400W <br>
+                    Mô-men xoắn định mức: 1.27 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 1.46 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "60-01930",
+        "title": "Bộ động cơ Servo Powmax 60-01930 600W ",
+        "image": "Picture_Powmax/60-01930.png",
+        "sku": "60-01930",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 600W <br>
+                    Mô-men xoắn định mức: 1.91 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 1.81 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "80-02430",
+        "title": "Bộ động cơ Servo Powmax 80-02430 750W ",
+        "image": "Picture_Powmax/80-02430.png",
+        "sku": "80-02430",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 750W <br>
+                    Mô-men xoắn định mức: 2.39 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 2.56 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "80-03520",
+        "title": "Bộ động cơ Servo Powmax 80-03520 730W ",
+        "image": "Picture_Powmax/80-03520.png",
+        "sku": "80-03520",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 730W <br>
+                    Mô-men xoắn định mức: 3.5 N·m <br>
+                    Tốc độ định mức: 2000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 3.74 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "80-03230",
+        "title": "Bộ động cơ Servo Powmax 80-03230 1kW ",
+        "image": "Picture_Powmax/80-03230.png",
+        "sku": "80-03230",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 1000W <br>
+                    Mô-men xoắn định mức: 3.2 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 3.0 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "80-04025",
+        "title": "Bộ động cơ Servo Powmax 80-04025 1kW ",
+        "image": "Picture_Powmax/80-04025.png",
+        "sku": "80-04025",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 1000W <br>
+                    Mô-men xoắn định mức: 4.0 N·m <br>
+                    Tốc độ định mức: 2500 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 4.13 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "90-02430",
+        "title": "Bộ động cơ Servo Powmax 90-02430 750W ",
+        "image": "Picture_Powmax/90-02430.png",
+        "sku": "90-02430",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 750W <br>
+                    Mô-men xoắn định mức: 2.4 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 3.0 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "90-03520",
+        "title": "Bộ động cơ Servo Powmax 90-03520 730W ",
+        "image": "Picture_Powmax/90-03520.png",
+        "sku": "90-03520",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 730W <br>
+                    Mô-men xoắn định mức: 3.5 N·m <br>
+                    Tốc độ định mức: 2000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 3.9 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "90-04025",
+        "title": "Bộ động cơ Servo Powmax 90-04025 1000W ",
+        "image": "Picture_Powmax/90-04025.png",
+        "sku": "90-04025",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 1000W <br>
+                    Mô-men xoắn định mức: 4.0 N·m <br>
+                    Tốc độ định mức: 2500 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 4.12 kg <br>
+                    Khối lượng driver: 1.4 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "110-04030",
+        "title": "Bộ động cơ Servo Powmax 110-04030 1200W ",
+        "image": "Picture_Powmax/110-04030.png",
+        "sku": "110-04030",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 1200W <br>
+                    Mô-men xoắn định mức: 4.0 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 5.3 kg <br>
+                    Khối lượng driver: 1.82 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "110-05030",
+        "title": "Bộ động cơ Servo Powmax 110-05030 1500W ",
+        "image": "Picture_Powmax/110-05030.png",
+        "sku": "110-05030",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 1500W <br>
+                    Mô-men xoắn định mức: 5.0 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 6.75 kg <br>
+                    Khối lượng driver: 1.82 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+    {
+        "id": "110-06030",
+        "title": "Bộ động cơ Servo Powmax 110-06030 1800W ",
+        "image": "Picture_Powmax/110-06030.png",
+        "sku": "110-06030",
+        "manufacturer": "Powmax",
+        "quality": "Mới 100%",
+        "warranty": "Chính hãng",
+        "manual": "",
+        "price": "Liên hệ (0896 449 884)",
+        "infor_1":`Công suất định mức: 1800W <br>
+                    Mô-men xoắn định mức: 6.0 N·m <br>
+                    Tốc độ định mức: 3000 r/min <br>
+                    Điện áp làm việc: 220VAC <br>
+                    Cấp bảo vệ: IP65 <br>
+                    Encoder: 17-bit <br>
+                    Khối lượng động cơ: 7.67 kg <br>
+                    Khối lượng driver: 1.82 kg <br>
+                    Bao gồm: Cáp encoder 3m, cáp động cơ 3m, cáp xung 1.2m  •  RS485.` ,   
+        // "infor_2":`Motor servo POWSM-130-15020-A0 là model công suất lớn 3.0 kW, tốc độ định mức 2000 rpm, thích hợp cho các ứng dụng yêu cầu lực kéo mạnh, độ chính xác cao và hoạt động liên tục trong môi trường công nghiệp. Bộ sản phẩm đi kèm driver điều khiển, dây cáp motor, dây encoder, dễ dàng tích hợp với máy CNC, máy đóng gói, máy nâng cơ khí, robot và các hệ thống tự động hóa cần mô-men lớn và phản hồi nhanh. Thiết kế chuẩn IP65 giúp motor hoạt động ổn định trong môi trường bụi, dầu hoặc độ ẩm cao.`,
+        "formPage": "Form_SP_Powmax.html"
+    },
+
+
     // -------------------------------------------------------PLC S7-1200-----------------------------------------------------------
     {
         "id": "6ES7214-1AG40-0XB0",
